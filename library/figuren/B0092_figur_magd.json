@@ -1,0 +1,25 @@
+{
+ "id": "B0092",
+ "art": "figur",
+ "name": "magd",
+ "beschreibung": "Magd um 1400: rotes Kopftuch-Band, blaues Kleid, Haarknoten",
+ "herkunft": "eigen",
+ "stil": "T0003",
+ "spec": {
+  "name": "magd",
+  "skin": "#ffe2c2",
+  "coat": "#3f7fd0",
+  "garment": "dress",
+  "hair": {
+   "style": "bun",
+   "color": "#7a4a2a"
+  },
+  "hat": {
+   "kind": "headband",
+   "color": "#d8342c"
+  },
+  "saum": "#f4f0e6",
+  "buttons": false,
+  "zeit": "hanse"
+ }
+}

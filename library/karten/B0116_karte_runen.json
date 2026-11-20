@@ -1,0 +1,13 @@
+{
+ "id": "B0116",
+ "art": "karte",
+ "name": "runen",
+ "beschreibung": "Runen: Steintafel, in die die Runen eines Wortes (jüngeres Futhark) nacheinander eingeritzt werden (fortschritt 0…1), darunter das Wort",
+ "herkunft": "eigen gezeichnet (Wikinger-Short)",
+ "stil": "T0003",
+ "kind": "runen",
+ "params": {
+  "text": "VIKING",
+  "fortschritt": 1
+ }
+}

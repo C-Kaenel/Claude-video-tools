@@ -1,0 +1,14 @@
+{
+ "id": "B0170",
+ "art": "karte",
+ "name": "balkenvergleich",
+ "beschreibung": "Waagrechte Balken (werte NAME:ZAHL|…, einheit), hervor = hervorgehobener Balken",
+ "herkunft": "eigen gezeichnet (Römer-Wasser-Welt, Auftrag V0013)",
+ "stil": "T0003",
+ "kind": "balkenvergleich",
+ "params": {
+  "fortschritt": 1,
+  "werte": "ANCIENT ROME:1000|LONDON TODAY:140|NEW YORK TODAY:380",
+  "hervor": 0
+ }
+}

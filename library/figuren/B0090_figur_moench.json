@@ -1,0 +1,22 @@
+{
+ "id": "B0090",
+ "art": "figur",
+ "name": "moench",
+ "beschreibung": "Mönch um 1400: braune Kutte mit weissem Strick, kahler Kopf",
+ "herkunft": "eigen",
+ "stil": "T0003",
+ "spec": {
+  "name": "moench",
+  "build": "adult",
+  "skin": "#ffe2c2",
+  "coat": "#8a5a34",
+  "garment": "dress",
+  "hair": {
+   "style": "bald",
+   "color": "#a07a52"
+  },
+  "belt": "#f4f0e6",
+  "buttons": false,
+  "zeit": "hanse"
+ }
+}

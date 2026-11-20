@@ -1,0 +1,10 @@
+{
+  "id": "B0037",
+  "art": "ort",
+  "name": "brueckenkopf",
+  "beschreibung": "Anfang der Hängebrücke",
+  "herkunft": "eigen",
+  "stil": "T0003",
+  "place": "brueckenkopf",
+  "heimat": "engine/v01/world/town.ts (PLACES.brueckenkopf)"
+}

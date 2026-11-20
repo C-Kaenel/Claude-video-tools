@@ -1,0 +1,10 @@
+{
+  "id": "B0066",
+  "art": "ort",
+  "name": "hanse-markt",
+  "beschreibung": "Hanse-Welt: Marktplatz mit Ständen, Tuch, Fässern und Fahnen vor der Backsteinkirche (Turm mit Uhr und schwingender Glocke, Front bei z −29), ringsum Giebelhäuser",
+  "herkunft": "V0005, eigen",
+  "stil": "T0003",
+  "place": "markt",
+  "heimat": "engine/v01/world/hanse.ts (HANSE_PLACES.markt, .kirche)"
+}

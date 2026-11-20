@@ -1,0 +1,13 @@
+{
+ "id": "B0166",
+ "art": "karte",
+ "name": "siphon",
+ "beschreibung": "Umgekehrter Heber: Kopfbecken links hoch, Rohr durchs Tal über die Rohrbrücke, Empfangsbecken rechts etwas tiefer; fuellung 0…1 füllt das Rohr von links, gestrichelte Linie zeigt die Höhe",
+ "herkunft": "eigen gezeichnet (Römer-Wasser-Welt, Auftrag V0013)",
+ "stil": "T0003",
+ "kind": "siphon",
+ "params": {
+  "fuellung": 1,
+  "zeit": 0
+ }
+}

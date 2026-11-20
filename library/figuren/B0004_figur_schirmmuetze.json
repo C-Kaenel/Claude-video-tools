@@ -1,0 +1,24 @@
+{
+ "id": "B0004",
+ "art": "figur",
+ "name": "schirmmuetze",
+ "beschreibung": "Mann mit roter Schirmmütze und Schnurrbart",
+ "herkunft": "V0002 (nachgebaut nach Bildern, eigen)",
+ "stil": "T0003",
+ "spec": {
+  "name": "schirmmuetze",
+  "skin": "#f5c9a0",
+  "coat": "#2f5fb0",
+  "hair": {
+   "style": "bald",
+   "color": "#000000"
+  },
+  "hat": {
+   "kind": "cap",
+   "color": "#c4323c",
+   "band": "#1e1b2a"
+  },
+  "moustache": "#5b3a22",
+  "zeit": "stadt"
+ }
+}

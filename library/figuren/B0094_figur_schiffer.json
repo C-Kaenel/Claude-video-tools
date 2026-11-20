@@ -1,0 +1,28 @@
+{
+ "id": "B0094",
+ "art": "figur",
+ "name": "schiffer",
+ "beschreibung": "Schiffer um 1400: blaue Gugel, gelber Rock, rotes Halstuch, Bart, kräftig",
+ "herkunft": "eigen",
+ "stil": "T0003",
+ "spec": {
+  "name": "schiffer",
+  "build": "stout",
+  "skin": "#c99067",
+  "coat": "#e2b52f",
+  "hair": {
+   "style": "cap",
+   "color": "#2a1e16"
+  },
+  "hat": {
+   "kind": "gugel",
+   "color": "#2f6fd0",
+   "band": "#1f4f9a"
+  },
+  "moustache": "#2a1e16",
+  "scarf": "#d8342c",
+  "belt": "#5a3a24",
+  "buttons": false,
+  "zeit": "hanse"
+ }
+}

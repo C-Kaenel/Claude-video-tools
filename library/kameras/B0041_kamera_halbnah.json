@@ -1,0 +1,17 @@
+{
+  "id": "B0041",
+  "art": "kamera",
+  "name": "halbnah",
+  "beschreibung": "Halbnah: Figur ganz im Bild",
+  "herkunft": "eigen (Kamera-Grammatik der Spezifikation 5)",
+  "stil": "T0003",
+  "pattern": {
+    "name": "halbnah",
+    "distance": 4.6,
+    "height": 1.6,
+    "side": 0.8,
+    "lookHeight": 1.2,
+    "fov": 38,
+    "focus": 11
+  }
+}

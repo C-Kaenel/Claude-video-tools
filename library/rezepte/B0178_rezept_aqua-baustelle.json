@@ -1,0 +1,129 @@
+{
+ "id": "B0178",
+ "art": "rezept",
+ "name": "aqua-baustelle",
+ "beschreibung": "Unfertiger Bogen mit hölzernem Lehrgerüst und Tretkran, Steinblöcke, Mörtelkasten, Werkzeug",
+ "herkunft": "eigen",
+ "stil": "T0003",
+ "light": "day",
+ "welt": "aqua",
+ "aqua": {},
+ "ort": "AQUA_PLACES.baustelle",
+ "props": [
+  {
+   "kind": "aquateil",
+   "art": "moertelkasten",
+   "at": [
+    999,
+    -27.5
+   ],
+   "turn": 20
+  },
+  {
+   "kind": "aquateil",
+   "art": "werkzeug",
+   "at": [
+    995.5,
+    -27
+   ],
+   "turn": -15
+  },
+  {
+   "kind": "aquateil",
+   "art": "kruege",
+   "at": [
+    1002,
+    -27.8
+   ]
+  },
+  {
+   "kind": "aquateil",
+   "art": "brennholz",
+   "at": [
+    990,
+    -26.5
+   ],
+   "turn": 90
+  },
+  {
+   "kind": "aquateil",
+   "art": "hund",
+   "at": [
+    1003.5,
+    -23.5
+   ],
+   "turn": -120
+  },
+  {
+   "kind": "aquateil",
+   "art": "amphoren",
+   "at": [
+    997,
+    -29.5
+   ]
+  }
+ ],
+ "punkte": {
+  "mitte": [
+   997,
+   -25
+  ],
+  "links": [
+   992,
+   -24.5
+  ],
+  "rechts": [
+   1001,
+   -26
+  ]
+ },
+ "weg": [
+  [
+   995,
+   -22
+  ],
+  [
+   1001,
+   -22
+  ]
+ ],
+ "kameras": {
+  "totale": {
+   "pos": [
+    1010,
+    5,
+    -8
+   ],
+   "look": [
+    994,
+    5,
+    -35
+   ],
+   "fov": 44
+  },
+  "halbnah": {
+   "pos": [
+    1003,
+    1.8,
+    -20
+   ],
+   "look": [
+    995,
+    2.2,
+    -31
+   ],
+   "fov": 38
+  }
+ },
+ "heimat": "styles/T0003_cartoon-3d2d/szene.ts (rezept, rezeptPunkt, rezeptKamera)",
+ "geprueft": {
+  "datum": "2026-11-18",
+  "ok": true,
+  "details": {
+   "totale": 16,
+   "halbnah": 7
+  },
+  "funde": [],
+  "welt_funde": []
+ }
+}

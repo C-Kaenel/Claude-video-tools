@@ -1,0 +1,15 @@
+{
+ "video": "Vorlage-Video-Lang (15 s, Langformat 16:9)",
+ "dauer": {"frames": 450, "fps": 30},
+ "musik": {"bpm": 116, "abschnitte": [{"ab": 0, "akkorde": ["C", "Am", "F", "G"], "stimmung": "light"}, {"ab": 6, "akkorde": ["F", "G", "C"], "stimmung": "bouncy"}, {"ab": 11, "akkorde": ["Am", "F", "C", "G"], "stimmung": "warm"}]},
+ "betten": [{"klang": "crowd", "ab": 0, "bis": 15, "db": -14}, {"klang": "birds", "ab": 0, "bis": 6, "db": -16}],
+ "reihen": [{"klang": "step", "zeiten": [0.6, 1.02, 1.44, 1.86, 2.28, 2.7, 3.12, 3.54, 3.96, 4.38], "db": -14, "angaben": {"surface": "stein"}}],
+ "ereignisse": [
+  {"t": 5.95, "klang": "whoosh", "db": -8, "dauer": 0.4},
+  {"t": 7.0, "klang": "pop", "db": -5, "pan": -0.2},
+  {"t": 10.95, "klang": "whoosh", "db": -8, "dauer": 0.4},
+  {"t": 12.0, "klang": "gasp", "db": -6},
+  {"t": 12.0, "klang": "sparkle", "db": -6, "pan": 0.25}
+ ],
+ "ziel": {"lufs": -22.6, "spitze_dbtp": -2, "musik_zu_sfx_db": 2}
+}

@@ -1,0 +1,28 @@
+{
+ "id": "B0148",
+ "art": "figur",
+ "name": "roemer-tunnelgraeber",
+ "beschreibung": "Tunnelgräber (Rom): erdbraune Tunika, Lederkappe, Stoppelbart, Spitzhacke",
+ "herkunft": "eigen",
+ "stil": "T0003",
+ "spec": {
+  "name": "roemer-tunnelgraeber",
+  "build": "adult",
+  "skin": "#c48660",
+  "coat": "#9a6a3e",
+  "shoes": "#4a3220",
+  "hat": {
+   "kind": "lederkappe",
+   "color": "#6b4a2a"
+  },
+  "bart": {
+   "color": "#3a2a1e"
+  },
+  "belt": "#4a3220",
+  "ding": {
+   "art": "spitzhacke"
+  },
+  "buttons": false,
+  "zeit": "roemer"
+ }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "B0061",
+  "art": "karte",
+  "name": "funkeln",
+  "beschreibung": "Vierzackiger Stern mit kleinem Nebenstern, blitzt pulsierend auf (Angaben tempo in Hz, farbe)",
+  "herkunft": "V0004, eigen gezeichnet",
+  "stil": "T0003",
+  "kind": "funkeln",
+  "params": {
+    "tempo": 1.4
+  }
+}

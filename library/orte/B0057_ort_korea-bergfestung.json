@@ -1,0 +1,10 @@
+{
+  "id": "B0057",
+  "art": "ort",
+  "name": "korea-bergfestung",
+  "beschreibung": "Bruchstein-Mauerring um den Berggipfel (Goguryeo-Art)",
+  "herkunft": "V0004, eigen",
+  "stil": "T0003",
+  "place": "bergfestung",
+  "heimat": "engine/v01/world/festung.ts (KOREA_PLACES.bergfestung)"
+}

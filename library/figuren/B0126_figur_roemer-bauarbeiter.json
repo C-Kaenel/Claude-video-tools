@@ -1,0 +1,27 @@
+{
+ "id": "B0126",
+ "art": "figur",
+ "name": "roemer-bauarbeiter",
+ "beschreibung": "Legionär als Strassenbauer (Rom): rote Tunika mit Gürtel, kurzes dunkles Haar, Ledersandalen, Dolabra (Pionieraxt) in der Hand",
+ "herkunft": "eigen",
+ "stil": "T0003",
+ "spec": {
+  "name": "roemer-bauarbeiter",
+  "build": "adult",
+  "skin": "#d9a07a",
+  "coat": "#c8402e",
+  "shoes": "#6b4a2a",
+  "hair": {
+   "style": "cap",
+   "color": "#2a1e18"
+  },
+  "belt": "#6b4a2a",
+  "schnalle": "#e3b33f",
+  "saum": "#9a2e22",
+  "ding": {
+   "art": "dolabra"
+  },
+  "buttons": false,
+  "zeit": "roemer"
+ }
+}

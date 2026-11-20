@@ -1,0 +1,20 @@
+{
+ "id": "B0052",
+ "art": "figur",
+ "name": "dorf-frau",
+ "beschreibung": "Dorfbewohnerin (Korea, früh): Haarknoten im Nacken, ockerfarbenes Kleid",
+ "herkunft": "V0004, eigen",
+ "stil": "T0003",
+ "spec": {
+  "name": "dorf-2",
+  "skin": "#ecd0b6",
+  "coat": "#b8873f",
+  "garment": "dress",
+  "hair": {
+   "style": "bun",
+   "color": "#2a2020"
+  },
+  "buttons": false,
+  "zeit": "korea"
+ }
+}

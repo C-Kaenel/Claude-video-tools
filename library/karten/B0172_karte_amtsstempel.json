@@ -1,0 +1,15 @@
+{
+ "id": "B0172",
+ "art": "karte",
+ "name": "amtsstempel",
+ "beschreibung": "Grosser Holzstempel kommt herunter (druck 0…1) und hinterlässt einen schrägen Abdruck mit text und kleiner zeile, farbe rot/blau",
+ "herkunft": "eigen gezeichnet (Römer-Wasser-Welt, Auftrag V0013)",
+ "stil": "T0003",
+ "kind": "amtsstempel",
+ "params": {
+  "druck": 1,
+  "text": "STOLEN WATER",
+  "zeile": "CURATOR AQUARUM",
+  "farbe": "rot"
+ }
+}

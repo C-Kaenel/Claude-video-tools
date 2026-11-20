@@ -1,0 +1,123 @@
+{
+ "id": "B0085",
+ "art": "rezept",
+ "name": "hanse-kran",
+ "beschreibung": "Tretradkran am Hanse-Kai mit Last über der Kogge: Fässer, Säcke, Tuchballen, Fahne, Blumentopf – Blick schräg aufs Wasser",
+ "herkunft": "eigen",
+ "stil": "T0003",
+ "light": "day",
+ "welt": "hanse",
+ "ort": "HANSE_PLACES.kran",
+ "props": [
+  {
+   "kind": "fass",
+   "at": [
+    13.4,
+    8.4
+   ],
+   "n": 3
+  },
+  {
+   "kind": "blumentopf",
+   "at": [
+    21.2,
+    4.4
+   ]
+  },
+  {
+   "kind": "tuch",
+   "at": [
+    12.4,
+    5
+   ],
+   "n": 2
+  },
+  {
+   "kind": "fahne",
+   "at": [
+    20.6,
+    9.2
+   ],
+   "farbe": "#2f6fd0"
+  },
+  {
+   "kind": "blumentopf",
+   "at": [
+    17.4,
+    4.4
+   ],
+   "h": 1.1
+  },
+  {
+   "kind": "saecke",
+   "at": [
+    22.6,
+    4.4
+   ],
+   "n": 2
+  }
+ ],
+ "punkte": {
+  "mitte": [
+   19.6,
+   6
+  ],
+  "links": [
+   20.7,
+   5.7
+  ],
+  "rechts": [
+   18.5,
+   5.7
+  ]
+ },
+ "kameras": {
+  "halbnah": {
+   "pos": [
+    18.55,
+    1.9,
+    -0.6
+   ],
+   "look": [
+    20.15,
+    3,
+    9
+   ],
+   "fov": 46
+  },
+  "totale": {
+   "pos": [
+    12,
+    3,
+    -1.5
+   ],
+   "look": [
+    26,
+    6,
+    12
+   ],
+   "fov": 52
+  }
+ },
+ "heimat": "styles/T0003_cartoon-3d2d/szene.ts (rezept, rezeptPunkt, rezeptKamera)",
+ "weg": [
+  [
+   20.9,
+   7.6
+  ],
+  [
+   18.5,
+   7.6
+  ]
+ ],
+ "geprueft": {
+  "datum": "2026-11-18",
+  "ok": true,
+  "details": {
+   "halbnah": 6,
+   "totale": 10
+  },
+  "funde": [],
+  "welt_funde": []
+ }
+}

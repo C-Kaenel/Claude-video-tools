@@ -1,0 +1,118 @@
+{
+ "id": "B0143",
+ "art": "rezept",
+ "name": "roemer-bruecke",
+ "beschreibung": "Römische Steinbrücke mit drei Bögen über einen Fluss, die Strasse läuft schnurgerade darüber; Ufer mit Schilf, Pinien und Zypressen",
+ "herkunft": "eigen",
+ "stil": "T0003",
+ "light": "day",
+ "welt": "roemer",
+ "roemer": {},
+ "ort": "ROEMER_PLACES.bruecke",
+ "props": [
+  {
+   "kind": "roemerteil",
+   "art": "ochsenkarren",
+   "at": [
+    10.5,
+    -125.5
+   ],
+   "turn": -30
+  },
+  {
+   "kind": "roemerteil",
+   "art": "amphoren",
+   "at": [
+    8.4,
+    -130
+   ]
+  },
+  {
+   "kind": "roemerteil",
+   "art": "korb",
+   "at": [
+    7.2,
+    -128.4
+   ]
+  },
+  {
+   "kind": "roemerteil",
+   "art": "steinhaufen",
+   "at": [
+    -7.6,
+    -129
+   ]
+  },
+  {
+   "kind": "roemerteil",
+   "art": "amphore",
+   "at": [
+    6.4,
+    -131.2
+   ]
+  }
+ ],
+ "punkte": {
+  "ufer": [
+   0,
+   -126
+  ],
+  "links": [
+   -1.4,
+   -122
+  ],
+  "bruecke": [
+   0.8,
+   -150
+  ]
+ },
+ "weg": [
+  [
+   -1,
+   -116
+  ],
+  [
+   -1,
+   -128
+  ]
+ ],
+ "kameras": {
+  "totale": {
+   "pos": [
+    18,
+    4,
+    -115
+   ],
+   "look": [
+    0,
+    -1.5,
+    -152
+   ],
+   "fov": 44
+  },
+  "halbnah": {
+   "pos": [
+    10,
+    1.8,
+    -119.5
+   ],
+   "look": [
+    0.5,
+    -0.8,
+    -148
+   ],
+   "fov": 38
+  }
+ },
+ "heimat": "styles/T0003_cartoon-3d2d/szene.ts (rezept, rezeptPunkt, rezeptKamera)",
+ "geprueft": {
+  "datum": "2026-11-18",
+  "ok": true,
+  "details": {
+   "totale": 11,
+   "halbnah": 6
+  },
+  "funde": [],
+  "welt_funde": []
+ }
+}

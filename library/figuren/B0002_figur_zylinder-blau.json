@@ -1,0 +1,23 @@
+{
+ "id": "B0002",
+ "art": "figur",
+ "name": "zylinder-blau",
+ "beschreibung": "Herr mit Zylinder (blaues Band) und blauem Mantel",
+ "herkunft": "V0002 (nachgebaut nach Bildern, eigen)",
+ "stil": "T0003",
+ "spec": {
+  "name": "zylinder-blau",
+  "skin": "#ffe2c2",
+  "coat": "#2f6fc4",
+  "hair": {
+   "style": "bald",
+   "color": "#000000"
+  },
+  "hat": {
+   "kind": "top",
+   "color": "#1e1b2a",
+   "band": "#2f7fd0"
+  },
+  "zeit": "stadt"
+ }
+}

@@ -1,0 +1,23 @@
+{
+ "id": "B0133",
+ "art": "figur",
+ "name": "roemer-kind",
+ "beschreibung": "Kind (Rom): helle Tunika mit rotem Saum und Gürtel, braunes Haar mit Seitenscheitel",
+ "herkunft": "eigen",
+ "stil": "T0003",
+ "spec": {
+  "name": "roemer-kind",
+  "build": "child",
+  "skin": "#ecbd98",
+  "coat": "#f4f0e6",
+  "shoes": "#8a5532",
+  "hair": {
+   "style": "side",
+   "color": "#6b4a2a"
+  },
+  "belt": "#c8402e",
+  "saum": "#c8402e",
+  "buttons": false,
+  "zeit": "roemer"
+ }
+}

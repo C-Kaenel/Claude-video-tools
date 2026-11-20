@@ -1,0 +1,23 @@
+{
+ "id": "B0068",
+ "art": "figur",
+ "name": "hinrik",
+ "beschreibung": "Hanse-Kaufmann um 1400: rote Gugel, petrolfarbener Rock, Gürtel, Schnurrbart, kräftig",
+ "herkunft": "V0005, eigen",
+ "stil": "T0003",
+ "spec": {
+  "name": "hinrik",
+  "build": "stout",
+  "skin": "#f5c9a0",
+  "coat": "#2f5f6a",
+  "hat": {
+   "kind": "gugel",
+   "color": "#b8382f",
+   "band": "#7a2a22"
+  },
+  "moustache": "#5a3a24",
+  "belt": "#5a3a24",
+  "buttons": false,
+  "zeit": "hanse"
+ }
+}

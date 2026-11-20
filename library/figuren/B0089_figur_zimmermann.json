@@ -1,0 +1,27 @@
+{
+ "id": "B0089",
+ "art": "figur",
+ "name": "zimmermann",
+ "beschreibung": "Zimmermann um 1400: helles Stirnband, ockerfarbener Rock, Gürtel, Schnurrbart",
+ "herkunft": "eigen",
+ "stil": "T0003",
+ "spec": {
+  "name": "zimmermann",
+  "build": "adult",
+  "skin": "#f5c9a0",
+  "coat": "#d9822b",
+  "hair": {
+   "style": "side",
+   "color": "#7a4a2a"
+  },
+  "hat": {
+   "kind": "headband",
+   "color": "#f4f0e6"
+  },
+  "moustache": "#7a4a2a",
+  "belt": "#5a3a24",
+  "saum": "#8a4a1c",
+  "buttons": false,
+  "zeit": "hanse"
+ }
+}

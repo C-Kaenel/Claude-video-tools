@@ -1,0 +1,25 @@
+{
+ "id": "B0153",
+ "art": "figur",
+ "name": "roemer-bauer",
+ "beschreibung": "Bauer (Rom): erdfarbene Tunika, breiter Strohhut, Gürtel, Schaufel",
+ "herkunft": "eigen",
+ "stil": "T0003",
+ "spec": {
+  "name": "roemer-bauer",
+  "build": "adult",
+  "skin": "#c48660",
+  "coat": "#a07a48",
+  "shoes": "#5a3e26",
+  "hat": {
+   "kind": "petasus",
+   "color": "#e6c36e"
+  },
+  "belt": "#5a3e26",
+  "ding": {
+   "art": "schaufel"
+  },
+  "buttons": false,
+  "zeit": "roemer"
+ }
+}

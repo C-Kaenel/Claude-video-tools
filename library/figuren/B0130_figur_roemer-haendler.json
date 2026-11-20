@@ -1,0 +1,31 @@
+{
+ "id": "B0130",
+ "art": "figur",
+ "name": "roemer-haendler",
+ "beschreibung": "Händler (Rom): kräftig, safrangelbe Tunika mit Gürtel, grüner Schulterumhang, Vollbart, Glatze, Klappwaage",
+ "herkunft": "eigen",
+ "stil": "T0003",
+ "spec": {
+  "name": "roemer-haendler",
+  "build": "stout",
+  "skin": "#c98e66",
+  "coat": "#e2a52f",
+  "shoes": "#6b4a2a",
+  "hair": {
+   "style": "bald",
+   "color": "#4a3020"
+  },
+  "bart": {
+   "color": "#4a3020",
+   "art": "voll"
+  },
+  "umhang": "#5d8a3a",
+  "belt": "#6b4a2a",
+  "saum": "#b5653f",
+  "ding": {
+   "art": "waage"
+  },
+  "buttons": false,
+  "zeit": "roemer"
+ }
+}

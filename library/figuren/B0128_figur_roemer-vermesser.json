@@ -1,0 +1,27 @@
+{
+ "id": "B0128",
+ "art": "figur",
+ "name": "roemer-vermesser",
+ "beschreibung": "Vermesser (Agrimensor, Rom): helle Tunika mit Gürtel, blauer Schulterumhang, graues Haar, Groma (Stange, Kreuz, vier Lote) in der Hand",
+ "herkunft": "eigen",
+ "stil": "T0003",
+ "spec": {
+  "name": "roemer-vermesser",
+  "build": "adult",
+  "skin": "#e6b28c",
+  "coat": "#e8dcc0",
+  "shoes": "#6b4a2a",
+  "hair": {
+   "style": "side",
+   "color": "#8a8a90"
+  },
+  "umhang": "#3f6fb5",
+  "belt": "#6b4a2a",
+  "saum": "#3f6fb5",
+  "ding": {
+   "art": "groma"
+  },
+  "buttons": false,
+  "zeit": "roemer"
+ }
+}

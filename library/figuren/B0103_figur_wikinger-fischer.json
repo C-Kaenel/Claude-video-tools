@@ -1,0 +1,31 @@
+{
+ "id": "B0103",
+ "art": "figur",
+ "name": "wikinger-fischer",
+ "beschreibung": "Fischer um 900: Zöpfe, türkiser Rock mit heller Borte, brauner Bart, Ruder, Gürtel",
+ "herkunft": "eigen",
+ "stil": "T0003",
+ "spec": {
+  "name": "wikinger-fischer",
+  "build": "adult",
+  "skin": "#e0a982",
+  "coat": "#2a9d9a",
+  "pants": "#6b5440",
+  "shoes": "#5a3a24",
+  "hair": {
+   "style": "zoepfe",
+   "color": "#8a5a2b"
+  },
+  "bart": {
+   "color": "#8a5a2b",
+   "art": "voll"
+  },
+  "belt": "#5a3a24",
+  "borte": "#f2e6c8",
+  "ding": {
+   "art": "ruder"
+  },
+  "buttons": false,
+  "zeit": "nord"
+ }
+}

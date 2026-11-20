@@ -1,0 +1,25 @@
+{
+ "id": "B0047",
+ "art": "figur",
+ "name": "jaeho",
+ "beschreibung": "Joseon-Maurer (1396): weisses Stirnband, heller Hanbok, Schnurrbart, rote Schärpe",
+ "herkunft": "V0004, eigen",
+ "stil": "T0003",
+ "spec": {
+  "name": "jaeho",
+  "skin": "#f5c9a0",
+  "coat": "#e4dcc6",
+  "hair": {
+   "style": "topknot",
+   "color": "#241c1c"
+  },
+  "hat": {
+   "kind": "headband",
+   "color": "#f7f3e8"
+  },
+  "sash": "#c0392b",
+  "buttons": false,
+  "moustache": "#2a201c",
+  "zeit": "korea"
+ }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "B0065",
+  "art": "ort",
+  "name": "hanse-kai",
+  "beschreibung": "Hanse-Welt: Holzkai mit Pollern und Ware, Tretradkran (Last am Seil), Koggen am Kai",
+  "herkunft": "V0005, eigen",
+  "stil": "T0003",
+  "place": "kai",
+  "heimat": "engine/v01/world/hanse.ts (HANSE_PLACES.kai, .kran)"
+}

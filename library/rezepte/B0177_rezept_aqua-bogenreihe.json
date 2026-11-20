@@ -1,0 +1,145 @@
+{
+ "id": "B0177",
+ "art": "rezept",
+ "name": "aqua-bogenreihe",
+ "beschreibung": "Lange Bogenreihe über die Felder, oben der Doppelkanal; Wiesen, Zypressen",
+ "herkunft": "eigen",
+ "stil": "T0003",
+ "light": "day",
+ "welt": "aqua",
+ "aqua": {},
+ "ort": "AQUA_PLACES.bogenreihe",
+ "props": [
+  {
+   "kind": "aquateil",
+   "art": "schaf",
+   "at": [
+    1214,
+    -24.5
+   ],
+   "turn": 30
+  },
+  {
+   "kind": "aquateil",
+   "art": "schaf",
+   "at": [
+    1226,
+    -26
+   ],
+   "turn": 120
+  },
+  {
+   "kind": "aquateil",
+   "art": "kruege",
+   "at": [
+    1224.6,
+    -21
+   ]
+  },
+  {
+   "kind": "aquateil",
+   "art": "esel",
+   "at": [
+    1211,
+    -20
+   ],
+   "turn": 80
+  },
+  {
+   "kind": "aquateil",
+   "art": "amphoren",
+   "at": [
+    1221.6,
+    -27
+   ]
+  },
+  {
+   "kind": "aquateil",
+   "art": "pfloecke",
+   "at": [
+    1218.2,
+    -28
+   ]
+  },
+  {
+   "kind": "aquateil",
+   "art": "schaf",
+   "at": [
+    1222.8,
+    -30
+   ],
+   "turn": 200
+  },
+  {
+   "kind": "aquateil",
+   "art": "werkzeug",
+   "at": [
+    1217.6,
+    -25.5
+   ]
+  }
+ ],
+ "punkte": {
+  "mitte": [
+   1220,
+   -22
+  ],
+  "links": [
+   1217,
+   -21
+  ],
+  "rechts": [
+   1223,
+   -22.5
+  ]
+ },
+ "weg": [
+  [
+   1216,
+   -19
+  ],
+  [
+   1224,
+   -19
+  ]
+ ],
+ "kameras": {
+  "totale": {
+   "pos": [
+    1190,
+    6,
+    40
+   ],
+   "look": [
+    1230,
+    7,
+    -35
+   ],
+   "fov": 44
+  },
+  "halbnah": {
+   "pos": [
+    1220,
+    1.8,
+    -13
+   ],
+   "look": [
+    1220,
+    1.6,
+    -24
+   ],
+   "fov": 38
+  }
+ },
+ "heimat": "styles/T0003_cartoon-3d2d/szene.ts (rezept, rezeptPunkt, rezeptKamera)",
+ "geprueft": {
+  "datum": "2026-11-18",
+  "ok": true,
+  "details": {
+   "totale": 18,
+   "halbnah": 9
+  },
+  "funde": [],
+  "welt_funde": []
+ }
+}

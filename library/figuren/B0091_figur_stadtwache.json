@@ -1,0 +1,30 @@
+{
+ "id": "B0091",
+ "art": "figur",
+ "name": "stadtwache",
+ "beschreibung": "Stadtwache um 1400: Eisenhut, roter Waffenrock, Gürtel mit Schnalle, Spiess (Stock)",
+ "herkunft": "eigen",
+ "stil": "T0003",
+ "spec": {
+  "name": "stadtwache",
+  "build": "stout",
+  "skin": "#ecd0b6",
+  "coat": "#c23a30",
+  "hair": {
+   "style": "cap",
+   "color": "#4a2e1c"
+  },
+  "hat": {
+   "kind": "eisenhut",
+   "color": "#a9b4bf",
+   "band": "#6a737d"
+  },
+  "moustache": "#4a2e1c",
+  "belt": "#3a2a1c",
+  "schnalle": "#e2b52f",
+  "stab": "#6b4a2e",
+  "saum": "#e2b52f",
+  "buttons": false,
+  "zeit": "hanse"
+ }
+}

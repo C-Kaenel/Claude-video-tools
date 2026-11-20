@@ -1,0 +1,12 @@
+{
+ "id": "B0115",
+ "art": "karte",
+ "name": "bronzehelm-veksoe",
+ "beschreibung": "Bronzehelm von Veksø (Bronzezeit, um 900 v. Chr.): Bronzeglocke mit Kamm, zwei geschwungene Hörner, Augen und Schnabel – echte Hörner, aber 1800 Jahre vor den Wikingern",
+ "herkunft": "eigen gezeichnet (Wikinger-Short)",
+ "stil": "T0003",
+ "kind": "veksoe",
+ "params": {
+  "text": "VEKSØ · c. 900 BC"
+ }
+}

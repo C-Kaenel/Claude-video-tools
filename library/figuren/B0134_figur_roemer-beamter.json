@@ -1,0 +1,25 @@
+{
+ "id": "B0134",
+ "art": "figur",
+ "name": "roemer-beamter",
+ "beschreibung": "Beamter in Toga (Rom): weisse Toga mit Purpursaum über heller Tunika, graues Haar, kräftig",
+ "herkunft": "eigen",
+ "stil": "T0003",
+ "spec": {
+  "name": "roemer-beamter",
+  "build": "stout",
+  "skin": "#e6b28c",
+  "coat": "#efe6d2",
+  "shoes": "#8a2a3a",
+  "hair": {
+   "style": "side",
+   "color": "#9a9aa2"
+  },
+  "toga": {
+   "color": "#f7f3e8",
+   "streifen": "#8a2a6a"
+  },
+  "buttons": false,
+  "zeit": "roemer"
+ }
+}

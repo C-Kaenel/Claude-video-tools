@@ -1,0 +1,13 @@
+{
+  "id": "B0017",
+  "art": "karte",
+  "name": "schallboegen",
+  "beschreibung": "Schallbögen, erscheinen nacheinander (Fortschritt 0–1), Richtung links/rechts",
+  "herkunft": "V0002/V0003 (Spezifikation 7.4), eigen gezeichnet",
+  "stil": "T0003",
+  "kind": "schallboegen",
+  "params": {
+    "fortschritt": 1,
+    "richtung": "rechts"
+  }
+}

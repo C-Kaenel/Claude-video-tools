@@ -1,0 +1,12 @@
+{
+ "id": "B0118",
+ "art": "karte",
+ "name": "notenblatt",
+ "beschreibung": "Notenblatt mit eigenen Noten (keine echte Melodie) und Titel; bunte Notenzeichen steigen auf (zeit läuft von selbst)",
+ "herkunft": "eigen gezeichnet (Wikinger-Short)",
+ "stil": "T0003",
+ "kind": "notenblatt",
+ "params": {
+  "titel": "1876"
+ }
+}

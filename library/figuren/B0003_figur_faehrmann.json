@@ -1,0 +1,22 @@
+{
+ "id": "B0003",
+ "art": "figur",
+ "name": "faehrmann",
+ "beschreibung": "Fährmann mit Flachmütze und rotbraunem Mantel",
+ "herkunft": "V0002 (nachgebaut nach Bildern, eigen)",
+ "stil": "T0003",
+ "spec": {
+  "name": "faehrmann",
+  "skin": "#f5c9a0",
+  "coat": "#b5653f",
+  "hair": {
+   "style": "bald",
+   "color": "#000000"
+  },
+  "hat": {
+   "kind": "flatcap",
+   "color": "#2f5f6a"
+  },
+  "zeit": "stadt"
+ }
+}

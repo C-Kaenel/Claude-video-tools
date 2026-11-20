@@ -1,0 +1,25 @@
+{
+ "id": "B0164",
+ "art": "figur",
+ "name": "forscherin-heute",
+ "beschreibung": "Forscherin von heute (Seen-Sedimente): orange Sicherheitsweste über blauem Hemd, Hosen, Stiefel, Pferdeschwanz, Notizblock; ohne Epoche (für Szenen von heute, in Römer-Welten mit zeitFrei)",
+ "herkunft": "eigen",
+ "stil": "T0003",
+ "spec": {
+  "name": "forscherin-heute",
+  "build": "adult",
+  "skin": "#e2b08a",
+  "coat": "#ff8a1f",
+  "pants": "#2f4a6a",
+  "shoes": "#3a2a1e",
+  "hair": {
+   "style": "long",
+   "color": "#7a4a2a"
+  },
+  "scarf": "#2f6fd0",
+  "ding": {
+   "art": "skizze"
+  },
+  "buttons": false
+ }
+}

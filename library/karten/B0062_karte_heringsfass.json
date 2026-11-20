@@ -1,0 +1,13 @@
+{
+  "id": "B0062",
+  "art": "karte",
+  "name": "heringsfass",
+  "beschreibung": "Heringsfass mit Eisenreifen und eingebranntem Kaufmannszeichen; Deckel hebt sich (offen 0–1), Heringe schauen heraus",
+  "herkunft": "V0005, eigen gezeichnet",
+  "stil": "T0003",
+  "kind": "heringsfass",
+  "params": {
+    "offen": 0,
+    "marke": true
+  }
+}

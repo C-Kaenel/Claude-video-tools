@@ -1,0 +1,40 @@
+# Abhängigkeiten (per npm install wiederherstellbar)
+node_modules/
+
+# Grosse Binärdateien: bleiben auf der Platte, aber nicht im Git
+*.mp4
+*.mov
+*.wav
+*.mp3
+*.exe
+*.dll
+
+# Render-Ausgaben und Temp
+output/*
+!output/README.md
+remotion-tmp/
+/qa/
+
+# Lokale Konfiguration / Geheimnisse
+.env
+.claude/settings.local.json
+
+# Office-Sperrdateien und Editor-Autosaves
+~$*
+Thumbs.db
+
+# Zum Löschen vorgemerkt (nie in Git, nie teilen)
+_archive/zum-loeschen/
+
+# Produkte Dritter: nie im Git, nie mitgeben. Bezug: README.md → Voraussetzungen
+tools/ffmpeg/
+assets/fonts/*/
+templates/**/fonts/*.ttf
+templates/**/fonts/OFL-*.txt
+
+# Schriften sind Produkte Dritter: auch Kopien in Produktionen nie ins Git
+productions/**/fonts/*.ttf
+
+# Fremdes Analyse-Material: nie in Git (nur README)
+_quarantaene/*
+!_quarantaene/README.md

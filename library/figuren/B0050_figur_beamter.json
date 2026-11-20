@@ -1,0 +1,25 @@
+{
+ "id": "B0050",
+ "art": "figur",
+ "name": "beamter",
+ "beschreibung": "Joseon-Beamter: schwarzer Gat-Hut, blaues Gewand, Schnurrbart",
+ "herkunft": "V0004, eigen",
+ "stil": "T0003",
+ "spec": {
+  "name": "beamter",
+  "skin": "#ecd0b6",
+  "coat": "#5d6f8a",
+  "hair": {
+   "style": "topknot",
+   "color": "#241c1c"
+  },
+  "hat": {
+   "kind": "gat",
+   "color": "#1c1c22",
+   "band": "#3a3a40"
+  },
+  "moustache": "#2a201c",
+  "buttons": false,
+  "zeit": "korea"
+ }
+}

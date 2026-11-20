@@ -1,0 +1,10 @@
+{
+  "id": "B0058",
+  "art": "ort",
+  "name": "korea-grenzmauer",
+  "beschreibung": "Steinmauer über die Hügel mit Wachturm (Goryeo-Art)",
+  "herkunft": "V0004, eigen",
+  "stil": "T0003",
+  "place": "grenzmauer",
+  "heimat": "engine/v01/world/festung.ts (KOREA_PLACES.grenzmauer)"
+}

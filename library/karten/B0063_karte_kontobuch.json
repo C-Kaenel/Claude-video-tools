@@ -1,0 +1,12 @@
+{
+  "id": "B0063",
+  "art": "karte",
+  "name": "kontobuch",
+  "beschreibung": "Aufgeschlagenes Handelsbuch der Hanse: Zeilen mit Strichen, Summen in römischen Zahlen; schreibt sich Zeile um Zeile (fortschritt 0–1)",
+  "herkunft": "V0005, eigen gezeichnet",
+  "stil": "T0003",
+  "kind": "kontobuch",
+  "params": {
+    "fortschritt": 1
+  }
+}

@@ -1,0 +1,37 @@
+{
+ "id": "B0127",
+ "art": "figur",
+ "name": "roemer-legionaer",
+ "beschreibung": "Legionär in Rüstung (Rom): Galea mit Wangenklappen, Schienenpanzer über roter Tunika, Gürtel, rotes Scutum mit goldenen Blitzen, Pilum",
+ "herkunft": "eigen",
+ "stil": "T0003",
+ "spec": {
+  "name": "roemer-legionaer",
+  "build": "adult",
+  "skin": "#e4ae86",
+  "coat": "#c8402e",
+  "shoes": "#6b4a2a",
+  "hair": {
+   "style": "cap",
+   "color": "#4a3020"
+  },
+  "hat": {
+   "kind": "galea",
+   "color": "#c3cbd4"
+  },
+  "lorica": "#b8c2cc",
+  "belt": "#6b4a2a",
+  "schnalle": "#e3b33f",
+  "saum": "#9a2e22",
+  "schild": {
+   "color": "#c8402e",
+   "muster": "#f2c84a",
+   "art": "scutum"
+  },
+  "ding": {
+   "art": "pilum"
+  },
+  "buttons": false,
+  "zeit": "roemer"
+ }
+}

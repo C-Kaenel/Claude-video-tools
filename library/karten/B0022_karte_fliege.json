@@ -1,0 +1,10 @@
+{
+  "id": "B0022",
+  "art": "karte",
+  "name": "fliege",
+  "beschreibung": "Fliege mit schlagenden Flügeln",
+  "herkunft": "V0002/V0003 (Spezifikation 7.4), eigen gezeichnet",
+  "stil": "T0003",
+  "kind": "fliege",
+  "params": {}
+}

@@ -1,0 +1,10 @@
+{
+  "id": "B0067",
+  "art": "ort",
+  "name": "hanse-fluss",
+  "beschreibung": "Hanse-Welt: Fluss mit Koggen (Segel voll oder gerefft, fahrend, Piratenschiff mit schwarzem Segel), anderes Ufer mit Speichern",
+  "herkunft": "V0005, eigen",
+  "stil": "T0003",
+  "place": "fluss",
+  "heimat": "engine/v01/world/hanse.ts (HANSE_PLACES.fluss, KoggeDaten)"
+}

@@ -1,0 +1,41 @@
+{
+ "id": "B0107",
+ "art": "figur",
+ "name": "wikinger-haendler",
+ "beschreibung": "Händler um 900: Lederkappe, hellgrüner Rock mit roter Borte, oranger Mantel mit Fibel, rötlicher Bart, Klappwaage",
+ "herkunft": "eigen",
+ "stil": "T0003",
+ "spec": {
+  "name": "wikinger-haendler",
+  "build": "stout",
+  "skin": "#e4ae86",
+  "coat": "#8cc43a",
+  "pants": "#6b5440",
+  "shoes": "#5a3a24",
+  "hair": {
+   "style": "cap",
+   "color": "#a8562a"
+  },
+  "hat": {
+   "kind": "lederkappe",
+   "color": "#a0582e",
+   "band": "#6e3a1c"
+  },
+  "bart": {
+   "color": "#a8562a",
+   "art": "voll"
+  },
+  "belt": "#5a3a24",
+  "schnalle": "#e3b33f",
+  "borte": "#c8402e",
+  "mantel": {
+   "color": "#d97a2b",
+   "fibel": "#e3b33f"
+  },
+  "ding": {
+   "art": "waage"
+  },
+  "buttons": false,
+  "zeit": "nord"
+ }
+}

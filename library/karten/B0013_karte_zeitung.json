@@ -1,0 +1,14 @@
+{
+  "id": "B0013",
+  "art": "karte",
+  "name": "zeitung",
+  "beschreibung": "Zeitung mit Kopf, Datum und eingekreister Schlagzeile",
+  "herkunft": "V0002/V0003 (Spezifikation 7.4), eigen gezeichnet",
+  "stil": "T0003",
+  "kind": "zeitung",
+  "params": {
+    "kopf": "NORWICH COURIER",
+    "datum": "October 1826",
+    "schlagzeile": "“Hello!”"
+  }
+}

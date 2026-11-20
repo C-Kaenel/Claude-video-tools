@@ -1,0 +1,36 @@
+{
+ "id": "B0101",
+ "art": "figur",
+ "name": "wikinger-jarl",
+ "beschreibung": "Jarl um 900: langes blondes Haar, Vollbart, blauer Rock mit goldener Borte, roter Mantel mit grosser Ringfibel, Schwert, kräftig",
+ "herkunft": "eigen",
+ "stil": "T0003",
+ "spec": {
+  "name": "wikinger-jarl",
+  "build": "stout",
+  "skin": "#eab894",
+  "coat": "#2f6fd0",
+  "pants": "#4a3a5a",
+  "shoes": "#5a3a24",
+  "hair": {
+   "style": "long",
+   "color": "#e6b85c"
+  },
+  "bart": {
+   "color": "#e6b85c",
+   "art": "voll"
+  },
+  "belt": "#5a3a24",
+  "schnalle": "#e3b33f",
+  "borte": "#e3b33f",
+  "mantel": {
+   "color": "#c8302e",
+   "fibel": "#e3b33f"
+  },
+  "ding": {
+   "art": "schwert"
+  },
+  "buttons": false,
+  "zeit": "nord"
+ }
+}

@@ -1,0 +1,76 @@
+{
+ "id": "B0176",
+ "art": "rezept",
+ "name": "aqua-bruecke",
+ "beschreibung": "Dreistöckige Aquädukt-Brücke über das Tal, Fluss darunter, Schafe am Ufer; Blick von unten",
+ "herkunft": "eigen",
+ "stil": "T0003",
+ "light": "day",
+ "welt": "aqua",
+ "aqua": {},
+ "ort": "AQUA_PLACES.bruecke",
+ "props": [],
+ "punkte": {
+  "mitte": [
+   614,
+   -2
+  ],
+  "links": [
+   611.5,
+   -1
+  ],
+  "rechts": [
+   617,
+   -3
+  ]
+ },
+ "weg": [
+  [
+   610,
+   2
+  ],
+  [
+   618,
+   2
+  ]
+ ],
+ "kameras": {
+  "totale": {
+   "pos": [
+    652,
+    -15,
+    62
+   ],
+   "look": [
+    600,
+    -24,
+    -30
+   ],
+   "fov": 44
+  },
+  "halbnah": {
+   "pos": [
+    616,
+    -38.3,
+    2
+   ],
+   "look": [
+    604,
+    -32,
+    -30
+   ],
+   "fov": 38
+  }
+ },
+ "heimat": "styles/T0003_cartoon-3d2d/szene.ts (rezept, rezeptPunkt, rezeptKamera)",
+ "geprueft": {
+  "datum": "2026-11-18",
+  "ok": true,
+  "details": {
+   "totale": 54,
+   "halbnah": 23
+  },
+  "funde": [],
+  "welt_funde": []
+ }
+}

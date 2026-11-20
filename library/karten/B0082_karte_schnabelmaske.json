@@ -1,0 +1,14 @@
+{
+ "id": "B0082",
+ "art": "karte",
+ "name": "schnabelmaske",
+ "beschreibung": "Schnabelmaske im Schnitt: Haube, Glasauge, Hut, Fenster im Schnabel; fuellung 0…1 füllt Kräuter, Nelken, Rosenblätter ein, leer 0…1 lässt sie herausfallen; hintergrund = Farbe einer Tafel dahinter",
+ "herkunft": "V0006, eigen gezeichnet",
+ "stil": "T0003",
+ "kind": "schnabelmaske",
+ "params": {
+  "fuellung": 1,
+  "leer": 0,
+  "hintergrund": "#3f8fd0"
+ }
+}

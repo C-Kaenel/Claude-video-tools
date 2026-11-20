@@ -1,0 +1,43 @@
+{
+ "id": "B0100",
+ "art": "figur",
+ "name": "wikinger-krieger",
+ "beschreibung": "Wikinger-Krieger um 900: Spangenhelm mit Brillen-Visier (wie Gjermundbu), roter Rock mit Borte, Kettenhemd, roter Bart mit Zopf, blau-weisser Rundschild, Bartaxt",
+ "herkunft": "eigen",
+ "stil": "T0003",
+ "spec": {
+  "name": "wikinger-krieger",
+  "build": "adult",
+  "skin": "#e8b896",
+  "coat": "#c8402e",
+  "pants": "#6b5440",
+  "shoes": "#5a3a24",
+  "hair": {
+   "style": "cap",
+   "color": "#c9682c"
+  },
+  "hat": {
+   "kind": "spangenhelm",
+   "color": "#b9c3cf",
+   "band": "#9aa3ad"
+  },
+  "bart": {
+   "color": "#c9682c",
+   "art": "zopf"
+  },
+  "kette": "#a7b0ba",
+  "belt": "#5a3a24",
+  "schnalle": "#e3b33f",
+  "borte": "#e2b52f",
+  "schild": {
+   "color": "#2f6fd0",
+   "muster": "#f2e6c8",
+   "art": "kreuz"
+  },
+  "ding": {
+   "art": "axt"
+  },
+  "buttons": false,
+  "zeit": "nord"
+ }
+}

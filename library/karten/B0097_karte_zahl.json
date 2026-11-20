@@ -1,0 +1,14 @@
+{
+ "id": "B0097",
+ "art": "karte",
+ "name": "zahl",
+ "beschreibung": "Zahl, die wächst (wert gleitet), mit Balken bis ziel, Titel und Einheit – für das Kapitel zahlen",
+ "herkunft": "eigen gezeichnet (Kapitel-Module, Langformat)",
+ "stil": "T0003",
+ "kind": "zahl",
+ "params": {
+  "wert": 1400,
+  "ziel": 2000,
+  "titel": "PEOPLE"
+ }
+}

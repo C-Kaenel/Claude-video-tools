@@ -1,0 +1,30 @@
+{
+ "id": "B0110",
+ "art": "figur",
+ "name": "dirigent",
+ "beschreibung": "Dirigent 1876: schwarzer Frack, weisse Hemdbrust, schwarze Schleife, langes rotbraunes Haar, Schnurrbart, Taktstock",
+ "herkunft": "eigen",
+ "stil": "T0003",
+ "spec": {
+  "name": "dirigent",
+  "build": "adult",
+  "skin": "#efc4a0",
+  "coat": "#2a2832",
+  "pants": "#2a2832",
+  "shoes": "#141218",
+  "hair": {
+   "style": "long",
+   "color": "#8a4a2a"
+  },
+  "frack": {
+   "hemd": "#ffffff",
+   "schleife": "#1a1820"
+  },
+  "ding": {
+   "art": "taktstock"
+  },
+  "buttons": false,
+  "zeit": "stadt",
+  "moustache": "#8a4a2a"
+ }
+}

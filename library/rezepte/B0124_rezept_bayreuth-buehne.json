@@ -1,0 +1,130 @@
+{
+ "id": "B0124",
+ "art": "rezept",
+ "name": "bayreuth-buehne",
+ "beschreibung": "Bühne des Festspielhauses Bayreuth 1876, Vorhang offen: Bühnenbild mit gemaltem Prospekt, Felsen und Tannen, Opern-Requisiten (Runenstein, Schild- und Speerständer, Feuer, Fackeln), roter Vorhang gerafft, Rampenlicht",
+ "herkunft": "eigen",
+ "stil": "T0003",
+ "light": "day",
+ "welt": "bayreuth",
+ "bayreuth": {
+  "vorhang": 1
+ },
+ "ort": "BAYREUTH_PLACES.buehne",
+ "props": [
+  {
+   "kind": "fackel",
+   "at": [
+    396.4,
+    -5.2
+   ],
+   "h": 2.0
+  },
+  {
+   "kind": "fackel",
+   "at": [
+    403.6,
+    -5.2
+   ],
+   "h": 2.0
+  },
+  {
+   "kind": "nordteil",
+   "art": "runenstein",
+   "at": [
+    396.8,
+    -11.2
+   ],
+   "turn": 10
+  },
+  {
+   "kind": "nordteil",
+   "art": "schildstaender",
+   "at": [
+    403.8,
+    -10.4
+   ],
+   "turn": -15
+  },
+  {
+   "kind": "nordteil",
+   "art": "speerstaender",
+   "at": [
+    396.2,
+    -8.8
+   ],
+   "turn": 20
+  },
+  {
+   "kind": "nordteil",
+   "art": "feuerstelle",
+   "at": [
+    400,
+    -9.6
+   ]
+  }
+ ],
+ "punkte": {
+  "mitte": [
+   400,
+   -6.5
+  ],
+  "links": [
+   397.6,
+   -7.6
+  ],
+  "rechts": [
+   402.4,
+   -7.6
+  ]
+ },
+ "weg": [
+  [
+   397.8,
+   -5.2
+  ],
+  [
+   402.2,
+   -5.2
+  ]
+ ],
+ "kameras": {
+  "halbnah": {
+   "pos": [
+    401.8,
+    3.0,
+    1.6
+   ],
+   "look": [
+    400,
+    2.6,
+    -7
+   ],
+   "fov": 42
+  },
+  "totale": {
+   "pos": [
+    400,
+    3.2,
+    10
+   ],
+   "look": [
+    400,
+    5.2,
+    -14
+   ],
+   "fov": 48
+  }
+ },
+ "heimat": "styles/T0003_cartoon-3d2d/szene.ts (rezept, rezeptPunkt, rezeptKamera)",
+ "geprueft": {
+  "datum": "2026-11-18",
+  "ok": true,
+  "details": {
+   "halbnah": 8,
+   "totale": 18
+  },
+  "funde": [],
+  "welt_funde": []
+ }
+}

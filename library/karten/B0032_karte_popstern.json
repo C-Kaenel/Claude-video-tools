@@ -1,0 +1,12 @@
+{
+  "id": "B0032",
+  "art": "karte",
+  "name": "popstern",
+  "beschreibung": "Pop-/Aufprall-Stern mit Text",
+  "herkunft": "V0002/V0003 (Spezifikation 7.4), eigen gezeichnet",
+  "stil": "T0003",
+  "kind": "popstern",
+  "params": {
+    "text": "POP!"
+  }
+}

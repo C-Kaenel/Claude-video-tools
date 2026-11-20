@@ -1,0 +1,76 @@
+{
+ "id": "B0188",
+ "art": "rezept",
+ "name": "aqua-fruehrom",
+ "beschreibung": "Frühes Rom: Rundhütten mit Strohdach, Ziehbrunnen mit Haspel, Zisterne, Ziegen",
+ "herkunft": "eigen",
+ "stil": "T0003",
+ "light": "day",
+ "welt": "aqua",
+ "aqua": {},
+ "ort": "AQUA_PLACES.fruehrom",
+ "props": [],
+ "punkte": {
+  "mitte": [
+   5401.8,
+   1.6
+  ],
+  "links": [
+   5397.6,
+   2
+  ],
+  "rechts": [
+   5404,
+   0
+  ]
+ },
+ "weg": [
+  [
+   5398,
+   6
+  ],
+  [
+   5404,
+   6
+  ]
+ ],
+ "kameras": {
+  "totale": {
+   "pos": [
+    5410,
+    6,
+    32
+   ],
+   "look": [
+    5400,
+    1,
+    -4
+   ],
+   "fov": 44
+  },
+  "halbnah": {
+   "pos": [
+    5404,
+    1.7,
+    5
+   ],
+   "look": [
+    5400,
+    1.0,
+    0
+   ],
+   "fov": 38
+  }
+ },
+ "heimat": "styles/T0003_cartoon-3d2d/szene.ts (rezept, rezeptPunkt, rezeptKamera)",
+ "geprueft": {
+  "datum": "2026-11-18",
+  "ok": true,
+  "details": {
+   "totale": 13,
+   "halbnah": 24
+  },
+  "funde": [],
+  "welt_funde": []
+ }
+}

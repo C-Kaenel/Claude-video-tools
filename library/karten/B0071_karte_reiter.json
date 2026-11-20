@@ -1,0 +1,16 @@
+{
+  "id": "B0071",
+  "art": "karte",
+  "name": "reiter",
+  "beschreibung": "Reiter im Galopp (Seitenansicht), Beine laufen mit der Zeit; Angaben farbe (Pferd), mantel, helm, tempo, richtung",
+  "herkunft": "V0004, eigen gezeichnet",
+  "stil": "T0003",
+  "kind": "reiter",
+  "params": {
+    "tempo": 2.2,
+    "farbe": "#7a4a2a",
+    "mantel": "#3f6fb5",
+    "helm": "#5a5a64",
+    "richtung": "rechts"
+  }
+}

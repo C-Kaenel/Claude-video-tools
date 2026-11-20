@@ -1,0 +1,20 @@
+{
+ "id": "B0008",
+ "art": "figur",
+ "name": "frau-gelb",
+ "beschreibung": "Frau mit gelbem Kleid und orangem Schal",
+ "herkunft": "V0003 (nachgebaut nach Bildern, eigen)",
+ "stil": "T0003",
+ "spec": {
+  "name": "frau-gelb",
+  "skin": "#c99067",
+  "coat": "#e2b33a",
+  "garment": "dress",
+  "hair": {
+   "style": "bob",
+   "color": "#e8c66a"
+  },
+  "scarf": "#c8642e",
+  "zeit": "stadt"
+ }
+}

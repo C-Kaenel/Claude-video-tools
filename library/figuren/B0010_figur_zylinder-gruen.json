@@ -1,0 +1,23 @@
+{
+ "id": "B0010",
+ "art": "figur",
+ "name": "zylinder-gruen",
+ "beschreibung": "Herr mit Zylinder (grünes Band) und grünem Mantel",
+ "herkunft": "V0003 (nachgebaut nach Bildern, eigen)",
+ "stil": "T0003",
+ "spec": {
+  "name": "zylinder-gruen",
+  "skin": "#ffe2c2",
+  "coat": "#5f8a2e",
+  "hair": {
+   "style": "bald",
+   "color": "#000000"
+  },
+  "hat": {
+   "kind": "top",
+   "color": "#1e1b2a",
+   "band": "#5f8a2e"
+  },
+  "zeit": "stadt"
+ }
+}

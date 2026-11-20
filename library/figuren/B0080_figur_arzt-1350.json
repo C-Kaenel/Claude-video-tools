@@ -1,0 +1,25 @@
+{
+ "id": "B0080",
+ "art": "figur",
+ "name": "arzt-1350",
+ "beschreibung": "Arzt um 1350 (Schwarzer Tod): rote Robe, violette Gugel, ohne Maske",
+ "herkunft": "V0006, eigen",
+ "stil": "T0003",
+ "spec": {
+  "name": "arnold",
+  "zeit": "hanse",
+  "skin": "#f5c9a0",
+  "coat": "#c23a30",
+  "garment": "dress",
+  "hair": {
+   "style": "side",
+   "color": "#7a4a2a"
+  },
+  "hat": {
+   "kind": "gugel",
+   "color": "#7b5ac9",
+   "band": "#4f3a8a"
+  },
+  "buttons": false
+ }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "B0021",
+  "art": "karte",
+  "name": "herz",
+  "beschreibung": "Herz, schlägt (Schläge/s) oder steht still (0)",
+  "herkunft": "V0002/V0003 (Spezifikation 7.4), eigen gezeichnet",
+  "stil": "T0003",
+  "kind": "herz",
+  "params": {
+    "schlag": 1.2
+  }
+}

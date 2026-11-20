@@ -1,0 +1,19 @@
+{
+ "id": "B0165",
+ "art": "karte",
+ "name": "gefaelle",
+ "beschreibung": "Längsschnitt einer Leitung von der Quelle zur Stadt: Rinne mit Pfeilern, Wasser fliesst; neigung 0…2 (flach steht / richtig fliesst / steil schäumt, mit X oder Haken), beule = falscher Buckel staut und spritzt, Schild wert/pro/km, fluss + pfeil = Wasser will vom Fluss hinauf und fällt zurück",
+ "herkunft": "eigen gezeichnet (Römer-Wasser-Welt, Auftrag V0013)",
+ "stil": "T0003",
+ "kind": "gefaelle",
+ "params": {
+  "fortschritt": 1,
+  "zeit": 0,
+  "neigung": 1,
+  "beule": 0,
+  "zeichen": "auto",
+  "wert": "34 CM",
+  "pro": "PER KM",
+  "km": 90
+ }
+}

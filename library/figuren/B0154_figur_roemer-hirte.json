@@ -1,0 +1,26 @@
+{
+ "id": "B0154",
+ "art": "figur",
+ "name": "roemer-hirte",
+ "beschreibung": "Hirte (Rom): ockergelbe Tunika, Schaffell-Umhang, Vollbart, Hirtenstab",
+ "herkunft": "eigen",
+ "stil": "T0003",
+ "spec": {
+  "name": "roemer-hirte",
+  "build": "adult",
+  "skin": "#c98e66",
+  "coat": "#d6a447",
+  "shoes": "#5a3e26",
+  "hair": {
+   "style": "long",
+   "color": "#4a3424"
+  },
+  "bart": {
+   "color": "#4a3424"
+  },
+  "umhang": "#efe6d2",
+  "stab": "#8a5a32",
+  "buttons": false,
+  "zeit": "roemer"
+ }
+}

@@ -1,0 +1,35 @@
+{
+ "id": "B0106",
+ "art": "figur",
+ "name": "wikinger-skalde",
+ "beschreibung": "Skalde (Dichter) um 900: dunkles langes Haar, Bart mit Zopf, violetter Rock mit goldener Borte, türkiser Mantel mit Fibel, Leier",
+ "herkunft": "eigen",
+ "stil": "T0003",
+ "spec": {
+  "name": "wikinger-skalde",
+  "build": "adult",
+  "skin": "#e6b28c",
+  "coat": "#8a5bc4",
+  "pants": "#4a3a5a",
+  "shoes": "#5a3a24",
+  "hair": {
+   "style": "long",
+   "color": "#4a3020"
+  },
+  "bart": {
+   "color": "#4a3020",
+   "art": "zopf"
+  },
+  "belt": "#5a3a24",
+  "borte": "#e3b33f",
+  "mantel": {
+   "color": "#2a9d9a",
+   "fibel": "#e3b33f"
+  },
+  "ding": {
+   "art": "leier"
+  },
+  "buttons": false,
+  "zeit": "nord"
+ }
+}

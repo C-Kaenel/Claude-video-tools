@@ -1,0 +1,13 @@
+{
+ "id": "B0114",
+ "art": "karte",
+ "name": "fundstueck-1943",
+ "beschreibung": "Fundstück 1943: rostiger Spangenhelm von Gjermundbu in Bruchstücken auf einem Museumssockel, Schild FOUND 1943 / NORWAY",
+ "herkunft": "eigen gezeichnet (Wikinger-Short)",
+ "stil": "T0003",
+ "kind": "fundstueck",
+ "params": {
+  "titel": "FOUND 1943",
+  "ort": "NORWAY"
+ }
+}

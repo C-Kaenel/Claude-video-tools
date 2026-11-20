@@ -1,0 +1,10 @@
+{
+  "id": "B0033",
+  "art": "ort",
+  "name": "laborstrasse",
+  "beschreibung": "Strasse mit Häusern auf beiden Seiten, gelbes Laborhaus",
+  "herkunft": "eigen",
+  "stil": "T0003",
+  "place": "laborstrasse",
+  "heimat": "engine/v01/world/town.ts (PLACES.laborstrasse)"
+}

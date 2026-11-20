@@ -1,0 +1,10 @@
+{
+  "id": "B0039",
+  "art": "ort",
+  "name": "flussufer",
+  "beschreibung": "Häuserzeile am anderen Ufer",
+  "herkunft": "eigen",
+  "stil": "T0003",
+  "place": "flussufer",
+  "heimat": "engine/v01/world/town.ts (PLACES.flussufer)"
+}

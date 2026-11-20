@@ -1,0 +1,76 @@
+{
+ "id": "B0185",
+ "art": "rezept",
+ "name": "aqua-thermen",
+ "beschreibung": "Thermen von aussen: Palästra mit Säulengang, Kuppel, Rauch aus dem Heizofen",
+ "herkunft": "eigen",
+ "stil": "T0003",
+ "light": "day",
+ "welt": "aqua",
+ "aqua": {},
+ "ort": "AQUA_PLACES.thermen",
+ "props": [],
+ "punkte": {
+  "mitte": [
+   4202,
+   15
+  ],
+  "links": [
+   4198,
+   16
+  ],
+  "rechts": [
+   4205,
+   14
+  ]
+ },
+ "weg": [
+  [
+   4197,
+   19
+  ],
+  [
+   4204,
+   19
+  ]
+ ],
+ "kameras": {
+  "totale": {
+   "pos": [
+    4200,
+    7,
+    64
+   ],
+   "look": [
+    4200,
+    5,
+    0
+   ],
+   "fov": 44
+  },
+  "halbnah": {
+   "pos": [
+    4206,
+    1.8,
+    20
+   ],
+   "look": [
+    4200,
+    4,
+    8
+   ],
+   "fov": 38
+  }
+ },
+ "heimat": "styles/T0003_cartoon-3d2d/szene.ts (rezept, rezeptPunkt, rezeptKamera)",
+ "geprueft": {
+  "datum": "2026-11-18",
+  "ok": true,
+  "details": {
+   "totale": 11,
+   "halbnah": 7
+  },
+  "funde": [],
+  "welt_funde": []
+ }
+}

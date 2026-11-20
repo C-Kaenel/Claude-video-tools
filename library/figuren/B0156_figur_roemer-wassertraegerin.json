@@ -1,0 +1,27 @@
+{
+ "id": "B0156",
+ "art": "figur",
+ "name": "roemer-wassertraegerin",
+ "beschreibung": "Wasserträgerin (Rom): türkises langes Kleid mit Gürtel, gelbe Palla, braune Zöpfe, Tonkrug",
+ "herkunft": "eigen",
+ "stil": "T0003",
+ "spec": {
+  "name": "roemer-wassertraegerin",
+  "build": "adult",
+  "skin": "#d9a07a",
+  "coat": "#2fa59a",
+  "garment": "dress",
+  "shoes": "#6b4a2a",
+  "hair": {
+   "style": "zoepfe",
+   "color": "#6a4a2a"
+  },
+  "umhang": "#f2c230",
+  "belt": "#8a5532",
+  "ding": {
+   "art": "krug"
+  },
+  "buttons": false,
+  "zeit": "roemer"
+ }
+}

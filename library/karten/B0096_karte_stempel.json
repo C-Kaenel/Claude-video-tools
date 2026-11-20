@@ -1,0 +1,12 @@
+{
+ "id": "B0096",
+ "art": "karte",
+ "name": "stempel",
+ "beschreibung": "Stempel MYTH / FACT (schräger Doppelrahmen, rot bei MYTH, grün sonst) für das Kapitel mythos",
+ "herkunft": "eigen gezeichnet (Kapitel-Module, Langformat)",
+ "stil": "T0003",
+ "kind": "stempel",
+ "params": {
+  "text": "FACT"
+ }
+}

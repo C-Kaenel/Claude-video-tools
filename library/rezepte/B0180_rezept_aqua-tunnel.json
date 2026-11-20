@@ -1,0 +1,133 @@
+{
+ "id": "B0180",
+ "art": "rezept",
+ "name": "aqua-tunnel",
+ "beschreibung": "Tunnel im Querschnitt: Kanal, Öllampen, drei Schächte mit Haspeln, Leiter im mittleren Schacht",
+ "herkunft": "eigen",
+ "stil": "T0003",
+ "light": "day",
+ "welt": "aqua",
+ "aqua": {},
+ "ort": "AQUA_PLACES.tunnel",
+ "props": [
+  {
+   "kind": "aquateil",
+   "art": "oellampe",
+   "at": [
+    1792.5,
+    -2.6
+   ]
+  },
+  {
+   "kind": "aquateil",
+   "art": "kruege",
+   "at": [
+    1789,
+    -2.55
+   ]
+  },
+  {
+   "kind": "aquateil",
+   "art": "grabwerkzeug",
+   "at": [
+    1796.4,
+    -2.55
+   ]
+  },
+  {
+   "kind": "aquateil",
+   "art": "oellampe",
+   "at": [
+    1795,
+    -2.6
+   ]
+  },
+  {
+   "kind": "aquateil",
+   "art": "oellampe",
+   "at": [
+    1790.5,
+    -2.6
+   ]
+  },
+  {
+   "kind": "aquateil",
+   "art": "kruege",
+   "at": [
+    1793.2,
+    -2.55
+   ]
+  },
+  {
+   "kind": "aquateil",
+   "art": "amphoren",
+   "at": [
+    1791.6,
+    -2.55
+   ]
+  }
+ ],
+ "punkte": {
+  "mitte": [
+   1794,
+   -1.4
+  ],
+  "links": [
+   1791,
+   -1.6
+  ],
+  "rechts": [
+   1797.4,
+   -1.2
+  ]
+ },
+ "weg": [
+  [
+   1786,
+   -1.4
+  ],
+  [
+   1789.5,
+   -1.4
+  ]
+ ],
+ "kameras": {
+  "totale": {
+   "pos": [
+    1800,
+    -9,
+    28
+   ],
+   "look": [
+    1800,
+    -8,
+    -1.4
+   ],
+   "fov": 44
+  },
+  "halbnah": {
+   "pos": [
+    1793,
+    -11.2,
+    10
+   ],
+   "look": [
+    1794,
+    -11.6,
+    -1.4
+   ],
+   "fov": 38
+  }
+ },
+ "heimat": "styles/T0003_cartoon-3d2d/szene.ts (rezept, rezeptPunkt, rezeptKamera)",
+ "geprueft": {
+  "datum": "2026-11-18",
+  "ok": true,
+  "details": {
+   "totale": 13,
+   "halbnah": 6
+  },
+  "funde": [],
+  "welt_funde": []
+ }
+}

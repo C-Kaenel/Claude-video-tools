@@ -1,0 +1,141 @@
+{
+ "id": "B0078",
+ "art": "rezept",
+ "name": "korea-tor",
+ "beschreibung": "Vor dem Stadttor von Hanyang (Korea-Welt): Säcke, Fässer, Laternen, Fahnen und Blumentöpfe am Tor",
+ "herkunft": "eigen",
+ "stil": "T0003",
+ "light": "day",
+ "welt": "korea",
+ "korea": {
+  "hanyang": "alt",
+  "hwaseong": "ganz"
+ },
+ "ort": "KOREA_PLACES.hanyang",
+ "props": [
+  {
+   "kind": "saecke",
+   "at": [
+    -4.4,
+    -4.9
+   ],
+   "n": 3
+  },
+  {
+   "kind": "fass",
+   "at": [
+    4.2,
+    -4.7
+   ],
+   "n": 3
+  },
+  {
+   "kind": "lantern",
+   "at": [
+    6,
+    -5
+   ]
+  },
+  {
+   "kind": "lantern",
+   "at": [
+    -6,
+    -5
+   ]
+  },
+  {
+   "kind": "fahne",
+   "at": [
+    -7.2,
+    -4
+   ],
+   "farbe": "#d8342c"
+  },
+  {
+   "kind": "fahne",
+   "at": [
+    7.2,
+    -4
+   ],
+   "farbe": "#2f6fd0"
+  },
+  {
+   "kind": "blumentopf",
+   "at": [
+    -2.6,
+    -4.4
+   ]
+  },
+  {
+   "kind": "blumentopf",
+   "at": [
+    2.6,
+    -4.4
+   ],
+   "h": 1.1
+  }
+ ],
+ "punkte": {
+  "mitte": [
+   0,
+   -1.5
+  ],
+  "links": [
+   -1.1,
+   -1.8
+  ],
+  "rechts": [
+   1.1,
+   -1.8
+  ]
+ },
+ "kameras": {
+  "halbnah": {
+   "pos": [
+    1.5,
+    2,
+    8
+   ],
+   "look": [
+    0,
+    2.2,
+    -4
+   ],
+   "fov": 42
+  },
+  "totale": {
+   "pos": [
+    -4,
+    3,
+    16
+   ],
+   "look": [
+    1,
+    4.6,
+    -5.5
+   ],
+   "fov": 46
+  }
+ },
+ "geprueft": {
+  "datum": "2026-11-18",
+  "ok": true,
+  "details": {
+   "halbnah": 6,
+   "totale": 8
+  },
+  "funde": [],
+  "welt_funde": []
+ },
+ "heimat": "styles/T0003_cartoon-3d2d/szene.ts (rezept, rezeptPunkt, rezeptKamera)",
+ "weg": [
+  [
+   -2.2,
+   -2.8
+  ],
+  [
+   2.2,
+   -2.8
+  ]
+ ]
+}

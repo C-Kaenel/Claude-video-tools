@@ -1,0 +1,17 @@
+{
+  "id": "B0043",
+  "art": "kamera",
+  "name": "schulterblick",
+  "beschreibung": "Über die Schulter einer zweiten Figur",
+  "herkunft": "eigen (Kamera-Grammatik der Spezifikation 5)",
+  "stil": "T0003",
+  "pattern": {
+    "name": "schulterblick",
+    "distance": 3.4,
+    "height": 1.65,
+    "side": 1.1,
+    "lookHeight": 1.45,
+    "fov": 36,
+    "focus": 12
+  }
+}

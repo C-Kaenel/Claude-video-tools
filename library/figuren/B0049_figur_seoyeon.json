@@ -1,0 +1,21 @@
+{
+ "id": "B0049",
+ "art": "figur",
+ "name": "seoyeon",
+ "beschreibung": "Frau von heute: schwarzer Bob, blaues Kleid, roter Schal",
+ "herkunft": "V0004, eigen",
+ "stil": "T0003",
+ "spec": {
+  "name": "seoyeon",
+  "skin": "#f5c9a0",
+  "coat": "#3f6fb5",
+  "garment": "dress",
+  "hair": {
+   "style": "bob",
+   "color": "#241c1c"
+  },
+  "scarf": "#c0392b",
+  "buttons": false,
+  "zeit": "korea"
+ }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "B0014",
+  "art": "karte",
+  "name": "brief",
+  "beschreibung": "Brief mit Handschrift und Datum",
+  "herkunft": "V0002/V0003 (Spezifikation 7.4), eigen gezeichnet",
+  "stil": "T0003",
+  "kind": "brief",
+  "params": {
+    "datum": "Aug. 15, 1877",
+    "text": "Hello!"
+  }
+}

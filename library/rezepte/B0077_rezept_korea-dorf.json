@@ -1,0 +1,127 @@
+{
+ "id": "B0077",
+ "art": "rezept",
+ "name": "korea-dorf",
+ "beschreibung": "Strohdach-Dorf in der Korea-Welt: Säcke, Fässer, Laterne, Busch, Blumen und Baum vor den Häusern",
+ "herkunft": "eigen",
+ "stil": "T0003",
+ "light": "day",
+ "welt": "korea",
+ "korea": {
+  "hanyang": "alt",
+  "hwaseong": "ganz"
+ },
+ "ort": "KOREA_PLACES.dorf",
+ "props": [
+  {
+   "kind": "saecke",
+   "at": [
+    -302.8,
+    -4.4
+   ],
+   "n": 2
+  },
+  {
+   "kind": "fass",
+   "at": [
+    -297.2,
+    -4.4
+   ],
+   "n": 2
+  },
+  {
+   "kind": "lantern",
+   "at": [
+    -303.6,
+    -3
+   ]
+  },
+  {
+   "kind": "busch",
+   "at": [
+    -296.2,
+    -3.2
+   ],
+   "h": 0.8
+  },
+  {
+   "kind": "blumen",
+   "at": [
+    -300,
+    -5.2
+   ],
+   "w": 2,
+   "d": 0.6
+  },
+  {
+   "kind": "blumentopf",
+   "at": [
+    -298.4,
+    -4.8
+   ]
+  }
+ ],
+ "punkte": {
+  "mitte": [
+   -300,
+   -2.4
+  ],
+  "links": [
+   -301.1,
+   -2.7
+  ],
+  "rechts": [
+   -298.9,
+   -2.7
+  ]
+ },
+ "kameras": {
+  "halbnah": {
+   "pos": [
+    -297.8,
+    1.9,
+    4.5
+   ],
+   "look": [
+    -300.4,
+    2.5,
+    -4
+   ],
+   "fov": 42
+  },
+  "totale": {
+   "pos": [
+    -300,
+    3.2,
+    12
+   ],
+   "look": [
+    -300,
+    4,
+    -20
+   ],
+   "fov": 44
+  }
+ },
+ "geprueft": {
+  "datum": "2026-11-18",
+  "ok": true,
+  "details": {
+   "halbnah": 7,
+   "totale": 14
+  },
+  "funde": [],
+  "welt_funde": []
+ },
+ "heimat": "styles/T0003_cartoon-3d2d/szene.ts (rezept, rezeptPunkt, rezeptKamera)",
+ "weg": [
+  [
+   -302.2,
+   -3.7
+  ],
+  [
+   -297.8,
+   -3.7
+  ]
+ ]
+}

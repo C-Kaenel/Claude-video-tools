@@ -1,0 +1,10 @@
+{
+  "id": "B0035",
+  "art": "ort",
+  "name": "platz",
+  "beschreibung": "offener Platz mit Stand, Kisten, Laterne",
+  "herkunft": "eigen",
+  "stil": "T0003",
+  "place": "platz",
+  "heimat": "engine/v01/world/town.ts (PLACES.platz)"
+}

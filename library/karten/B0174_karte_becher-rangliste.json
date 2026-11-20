@@ -1,0 +1,13 @@
+{
+ "id": "B0174",
+ "art": "karte",
+ "name": "becher-rangliste",
+ "beschreibung": "Becher auf Siegerstufen (1. Platz in der Mitte), jeder mit Name und Klarheit des Wassers; zeigen 0…n deckt die Plätze nacheinander auf, namen A|B|C",
+ "herkunft": "eigen gezeichnet (Römer-Wasser-Welt, Auftrag V0013)",
+ "stil": "T0003",
+ "kind": "becher-rangliste",
+ "params": {
+  "zeigen": 3,
+  "namen": "AQUA MARCIA|AQUA VIRGO|ANIO NOVUS"
+ }
+}

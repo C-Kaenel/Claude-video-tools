@@ -1,0 +1,10 @@
+{
+  "id": "B0059",
+  "art": "ort",
+  "name": "korea-hanyang",
+  "beschreibung": "Stadtmauer mit zweistöckigem Tor, steigt den Berg hinauf; Variante alt/neu",
+  "herkunft": "V0004, eigen",
+  "stil": "T0003",
+  "place": "hanyang",
+  "heimat": "engine/v01/world/festung.ts (KOREA_PLACES.hanyang)"
+}

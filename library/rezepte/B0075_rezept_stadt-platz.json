@@ -1,0 +1,155 @@
+{
+ "id": "B0075",
+ "art": "rezept",
+ "name": "stadt-platz",
+ "beschreibung": "Platz der Stadt zwischen Strasse und Kai: Stand, Kisten, Laterne, dazu Bäume, Blumentöpfe und Fahnen",
+ "herkunft": "eigen",
+ "stil": "T0003",
+ "light": "day",
+ "welt": "stadt",
+ "ort": "PLACES.platz",
+ "props": [
+  {
+   "kind": "blumentopf",
+   "at": [
+    -0.6,
+    5.2
+   ]
+  },
+  {
+   "kind": "blumentopf",
+   "at": [
+    5.6,
+    5.2
+   ],
+   "h": 1.1
+  },
+  {
+   "kind": "baum",
+   "at": [
+    -3.5,
+    4.2
+   ],
+   "h": 5
+  },
+  {
+   "kind": "fahne",
+   "at": [
+    7.5,
+    4.6
+   ],
+   "farbe": "#2f6fd0"
+  },
+  {
+   "kind": "busch",
+   "at": [
+    6.6,
+    6.2
+   ],
+   "h": 0.8
+  },
+  {
+   "kind": "blumen",
+   "at": [
+    2.5,
+    4.4
+   ],
+   "w": 2.5,
+   "d": 0.7
+  },
+  {
+   "kind": "blumentopf",
+   "at": [
+    0.2,
+    6.9
+   ]
+  },
+  {
+   "kind": "busch",
+   "at": [
+    -0.9,
+    6.3
+   ],
+   "h": 0.7
+  },
+  {
+   "kind": "blumentopf",
+   "at": [
+    1,
+    7
+   ],
+   "h": 0.8
+  },
+  {
+   "kind": "blumentopf",
+   "at": [
+    3.5,
+    7.3
+   ],
+   "h": 0.8
+  }
+ ],
+ "punkte": {
+  "mitte": [
+   2.5,
+   8.3
+  ],
+  "links": [
+   1.4,
+   8
+  ],
+  "rechts": [
+   3.6,
+   8
+  ]
+ },
+ "kameras": {
+  "halbnah": {
+   "pos": [
+    0.8,
+    1.8,
+    13.5
+   ],
+   "look": [
+    2.5,
+    1.8,
+    5
+   ],
+   "fov": 40
+  },
+  "totale": {
+   "pos": [
+    -3,
+    2.4,
+    13
+   ],
+   "look": [
+    5,
+    2.6,
+    0
+   ],
+   "fov": 44
+  }
+ },
+ "geprueft": {
+  "datum": "2026-11-18",
+  "ok": true,
+  "details": {
+   "halbnah": 7,
+   "totale": 10
+  },
+  "funde": [],
+  "welt_funde": []
+ },
+ "heimat": "styles/T0003_cartoon-3d2d/szene.ts (rezept, rezeptPunkt, rezeptKamera)",
+ "weg": [
+  [
+   -0.5,
+   9.6
+  ],
+  [
+   5.5,
+   9.6
+  ]
+ ]
+}

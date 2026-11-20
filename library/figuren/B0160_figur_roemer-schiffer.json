@@ -1,0 +1,28 @@
+{
+ "id": "B0160",
+ "art": "figur",
+ "name": "roemer-schiffer",
+ "beschreibung": "Schiffer am Tiber (Rom): blaue kurze Tunika, Strohhut, Vollbart, Ruder",
+ "herkunft": "eigen",
+ "stil": "T0003",
+ "spec": {
+  "name": "roemer-schiffer",
+  "build": "adult",
+  "skin": "#b97c55",
+  "coat": "#2f6fd0",
+  "shoes": "#5a3e26",
+  "hat": {
+   "kind": "petasus",
+   "color": "#d9b45e"
+  },
+  "bart": {
+   "color": "#2a1e18"
+  },
+  "belt": "#5a3e26",
+  "ding": {
+   "art": "ruder"
+  },
+  "buttons": false,
+  "zeit": "roemer"
+ }
+}

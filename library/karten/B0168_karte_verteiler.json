@@ -1,0 +1,14 @@
+{
+ "id": "B0168",
+ "art": "karte",
+ "name": "verteiler",
+ "beschreibung": "Wasserschloss (Castellum) von oben: Zulauf, Becken, drei Ausgänge mit Bild (Brunnen, Bad, Haus); pegel 0…1 senkt den Wasserstand – zuerst stoppen die Häuser, dann die Bäder, die Brunnen laufen immer",
+ "herkunft": "eigen gezeichnet (Römer-Wasser-Welt, Auftrag V0013)",
+ "stil": "T0003",
+ "kind": "verteiler",
+ "params": {
+  "fortschritt": 1,
+  "pegel": 1,
+  "ausgaenge": "FOUNTAINS|BATHS|HOMES"
+ }
+}

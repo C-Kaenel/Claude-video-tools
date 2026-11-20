@@ -1,0 +1,27 @@
+{
+ "id": "B0161",
+ "art": "figur",
+ "name": "roemer-villenherr",
+ "beschreibung": "Reicher Villenbesitzer (Rom): kräftig, weisse Toga ohne Saum über gelber Tunika, lockiges dunkles Haar, Münzen in der Hand",
+ "herkunft": "eigen",
+ "stil": "T0003",
+ "spec": {
+  "name": "roemer-villenherr",
+  "build": "stout",
+  "skin": "#e6b48e",
+  "coat": "#f2c230",
+  "shoes": "#8a5532",
+  "hair": {
+   "style": "side",
+   "color": "#2a1e18"
+  },
+  "toga": {
+   "color": "#fbf7ee"
+  },
+  "ding": {
+   "art": "muenzen"
+  },
+  "buttons": false,
+  "zeit": "roemer"
+ }
+}

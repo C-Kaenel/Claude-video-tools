@@ -1,0 +1,25 @@
+{
+ "id": "B0131",
+ "art": "figur",
+ "name": "roemer-frau",
+ "beschreibung": "Frau (Rom): lange blaue Stola mit goldenem Gürtel, rosa Palla über den Schultern, dunkles Haar im Knoten",
+ "herkunft": "eigen",
+ "stil": "T0003",
+ "spec": {
+  "name": "roemer-frau",
+  "build": "adult",
+  "skin": "#ecbd98",
+  "coat": "#3f6fb5",
+  "garment": "dress",
+  "shoes": "#8a5532",
+  "hair": {
+   "style": "bun",
+   "color": "#2a1e18"
+  },
+  "umhang": "#e07a8a",
+  "belt": "#e3b33f",
+  "saum": "#e3b33f",
+  "buttons": false,
+  "zeit": "roemer"
+ }
+}

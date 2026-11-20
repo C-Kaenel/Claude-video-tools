@@ -1,0 +1,164 @@
+{
+ "id": "B0073",
+ "art": "rezept",
+ "name": "hanse-markt",
+ "beschreibung": "Marktplatz der Hanse-Welt vor der Kirche: Stände, Bäume, Blumentöpfe, Fahnen, Fässer – bunt und belebt",
+ "herkunft": "eigen",
+ "stil": "T0003",
+ "light": "day",
+ "welt": "hanse",
+ "ort": "HANSE_PLACES.markt",
+ "props": [
+  {
+   "kind": "baum",
+   "at": [
+    107.5,
+    -19
+   ],
+   "h": 5.5
+  },
+  {
+   "kind": "baum",
+   "at": [
+    126.5,
+    -19
+   ],
+   "h": 5
+  },
+  {
+   "kind": "blumentopf",
+   "at": [
+    113.8,
+    -11.2
+   ]
+  },
+  {
+   "kind": "blumentopf",
+   "at": [
+    120.4,
+    -11.4
+   ],
+   "h": 1.1
+  },
+  {
+   "kind": "fahne",
+   "at": [
+    111.5,
+    -15.5
+   ],
+   "farbe": "#d8342c"
+  },
+  {
+   "kind": "fahne",
+   "at": [
+    122.5,
+    -15.5
+   ],
+   "farbe": "#2f6fd0"
+  },
+  {
+   "kind": "fass",
+   "at": [
+    121.8,
+    -12.6
+   ],
+   "n": 2
+  },
+  {
+   "kind": "saecke",
+   "at": [
+    112.3,
+    -12.4
+   ],
+   "n": 2
+  },
+  {
+   "kind": "blumen",
+   "at": [
+    117,
+    -17.5
+   ],
+   "w": 3,
+   "d": 0.8
+  },
+  {
+   "kind": "blumentopf",
+   "at": [
+    115.2,
+    -12.6
+   ],
+   "h": 0.9
+  },
+  {
+   "kind": "fass",
+   "at": [
+    118.9,
+    -12.9
+   ],
+   "n": 2
+  }
+ ],
+ "punkte": {
+  "mitte": [
+   117,
+   -10.2
+  ],
+  "links": [
+   115.9,
+   -10.5
+  ],
+  "rechts": [
+   118.1,
+   -10.5
+  ]
+ },
+ "kameras": {
+  "halbnah": {
+   "pos": [
+    117,
+    1.8,
+    -3
+   ],
+   "look": [
+    117,
+    1.6,
+    -13
+   ],
+   "fov": 40
+  },
+  "totale": {
+   "pos": [
+    115,
+    1.7,
+    14
+   ],
+   "look": [
+    117,
+    21,
+    -24
+   ],
+   "fov": 56
+  }
+ },
+ "geprueft": {
+  "datum": "2026-11-18",
+  "ok": true,
+  "details": {
+   "halbnah": 9,
+   "totale": 22
+  },
+  "funde": [],
+  "welt_funde": []
+ },
+ "heimat": "styles/T0003_cartoon-3d2d/szene.ts (rezept, rezeptPunkt, rezeptKamera)",
+ "weg": [
+  [
+   114.8,
+   -11.5
+  ],
+  [
+   119.2,
+   -11.5
+  ]
+ ]
+}

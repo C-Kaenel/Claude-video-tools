@@ -1,0 +1,76 @@
+{
+ "id": "B0184",
+ "art": "rezept",
+ "name": "aqua-zierbrunnen",
+ "beschreibung": "Platz mit Zierbrunnen und Münzen im Becken, Tempel dahinter, Tauben",
+ "herkunft": "eigen",
+ "stil": "T0003",
+ "light": "day",
+ "welt": "aqua",
+ "aqua": {},
+ "ort": "AQUA_PLACES.zierbrunnen",
+ "props": [],
+ "punkte": {
+  "mitte": [
+   3602.8,
+   -64
+  ],
+  "links": [
+   3597.2,
+   -64
+  ],
+  "rechts": [
+   3603.2,
+   -60.5
+  ]
+ },
+ "weg": [
+  [
+   3597,
+   -57
+  ],
+  [
+   3603,
+   -57
+  ]
+ ],
+ "kameras": {
+  "totale": {
+   "pos": [
+    3600,
+    4,
+    -48
+   ],
+   "look": [
+    3600,
+    1.5,
+    -68
+   ],
+   "fov": 44
+  },
+  "halbnah": {
+   "pos": [
+    3602.4,
+    1.7,
+    -61
+   ],
+   "look": [
+    3600,
+    1.0,
+    -68
+   ],
+   "fov": 38
+  }
+ },
+ "heimat": "styles/T0003_cartoon-3d2d/szene.ts (rezept, rezeptPunkt, rezeptKamera)",
+ "geprueft": {
+  "datum": "2026-11-18",
+  "ok": true,
+  "details": {
+   "totale": 12,
+   "halbnah": 10
+  },
+  "funde": [],
+  "welt_funde": []
+ }
+}

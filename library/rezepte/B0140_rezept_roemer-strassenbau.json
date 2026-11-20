@@ -1,0 +1,76 @@
+{
+ "id": "B0140",
+ "art": "rezept",
+ "name": "roemer-strassenbau",
+ "beschreibung": "Römische Strassen-Baustelle: offener Graben mit den Schichten im Schnitt (grosse Steine, Kies, Mörtel, Pflaster mit Randsteinen), Kies- und Steinhaufen, Körbe, Mörtelkasten, Werkzeug, Stampfer, Ochsenkarren; links das Legionslager",
+ "herkunft": "eigen",
+ "stil": "T0003",
+ "light": "day",
+ "welt": "roemer",
+ "roemer": {},
+ "ort": "ROEMER_PLACES.strassenbau",
+ "props": [],
+ "punkte": {
+  "links": [
+   -4.3,
+   51
+  ],
+  "rechts": [
+   4.2,
+   60
+  ],
+  "vorne": [
+   1.2,
+   33
+  ]
+ },
+ "weg": [
+  [
+   -4.2,
+   40
+  ],
+  [
+   -4.2,
+   46.5
+  ]
+ ],
+ "kameras": {
+  "totale": {
+   "pos": [
+    15,
+    7.5,
+    86
+   ],
+   "look": [
+    0,
+    -0.6,
+    44
+   ],
+   "fov": 44
+  },
+  "halbnah": {
+   "pos": [
+    6.2,
+    1.5,
+    61
+   ],
+   "look": [
+    0,
+    -0.5,
+    50
+   ],
+   "fov": 38
+  }
+ },
+ "heimat": "styles/T0003_cartoon-3d2d/szene.ts (rezept, rezeptPunkt, rezeptKamera)",
+ "geprueft": {
+  "datum": "2026-11-18",
+  "ok": true,
+  "details": {
+   "totale": 19,
+   "halbnah": 6
+  },
+  "funde": [],
+  "welt_funde": []
+ }
+}

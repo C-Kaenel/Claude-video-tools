@@ -1,0 +1,13 @@
+{
+  "id": "B0024",
+  "art": "karte",
+  "name": "hand",
+  "beschreibung": "Hand, offen oder greifend, Hautfarbe wählbar",
+  "herkunft": "V0002/V0003 (Spezifikation 7.4), eigen gezeichnet",
+  "stil": "T0003",
+  "kind": "hand",
+  "params": {
+    "haut": "#a9cf86",
+    "greift": 0
+  }
+}

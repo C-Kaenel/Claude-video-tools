@@ -1,0 +1,33 @@
+{
+ "id": "B0104",
+ "art": "figur",
+ "name": "wikinger-frau",
+ "beschreibung": "Frau um 900: blonde Zöpfe, grünes Unterkleid, rotes Trägerkleid mit zwei ovalen Fibeln und bunter Perlenkette",
+ "herkunft": "eigen",
+ "stil": "T0003",
+ "spec": {
+  "name": "wikinger-frau",
+  "build": "adult",
+  "height": 1.66,
+  "skin": "#efc29e",
+  "coat": "#3f9a48",
+  "garment": "dress",
+  "shoes": "#5a3a24",
+  "hair": {
+   "style": "zoepfe",
+   "color": "#e6b85c"
+  },
+  "schuerze": {
+   "color": "#c8402e",
+   "fibeln": "#d9a441",
+   "perlen": [
+    "#2f6fd0",
+    "#e2b52f",
+    "#f2e6c8",
+    "#3f9a48"
+   ]
+  },
+  "buttons": false,
+  "zeit": "nord"
+ }
+}

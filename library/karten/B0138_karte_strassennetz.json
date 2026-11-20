@@ -1,0 +1,10 @@
+{
+ "id": "B0138",
+ "art": "karte",
+ "name": "strassennetz",
+ "beschreibung": "Karte des römischen Strassennetzes: Strassen wachsen mit fortschritt 0…1 von ROMA (goldener Stern, pulsiert mit zeit) zu den Städten des Reichs, Städte erscheinen mit Namen; Titel oben",
+ "herkunft": "eigen gezeichnet (Römer-Welt, Auftrag V0012)",
+ "stil": "T0003",
+ "kind": "strassennetz",
+ "params": { "fortschritt": 1, "zeit": 0, "namen": true, "titel": "ALL ROADS LEAD TO ROME" }
+}

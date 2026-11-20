@@ -1,0 +1,124 @@
+{
+ "id": "B0076",
+ "art": "rezept",
+ "name": "stadt-park",
+ "beschreibung": "Park der Stadt: Rasen, Bäume, Büsche, Blumenbeete, Blumentöpfe, Bank und Laterne",
+ "herkunft": "eigen",
+ "stil": "T0003",
+ "light": "day",
+ "welt": "stadt",
+ "ort": "PLACES.park",
+ "props": [
+  {
+   "kind": "blumen",
+   "at": [
+    108.2,
+    0.2
+   ],
+   "w": 2,
+   "d": 0.8
+  },
+  {
+   "kind": "blumen",
+   "at": [
+    112.2,
+    0.4
+   ],
+   "w": 2,
+   "d": 0.8
+  },
+  {
+   "kind": "blumentopf",
+   "at": [
+    106.8,
+    2.6
+   ]
+  },
+  {
+   "kind": "blumentopf",
+   "at": [
+    113.4,
+    2.6
+   ],
+   "h": 1.1
+  },
+  {
+   "kind": "busch",
+   "at": [
+    105.5,
+    0.8
+   ],
+   "h": 1
+  },
+  {
+   "kind": "lantern",
+   "at": [
+    114.5,
+    1.2
+   ]
+  }
+ ],
+ "punkte": {
+  "mitte": [
+   110,
+   2.8
+  ],
+  "links": [
+   108.9,
+   2.5
+  ],
+  "rechts": [
+   111.1,
+   2.5
+  ]
+ },
+ "kameras": {
+  "halbnah": {
+   "pos": [
+    109.6,
+    1.7,
+    9.5
+   ],
+   "look": [
+    110,
+    1.5,
+    2.5
+   ],
+   "fov": 38
+  },
+  "totale": {
+   "pos": [
+    98,
+    2,
+    12
+   ],
+   "look": [
+    114,
+    2.5,
+    -2
+   ],
+   "fov": 44
+  }
+ },
+ "geprueft": {
+  "datum": "2026-11-18",
+  "ok": true,
+  "details": {
+   "halbnah": 12,
+   "totale": 25
+  },
+  "funde": [],
+  "welt_funde": []
+ },
+ "heimat": "styles/T0003_cartoon-3d2d/szene.ts (rezept, rezeptPunkt, rezeptKamera)",
+ "weg": [
+  [
+   107.8,
+   1.5
+  ],
+  [
+   112.2,
+   1.5
+  ]
+ ]
+}

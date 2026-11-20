@@ -1,0 +1,28 @@
+{
+ "id": "B0159",
+ "art": "figur",
+ "name": "roemer-koechin",
+ "beschreibung": "Köchin (Rom): orangefarbenes Kleid, Küchenschürze, Haar im Knoten, Krug mit Traubensirup",
+ "herkunft": "eigen",
+ "stil": "T0003",
+ "spec": {
+  "name": "roemer-koechin",
+  "build": "adult",
+  "skin": "#e0a982",
+  "coat": "#e8873a",
+  "garment": "dress",
+  "shoes": "#6b4a2a",
+  "hair": {
+   "style": "bun",
+   "color": "#5a3a22"
+  },
+  "schuerze": {
+   "color": "#f2ead8"
+  },
+  "ding": {
+   "art": "krug"
+  },
+  "buttons": false,
+  "zeit": "roemer"
+ }
+}

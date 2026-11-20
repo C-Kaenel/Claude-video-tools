@@ -1,0 +1,14 @@
+{
+ "id": "B0169",
+ "art": "karte",
+ "name": "wasserkarte",
+ "beschreibung": "Rom in der Mitte (goldener Kreis), die elf Leitungen laufen mit fortschritt 0…1 nacheinander von den Bergen in die Stadt, Zähler der fertigen Leitungen; namen zeigt Name und Jahr",
+ "herkunft": "eigen gezeichnet (Römer-Wasser-Welt, Auftrag V0013)",
+ "stil": "T0003",
+ "kind": "wasserkarte",
+ "params": {
+  "fortschritt": 1,
+  "zeit": 0,
+  "namen": true
+ }
+}

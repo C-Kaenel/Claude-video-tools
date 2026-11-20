@@ -1,0 +1,13 @@
+Copyright (c) 2026 C-Kaenel. All rights reserved.
+
+This repository is published for viewing only. You may read the code and look at the images on GitHub.
+Without prior written permission of the copyright holder you may not copy, use, modify, distribute or
+publish any part of it (code, styles, skills, reference images, documentation).
+
+Third-party products are NOT included and keep their own licenses:
+- npm packages (installed with `npm install`), among them Remotion (Remotion License: free for individuals,
+  companies of up to 3 people and non-profits; otherwise a company license is required), three.js, React,
+  @react-three/* (MIT) and postprocessing (Zlib).
+- Fonts Archivo Black, Lora, Caveat, Inter (SIL Open Font License 1.1): downloaded with
+  `node tools/get-fonts.mjs` from github.com/google/fonts; the license texts are downloaded with them.
+- ffmpeg (GNU GPL v3): local tool only, not included.

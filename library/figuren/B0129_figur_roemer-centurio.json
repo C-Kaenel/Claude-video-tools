@@ -1,0 +1,34 @@
+{
+ "id": "B0129",
+ "art": "figur",
+ "name": "roemer-centurio",
+ "beschreibung": "Centurio (Rom): Galea mit rotem Quer-Busch, Kettenhemd über roter Tunika, roter Mantel mit goldener Fibel, Rebstock (Vitis) als Zeichen des Rangs",
+ "herkunft": "eigen",
+ "stil": "T0003",
+ "spec": {
+  "name": "roemer-centurio",
+  "build": "stout",
+  "skin": "#d9a07a",
+  "coat": "#c8402e",
+  "shoes": "#6b4a2a",
+  "hair": {
+   "style": "cap",
+   "color": "#2a1e18"
+  },
+  "hat": {
+   "kind": "galea",
+   "color": "#d6dde4",
+   "band": "#d83a2e"
+  },
+  "kette": "#a9b2bc",
+  "belt": "#6b4a2a",
+  "schnalle": "#e3b33f",
+  "mantel": {
+   "color": "#b02a24",
+   "fibel": "#e3b33f"
+  },
+  "stab": "#8a5532",
+  "buttons": false,
+  "zeit": "roemer"
+ }
+}

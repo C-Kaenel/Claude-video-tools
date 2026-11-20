@@ -1,0 +1,29 @@
+{
+ "id": "B0162",
+ "art": "figur",
+ "name": "fruehrom-mann",
+ "beschreibung": "Mann im frühen Rom (um 700 v. Chr.): grobe Wolltunika, Fell-Umhang, langes Haar, Vollbart, Axt",
+ "herkunft": "eigen",
+ "stil": "T0003",
+ "spec": {
+  "name": "fruehrom-mann",
+  "build": "adult",
+  "skin": "#c48660",
+  "coat": "#8a6a4a",
+  "shoes": "#4a3220",
+  "hair": {
+   "style": "long",
+   "color": "#3a2a1e"
+  },
+  "bart": {
+   "color": "#3a2a1e"
+  },
+  "umhang": "#a07a52",
+  "belt": "#4a3220",
+  "ding": {
+   "art": "axt"
+  },
+  "buttons": false,
+  "zeit": "roemer"
+ }
+}

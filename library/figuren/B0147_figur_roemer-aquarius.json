@@ -1,0 +1,26 @@
+{
+ "id": "B0147",
+ "art": "figur",
+ "name": "roemer-aquarius",
+ "beschreibung": "Wasserarbeiter (aquarius, Rom): hellblaue Tunika mit Gürtel, kurzes braunes Haar, Schaufel",
+ "herkunft": "eigen",
+ "stil": "T0003",
+ "spec": {
+  "name": "roemer-aquarius",
+  "build": "adult",
+  "skin": "#c98e66",
+  "coat": "#7fb6d8",
+  "shoes": "#6b4a2a",
+  "hair": {
+   "style": "cap",
+   "color": "#5a3a22"
+  },
+  "belt": "#6b4a2a",
+  "saum": "#4f8ab0",
+  "ding": {
+   "art": "schaufel"
+  },
+  "buttons": false,
+  "zeit": "roemer"
+ }
+}

@@ -1,0 +1,78 @@
+{
+ "id": "B0183",
+ "art": "rezept",
+ "name": "aqua-strasse",
+ "beschreibung": "Stadtstrasse mit Wäsche und Markisen, überlaufender Löwenbrunnen, Wasser im Rinnstein",
+ "herkunft": "eigen",
+ "stil": "T0003",
+ "light": "day",
+ "welt": "aqua",
+ "aqua": {
+  "ueberlauf": true
+ },
+ "ort": "AQUA_PLACES.strasse",
+ "props": [],
+ "punkte": {
+  "mitte": [
+   3601.6,
+   -4.6
+  ],
+  "links": [
+   3598.6,
+   -3
+  ],
+  "rechts": [
+   3602.4,
+   -1.6
+  ]
+ },
+ "weg": [
+  [
+   3599,
+   4
+  ],
+  [
+   3599,
+   -2
+  ]
+ ],
+ "kameras": {
+  "totale": {
+   "pos": [
+    3601,
+    4.5,
+    34
+   ],
+   "look": [
+    3600,
+    3,
+    -20
+   ],
+   "fov": 44
+  },
+  "halbnah": {
+   "pos": [
+    3598.6,
+    1.7,
+    0
+   ],
+   "look": [
+    3604,
+    1.2,
+    -6
+   ],
+   "fov": 38
+  }
+ },
+ "heimat": "styles/T0003_cartoon-3d2d/szene.ts (rezept, rezeptPunkt, rezeptKamera)",
+ "geprueft": {
+  "datum": "2026-11-18",
+  "ok": true,
+  "details": {
+   "totale": 73,
+   "halbnah": 9
+  },
+  "funde": [],
+  "welt_funde": []
+ }
+}

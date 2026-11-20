@@ -1,0 +1,12 @@
+{
+ "id": "B0113",
+ "art": "karte",
+ "name": "helm-vergleich",
+ "beschreibung": "Helm-Vergleich: links der echte Helm um 900 (Spangenhelm, grün REAL), rechts der Opernhelm 1876 (rot OPERA); haken 0…1 setzt Haken und Kreuz",
+ "herkunft": "eigen gezeichnet (Wikinger-Short)",
+ "stil": "T0003",
+ "kind": "helmvergleich",
+ "params": {
+  "haken": 1
+ }
+}

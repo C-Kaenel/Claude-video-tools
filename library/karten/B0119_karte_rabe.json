@@ -1,0 +1,13 @@
+{
+ "id": "B0119",
+ "art": "karte",
+ "name": "rabe",
+ "beschreibung": "Fliegender Rabe mit schlagenden Flügeln (zeit läuft von selbst), richtung rechts/links, frei ohne Rahmen",
+ "herkunft": "eigen gezeichnet (Wikinger-Short)",
+ "stil": "T0003",
+ "kind": "rabe",
+ "params": {
+  "richtung": "rechts",
+  "zeit": 0.08
+ }
+}

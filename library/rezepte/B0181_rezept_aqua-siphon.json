@@ -1,0 +1,76 @@
+{
+ "id": "B0181",
+ "art": "rezept",
+ "name": "aqua-siphon",
+ "beschreibung": "Umgekehrter Siphon: Kopfturm, Bündel aus Bleirohren durchs Tal, Rohrbrücke, Empfangsturm",
+ "herkunft": "eigen",
+ "stil": "T0003",
+ "light": "day",
+ "welt": "aqua",
+ "aqua": {},
+ "ort": "AQUA_PLACES.siphon",
+ "props": [],
+ "punkte": {
+  "mitte": [
+   2403.6,
+   6.3
+  ],
+  "links": [
+   2402.82,
+   6.75
+  ],
+  "rechts": [
+   2404.38,
+   5.85
+  ]
+ },
+ "weg": [
+  [
+   2398,
+   11
+  ],
+  [
+   2405,
+   11
+  ]
+ ],
+ "kameras": {
+  "totale": {
+   "pos": [
+    2400,
+    12,
+    95
+   ],
+   "look": [
+    2400,
+    -8,
+    0
+   ],
+   "fov": 44
+  },
+  "halbnah": {
+   "pos": [
+    2408,
+    -20.4,
+    14
+   ],
+   "look": [
+    2400,
+    -19.4,
+    0
+   ],
+   "fov": 38
+  }
+ },
+ "heimat": "styles/T0003_cartoon-3d2d/szene.ts (rezept, rezeptPunkt, rezeptKamera)",
+ "geprueft": {
+  "datum": "2026-11-18",
+  "ok": true,
+  "details": {
+   "totale": 33,
+   "halbnah": 6
+  },
+  "funde": [],
+  "welt_funde": []
+ }
+}

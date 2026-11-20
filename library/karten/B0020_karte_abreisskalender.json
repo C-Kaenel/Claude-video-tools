@@ -1,0 +1,14 @@
+{
+  "id": "B0020",
+  "art": "karte",
+  "name": "abreisskalender",
+  "beschreibung": "Abreisskalender mit Monat und Tag; Blatt reisst ab (abriss 0–1)",
+  "herkunft": "V0002/V0003 (Spezifikation 7.4), eigen gezeichnet",
+  "stil": "T0003",
+  "kind": "abreisskalender",
+  "params": {
+    "monat": "APRIL",
+    "tag": "17",
+    "abriss": 0
+  }
+}

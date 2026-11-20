@@ -1,0 +1,14 @@
+{
+  "id": "B0011",
+  "art": "karte",
+  "name": "sprechblase",
+  "beschreibung": "Sprechblase: Rede (rund) oder Ruf (Zacken), Schwanz links/rechts, Text passt sich an",
+  "herkunft": "V0002/V0003 (Spezifikation 7.4), eigen gezeichnet",
+  "stil": "T0003",
+  "kind": "sprechblase",
+  "params": {
+    "text": "HELLO!",
+    "art": "ruf",
+    "schwanz": "links"
+  }
+}

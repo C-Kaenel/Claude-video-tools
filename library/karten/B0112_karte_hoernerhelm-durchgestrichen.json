@@ -1,0 +1,12 @@
+{
+ "id": "B0112",
+ "art": "karte",
+ "name": "hoernerhelm-durchgestrichen",
+ "beschreibung": "Hörnerhelm der Oper in einem roten Verbotskreis, der Strich wird gezogen (strich 0…1) – Mythos: Wikinger trugen keine Hörner",
+ "herkunft": "eigen gezeichnet (Wikinger-Short)",
+ "stil": "T0003",
+ "kind": "hoernerhelm",
+ "params": {
+  "strich": 1
+ }
+}

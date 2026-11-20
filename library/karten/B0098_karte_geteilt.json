@@ -1,0 +1,13 @@
+{
+ "id": "B0098",
+ "art": "karte",
+ "name": "geteilt",
+ "beschreibung": "Geteilte Karte links/rechts mit VS-Kreis – für das Kapitel vergleich",
+ "herkunft": "eigen gezeichnet (Kapitel-Module, Langformat)",
+ "stil": "T0003",
+ "kind": "geteilt",
+ "params": {
+  "links": "THEN",
+  "rechts": "NOW"
+ }
+}

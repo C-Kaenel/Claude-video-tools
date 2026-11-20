@@ -1,0 +1,37 @@
+{
+ "id": "B0102",
+ "art": "figur",
+ "name": "wikinger-schmied",
+ "beschreibung": "Schmied um 900: Lederkappe, oranger Rock, Arbeitsschürze aus Leder, dunkler Bart mit zwei Zöpfen, Hammer, kräftig",
+ "herkunft": "eigen",
+ "stil": "T0003",
+ "spec": {
+  "name": "wikinger-schmied",
+  "build": "stout",
+  "skin": "#d9a27a",
+  "coat": "#d97a2b",
+  "pants": "#5a4a3a",
+  "shoes": "#5a3a24",
+  "hair": {
+   "style": "cap",
+   "color": "#3a2618"
+  },
+  "hat": {
+   "kind": "lederkappe",
+   "color": "#7a4a2a",
+   "band": "#4e2f1a"
+  },
+  "bart": {
+   "color": "#3a2618",
+   "art": "zwei"
+  },
+  "schuerze": {
+   "color": "#6b4428"
+  },
+  "ding": {
+   "art": "hammer"
+  },
+  "buttons": false,
+  "zeit": "nord"
+ }
+}

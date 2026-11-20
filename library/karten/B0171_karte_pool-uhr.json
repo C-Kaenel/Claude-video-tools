@@ -1,0 +1,15 @@
+{
+ "id": "B0171",
+ "art": "karte",
+ "name": "pool-uhr",
+ "beschreibung": "Schwimmbecken füllt sich (fuellung), daneben eine Uhr; zahl und text darunter",
+ "herkunft": "eigen gezeichnet (Römer-Wasser-Welt, Auftrag V0013)",
+ "stil": "T0003",
+ "kind": "pool-uhr",
+ "params": {
+  "fuellung": 0.6,
+  "zeit": 0,
+  "zahl": "1 OLYMPIC POOL",
+  "text": "EVERY 3 MINUTES"
+ }
+}

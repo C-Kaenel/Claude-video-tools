@@ -1,0 +1,24 @@
+{
+ "id": "B0005",
+ "art": "figur",
+ "name": "zeitungsjunge",
+ "beschreibung": "Zeitungsjunge (Kind) mit dunkler Mütze",
+ "herkunft": "V0002 (nachgebaut nach Bildern, eigen)",
+ "stil": "T0003",
+ "spec": {
+  "name": "zeitungsjunge",
+  "build": "child",
+  "skin": "#ffe2c2",
+  "coat": "#3a3a48",
+  "hair": {
+   "style": "bald",
+   "color": "#000000"
+  },
+  "hat": {
+   "kind": "cap",
+   "color": "#1e2338",
+   "band": "#1e2338"
+  },
+  "zeit": "stadt"
+ }
+}

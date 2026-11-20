@@ -1,0 +1,17 @@
+{
+  "id": "B0040",
+  "art": "kamera",
+  "name": "totale",
+  "beschreibung": "Totale: ganze Umgebung, Figuren klein",
+  "herkunft": "eigen (Kamera-Grammatik der Spezifikation 5)",
+  "stil": "T0003",
+  "pattern": {
+    "name": "totale",
+    "distance": 11,
+    "height": 2.4,
+    "side": 2.5,
+    "lookHeight": 1.8,
+    "fov": 44,
+    "focus": 0
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "B0044",
+  "art": "kamera",
+  "name": "fahrt-entlang",
+  "beschreibung": "Seitliche Fahrt entlang der Szene",
+  "herkunft": "eigen (Kamera-Grammatik der Spezifikation 5)",
+  "stil": "T0003",
+  "pattern": {
+    "name": "fahrt-entlang",
+    "distance": 6,
+    "height": 1.9,
+    "side": -3,
+    "lookHeight": 1.4,
+    "fov": 40,
+    "focus": 8,
+    "move": {
+      "dx": 6,
+      "dz": 0,
+      "frames": 90
+    }
+  }
+}

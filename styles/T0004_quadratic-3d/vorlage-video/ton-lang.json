@@ -1,0 +1,125 @@
+{
+ "video": "Quadratic-3D-Lang",
+ "herkunft": "styles/T0004_quadratic-3d/kapitel.ts (tonDatei)",
+ "dauer": {
+  "frames": 750,
+  "fps": 30
+ },
+ "musik": {
+  "bpm": 84,
+  "abschnitte": [
+   {
+    "ab": 0,
+    "akkorde": [
+     "Am",
+     "Em",
+     "F",
+     "Dm"
+    ],
+    "stimmung": "frost"
+   },
+   {
+    "ab": 5.5,
+    "akkorde": [
+     "Am",
+     "Em",
+     "F",
+     "Dm"
+    ],
+    "stimmung": "frost"
+   },
+   {
+    "ab": 13,
+    "akkorde": [
+     "Am",
+     "Em",
+     "F",
+     "Dm"
+    ],
+    "stimmung": "eis"
+   },
+   {
+    "ab": 20,
+    "akkorde": [
+     "Am",
+     "Em",
+     "F",
+     "Dm"
+    ],
+    "stimmung": "nebel",
+    "bildpause": true
+   }
+  ],
+  "schluss": true
+ },
+ "betten": [
+  {
+   "klang": "air",
+   "ab": 0,
+   "bis": 25,
+   "db": -10
+  }
+ ],
+ "ereignisse": [
+  {
+   "t": 0.4,
+   "klang": "t4:glas",
+   "db": -13
+  },
+  {
+   "t": 1.2000000000000002,
+   "klang": "t4:eisschlag",
+   "db": -7
+  },
+  {
+   "t": 3.2,
+   "klang": "t4:eisschlag",
+   "db": -5
+  },
+  {
+   "t": 5.9,
+   "klang": "t4:glas",
+   "db": -11
+  },
+  {
+   "t": 6.366666666666667,
+   "klang": "t4:klick",
+   "db": -8
+  },
+  {
+   "t": 6.9,
+   "klang": "t4:glas",
+   "db": -11
+  },
+  {
+   "t": 7.366666666666667,
+   "klang": "t4:klick",
+   "db": -8
+  },
+  {
+   "t": 13.2,
+   "klang": "t4:glas",
+   "db": -13
+  },
+  {
+   "t": 14.5,
+   "klang": "t4:funkeln",
+   "db": -12
+  },
+  {
+   "t": 15,
+   "klang": "t4:funkeln",
+   "db": -12
+  },
+  {
+   "t": 15.5,
+   "klang": "t4:funkeln",
+   "db": -12
+  },
+  {
+   "t": 16,
+   "klang": "t4:eisschlag",
+   "db": -11
+  }
+ ]
+}

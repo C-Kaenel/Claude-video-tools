@@ -1,0 +1,151 @@
+{
+ "id": "B0087",
+ "art": "rezept",
+ "name": "stadt-strasse",
+ "beschreibung": "Strasse am Kai der Stadt um 1900 (Häuser im Bild): Laterne, Bäume, Blumentöpfe, Fahne, Kisten am Gehsteig",
+ "herkunft": "eigen",
+ "stil": "T0003",
+ "light": "day",
+ "welt": "stadt",
+ "ort": "PLACES.laborstrasse",
+ "props": [
+  {
+   "kind": "lantern",
+   "at": [
+    19,
+    -4.3
+   ]
+  },
+  {
+   "kind": "blumentopf",
+   "at": [
+    21.6,
+    -5.2
+   ]
+  },
+  {
+   "kind": "blumentopf",
+   "at": [
+    26.4,
+    -5.2
+   ],
+   "h": 1.1
+  },
+  {
+   "kind": "fahne",
+   "at": [
+    30,
+    -4.4
+   ],
+   "farbe": "#2f6fd0"
+  },
+  {
+   "kind": "crates",
+   "at": [
+    28.4,
+    -5.2
+   ],
+   "turn": -8
+  },
+  {
+   "kind": "baum",
+   "at": [
+    16.5,
+    -4.8
+   ],
+   "h": 5.5
+  },
+  {
+   "kind": "busch",
+   "at": [
+    24,
+    -5.5
+   ]
+  },
+  {
+   "kind": "lantern",
+   "at": [
+    27.4,
+    -4.2
+   ]
+  },
+  {
+   "kind": "baum",
+   "at": [
+    32.5,
+    -4.8
+   ],
+   "h": 5
+  },
+  {
+   "kind": "blumentopf",
+   "at": [
+    30.8,
+    -5.2
+   ]
+  }
+ ],
+ "punkte": {
+  "mitte": [
+   24,
+   -2.8
+  ],
+  "links": [
+   22.9,
+   -3.1
+  ],
+  "rechts": [
+   25.1,
+   -3.1
+  ]
+ },
+ "kameras": {
+  "halbnah": {
+   "pos": [
+    25,
+    1.8,
+    6
+   ],
+   "look": [
+    24,
+    1.7,
+    -4
+   ],
+   "fov": 40
+  },
+  "totale": {
+   "pos": [
+    21,
+    2.6,
+    9
+   ],
+   "look": [
+    26,
+    3.2,
+    -5
+   ],
+   "fov": 44
+  }
+ },
+ "heimat": "styles/T0003_cartoon-3d2d/szene.ts (rezept, rezeptPunkt, rezeptKamera)",
+ "weg": [
+  [
+   21.8,
+   -4.3
+  ],
+  [
+   26.2,
+   -4.3
+  ]
+ ],
+ "geprueft": {
+  "datum": "2026-11-18",
+  "ok": true,
+  "details": {
+   "halbnah": 6,
+   "totale": 6
+  },
+  "funde": [],
+  "welt_funde": []
+ }
+}

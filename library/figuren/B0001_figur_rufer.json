@@ -1,0 +1,18 @@
+{
+ "id": "B0001",
+ "art": "figur",
+ "name": "rufer",
+ "beschreibung": "Rufer im braunen Mantel, braune Haarkappe – ruft „Hello!“",
+ "herkunft": "V0002 (nachgebaut nach Bildern, eigen)",
+ "stil": "T0003",
+ "spec": {
+  "name": "rufer",
+  "skin": "#ffe2c2",
+  "coat": "#5a3a24",
+  "hair": {
+   "style": "cap",
+   "color": "#5b3a22"
+  },
+  "zeit": "stadt"
+ }
+}

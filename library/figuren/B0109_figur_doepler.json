@@ -1,0 +1,33 @@
+{
+ "id": "B0109",
+ "art": "figur",
+ "name": "doepler",
+ "beschreibung": "Kostümbildner 1876 (Bayreuther Ring): dunkelblauer Gehrock mit Hemdbrust und roter Schleife, graubrauner Vollbart, Skizzenblock mit Helm-Entwurf",
+ "herkunft": "eigen",
+ "stil": "T0003",
+ "spec": {
+  "name": "doepler",
+  "build": "adult",
+  "skin": "#efc4a0",
+  "coat": "#33427a",
+  "pants": "#2e2e3a",
+  "shoes": "#1e1a22",
+  "hair": {
+   "style": "side",
+   "color": "#7a6a58"
+  },
+  "bart": {
+   "color": "#7a6a58",
+   "art": "voll"
+  },
+  "frack": {
+   "hemd": "#ffffff",
+   "schleife": "#d8262e"
+  },
+  "ding": {
+   "art": "skizze"
+  },
+  "buttons": false,
+  "zeit": "stadt"
+ }
+}

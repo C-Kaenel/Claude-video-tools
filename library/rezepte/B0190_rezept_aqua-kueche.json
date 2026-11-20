@@ -1,0 +1,76 @@
+{
+ "id": "B0190",
+ "art": "rezept",
+ "name": "aqua-kueche",
+ "beschreibung": "Römische Küche: Herd mit Bleitopf, Kräuter, Brot, Krüge",
+ "herkunft": "eigen",
+ "stil": "T0003",
+ "light": "golden",
+ "welt": "aqua",
+ "aqua": {},
+ "ort": "AQUA_PLACES.kueche",
+ "props": [],
+ "punkte": {
+  "mitte": [
+   5989,
+   -2.6
+  ],
+  "links": [
+   5987.4,
+   -2.2
+  ],
+  "rechts": [
+   5991.2,
+   -2.0
+  ]
+ },
+ "weg": [
+  [
+   5986.6,
+   -0.8
+  ],
+  [
+   5988.4,
+   -0.8
+  ]
+ ],
+ "kameras": {
+  "totale": {
+   "pos": [
+    5990,
+    2.2,
+    4.2
+   ],
+   "look": [
+    5989.2,
+    1.2,
+    -3.5
+   ],
+   "fov": 44
+  },
+  "halbnah": {
+   "pos": [
+    5991,
+    1.6,
+    1
+   ],
+   "look": [
+    5989,
+    1.2,
+    -4.1
+   ],
+   "fov": 38
+  }
+ },
+ "heimat": "styles/T0003_cartoon-3d2d/szene.ts (rezept, rezeptPunkt, rezeptKamera)",
+ "geprueft": {
+  "datum": "2026-11-18",
+  "ok": true,
+  "details": {
+   "totale": 10,
+   "halbnah": 9
+  },
+  "funde": [],
+  "welt_funde": []
+ }
+}

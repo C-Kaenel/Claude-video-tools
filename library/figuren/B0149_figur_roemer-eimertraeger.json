@@ -1,0 +1,25 @@
+{
+ "id": "B0149",
+ "art": "figur",
+ "name": "roemer-eimertraeger",
+ "beschreibung": "Arbeiter mit Eimer (Rom): graue Tunika mit Gürtel, kurzes schwarzes Haar, Holzeimer",
+ "herkunft": "eigen",
+ "stil": "T0003",
+ "spec": {
+  "name": "roemer-eimertraeger",
+  "build": "adult",
+  "skin": "#b07a55",
+  "coat": "#a8a29a",
+  "shoes": "#5a3e26",
+  "hair": {
+   "style": "cap",
+   "color": "#1e1612"
+  },
+  "belt": "#5a3e26",
+  "ding": {
+   "art": "eimer"
+  },
+  "buttons": false,
+  "zeit": "roemer"
+ }
+}

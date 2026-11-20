@@ -1,0 +1,118 @@
+{
+ "id": "B0192",
+ "art": "rezept",
+ "name": "aqua-see-boot",
+ "beschreibung": "Heute: See mit Forschungsboot, Bohrkern-Tisch am Ufer, Schilf",
+ "herkunft": "eigen",
+ "stil": "T0003",
+ "light": "day",
+ "welt": "aqua",
+ "aqua": {},
+ "ort": "AQUA_PLACES.see-boot",
+ "props": [
+  {
+   "kind": "aquateil",
+   "art": "schilf",
+   "at": [
+    6590,
+    -46
+   ]
+  },
+  {
+   "kind": "aquateil",
+   "art": "schilf",
+   "at": [
+    6601,
+    -46.5
+   ]
+  },
+  {
+   "kind": "aquateil",
+   "art": "schilf",
+   "at": [
+    6593.2,
+    -46
+   ]
+  },
+  {
+   "kind": "aquateil",
+   "art": "kruege",
+   "at": [
+    6597.4,
+    -44.6
+   ]
+  },
+  {
+   "kind": "aquateil",
+   "art": "hund",
+   "at": [
+    6599.6,
+    -44.2
+   ],
+   "turn": -120
+  }
+ ],
+ "punkte": {
+  "mitte": [
+   6596.6,
+   -43.2
+  ],
+  "links": [
+   6594.8,
+   -43.0
+  ],
+  "rechts": [
+   6598.6,
+   -43.6
+  ]
+ },
+ "weg": [
+  [
+   6596.4,
+   -38.4
+  ],
+  [
+   6595.8,
+   -40.6
+  ]
+ ],
+ "kameras": {
+  "totale": {
+   "pos": [
+    6594,
+    2.6,
+    -30
+   ],
+   "look": [
+    6604,
+    -0.3,
+    -62
+   ],
+   "fov": 44
+  },
+  "halbnah": {
+   "pos": [
+    6597.8,
+    1.5,
+    -39.6
+   ],
+   "look": [
+    6595.4,
+    0.9,
+    -43.8
+   ],
+   "fov": 38
+  }
+ },
+ "heimat": "styles/T0003_cartoon-3d2d/szene.ts (rezept, rezeptPunkt, rezeptKamera)",
+ "geprueft": {
+  "datum": "2026-11-18",
+  "ok": true,
+  "details": {
+   "totale": 23,
+   "halbnah": 18
+  },
+  "funde": [],
+  "welt_funde": []
+ }
+}

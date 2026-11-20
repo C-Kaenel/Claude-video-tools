@@ -1,0 +1,125 @@
+{
+ "id": "B0141",
+ "art": "rezept",
+ "name": "roemer-landstrasse",
+ "beschreibung": "Schnurgerade Römerstrasse bis zum Horizont: Pflaster mit Randsteinen, Pinienallee und Zypressen, Meilenstein MP XII am Rand, Grabmäler, Wegstation rechts, Hügel im Dunst",
+ "herkunft": "eigen",
+ "stil": "T0003",
+ "light": "day",
+ "welt": "roemer",
+ "roemer": {},
+ "ort": "ROEMER_PLACES.landstrasse",
+ "props": [
+  {
+   "kind": "roemerteil",
+   "art": "amphoren",
+   "at": [
+    7.2,
+    -10.5
+   ]
+  },
+  {
+   "kind": "roemerteil",
+   "art": "korb",
+   "at": [
+    6.9,
+    -12.6
+   ]
+  },
+  {
+   "kind": "roemerteil",
+   "art": "ochsenkarren",
+   "at": [
+    7.4,
+    -19
+   ]
+  },
+  {
+   "kind": "roemerteil",
+   "art": "steinhaufen",
+   "at": [
+    -7.3,
+    -15
+   ]
+  },
+  {
+   "kind": "roemerteil",
+   "art": "amphore",
+   "at": [
+    -7.0,
+    -11.5
+   ]
+  },
+  {
+   "kind": "roemerteil",
+   "art": "korb",
+   "at": [
+    6.8,
+    -15.8
+   ]
+  }
+ ],
+ "punkte": {
+  "mitte": [
+   0,
+   -12
+  ],
+  "links": [
+   -1.4,
+   -16
+  ],
+  "rechts": [
+   1.4,
+   -20
+  ]
+ },
+ "weg": [
+  [
+   -1,
+   -6
+  ],
+  [
+   -1,
+   -18
+  ]
+ ],
+ "kameras": {
+  "totale": {
+   "pos": [
+    6.5,
+    5,
+    14
+   ],
+   "look": [
+    0,
+    1.2,
+    -130
+   ],
+   "fov": 44
+  },
+  "halbnah": {
+   "pos": [
+    -1.5,
+    1.9,
+    -2
+   ],
+   "look": [
+    3.0,
+    1.5,
+    -14.6
+   ],
+   "fov": 38
+  }
+ },
+ "heimat": "styles/T0003_cartoon-3d2d/szene.ts (rezept, rezeptPunkt, rezeptKamera)",
+ "geprueft": {
+  "datum": "2026-11-18",
+  "ok": true,
+  "details": {
+   "totale": 23,
+   "halbnah": 6
+  },
+  "funde": [],
+  "welt_funde": []
+ }
+}

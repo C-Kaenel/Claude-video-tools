@@ -1,0 +1,45 @@
+{
+ "id": "B0108",
+ "art": "figur",
+ "name": "saenger",
+ "beschreibung": "Opernsänger Bayreuth 1876 im Wikinger-Kostüm der Oper: Hörnerhelm (Opern-Erfindung, nicht historisch), blonder Vollbart, rotes Kostüm mit goldener Borte, blauer Mantel, Schild und Speer, kräftig – mit hat.kind \"fluegelhelm\" der Flügelhelm",
+ "herkunft": "eigen",
+ "stil": "T0003",
+ "spec": {
+  "name": "saenger",
+  "build": "stout",
+  "skin": "#f0c09a",
+  "coat": "#d8262e",
+  "pants": "#6b5440",
+  "shoes": "#4a2e1e",
+  "hair": {
+   "style": "long",
+   "color": "#e6b85c"
+  },
+  "hat": {
+   "kind": "hoernerhelm",
+   "color": "#d4dbe4",
+   "band": "#f3e4c0"
+  },
+  "bart": {
+   "color": "#e6b85c",
+   "art": "voll"
+  },
+  "belt": "#e6b43a",
+  "borte": "#e6b43a",
+  "mantel": {
+   "color": "#2f6fd0",
+   "fibel": "#e6b43a"
+  },
+  "schild": {
+   "color": "#e6b43a",
+   "muster": "#d8262e",
+   "art": "ring"
+  },
+  "ding": {
+   "art": "speer"
+  },
+  "buttons": false,
+  "zeit": "stadt"
+ }
+}

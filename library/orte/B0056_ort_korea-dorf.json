@@ -1,0 +1,10 @@
+{
+  "id": "B0056",
+  "art": "ort",
+  "name": "korea-dorf",
+  "beschreibung": "Strohdach-Dorf am Fuss des Festungsbergs (Korea-Welt)",
+  "herkunft": "V0004, eigen",
+  "stil": "T0003",
+  "place": "dorf",
+  "heimat": "engine/v01/world/festung.ts (KOREA_PLACES.dorf)"
+}

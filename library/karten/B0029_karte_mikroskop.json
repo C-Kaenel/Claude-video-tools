@@ -1,0 +1,12 @@
+{
+  "id": "B0029",
+  "art": "karte",
+  "name": "mikroskop",
+  "beschreibung": "Mikroskop-Ansicht: Blutkörperchen und Viren, Menge 0–1",
+  "herkunft": "V0002/V0003 (Spezifikation 7.4), eigen gezeichnet",
+  "stil": "T0003",
+  "kind": "mikroskop",
+  "params": {
+    "menge": 0.5
+  }
+}

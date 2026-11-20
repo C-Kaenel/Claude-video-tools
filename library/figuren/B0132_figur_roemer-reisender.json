@@ -1,0 +1,32 @@
+{
+ "id": "B0132",
+ "art": "figur",
+ "name": "roemer-reisender",
+ "beschreibung": "Reisender (Rom): Petasus (breiter Reisehut), braune Tunika, ockerfarbener Reisemantel mit Fibel, Wanderstock",
+ "herkunft": "eigen",
+ "stil": "T0003",
+ "spec": {
+  "name": "roemer-reisender",
+  "build": "adult",
+  "skin": "#e4ae86",
+  "coat": "#b5653f",
+  "shoes": "#5a3a24",
+  "hair": {
+   "style": "cap",
+   "color": "#6b4a2a"
+  },
+  "hat": {
+   "kind": "petasus",
+   "color": "#c9a46a",
+   "band": "#7a5a32"
+  },
+  "belt": "#5a3a24",
+  "mantel": {
+   "color": "#d9a441",
+   "fibel": "#e3b33f"
+  },
+  "stab": "#8a5532",
+  "buttons": false,
+  "zeit": "roemer"
+ }
+}

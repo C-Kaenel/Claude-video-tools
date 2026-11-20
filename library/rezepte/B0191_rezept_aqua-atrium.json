@@ -1,0 +1,101 @@
+{
+ "id": "B0191",
+ "art": "rezept",
+ "name": "aqua-atrium",
+ "beschreibung": "Atrium einer Villa: Impluvium mit Wasserstrahl, Säulen, Hausaltar, Lichtsäule von oben",
+ "herkunft": "eigen",
+ "stil": "T0003",
+ "light": "day",
+ "welt": "aqua",
+ "aqua": {},
+ "ort": "AQUA_PLACES.atrium",
+ "props": [
+  {
+   "kind": "aquateil",
+   "art": "amphoren",
+   "at": [
+    6035.9,
+    -4.7
+   ]
+  },
+  {
+   "kind": "aquateil",
+   "art": "kruege",
+   "at": [
+    6031.6,
+    -4.8
+   ]
+  },
+  {
+   "kind": "aquateil",
+   "art": "kruege",
+   "at": [
+    6035.0,
+    -4.5
+   ]
+  }
+ ],
+ "punkte": {
+  "mitte": [
+   6034,
+   -3.2
+  ],
+  "links": [
+   6032.4,
+   -3.4
+  ],
+  "rechts": [
+   6035.8,
+   -3.3
+  ]
+ },
+ "weg": [
+  [
+   6038,
+   0.5
+  ],
+  [
+   6038,
+   -3.5
+  ]
+ ],
+ "kameras": {
+  "totale": {
+   "pos": [
+    6034,
+    2.3,
+    6.3
+   ],
+   "look": [
+    6034,
+    1.2,
+    -4
+   ],
+   "fov": 44
+  },
+  "halbnah": {
+   "pos": [
+    6033.2,
+    1.6,
+    1.8
+   ],
+   "look": [
+    6034,
+    1.3,
+    -3.2
+   ],
+   "fov": 38
+  }
+ },
+ "heimat": "styles/T0003_cartoon-3d2d/szene.ts (rezept, rezeptPunkt, rezeptKamera)",
+ "geprueft": {
+  "datum": "2026-11-18",
+  "ok": true,
+  "details": {
+   "totale": 9,
+   "halbnah": 7
+  },
+  "funde": [],
+  "welt_funde": []
+ }
+}

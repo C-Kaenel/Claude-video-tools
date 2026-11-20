@@ -1,0 +1,16 @@
+{
+ "id": "B0099",
+ "art": "karte",
+ "name": "aufruf",
+ "beschreibung": "Aufruf-Leiste für die Kapitel-Art aufruf: weisse Leiste mit Daumen (Umriss), SUBSCRIBE-Knopf und Glocke; ein Maus-Zeiger klickt sie nacheinander an (Daumen blau, SUBSCRIBED, Glocke gold und schwingt)",
+ "herkunft": "eigen gezeichnet (Kapitel aufruf, Langformat)",
+ "stil": "T0003",
+ "kind": "aufruf",
+ "params": {
+  "hand": 1,
+  "hx": 800,
+  "like": 1,
+  "abo": 0,
+  "glocke": 0
+ }
+}

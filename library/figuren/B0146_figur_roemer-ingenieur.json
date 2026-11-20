@@ -1,0 +1,28 @@
+{
+ "id": "B0146",
+ "art": "figur",
+ "name": "roemer-ingenieur",
+ "beschreibung": "Ingenieur (architectus, Rom): blaue Tunika mit Gürtel, ockerfarbener Schulterumhang, dunkles Haar, Bauplan-Skizze in der Hand",
+ "herkunft": "eigen",
+ "stil": "T0003",
+ "spec": {
+  "name": "roemer-ingenieur",
+  "build": "adult",
+  "skin": "#d9a07a",
+  "coat": "#3f6fb5",
+  "shoes": "#6b4a2a",
+  "hair": {
+   "style": "side",
+   "color": "#2a1e18"
+  },
+  "umhang": "#d9a441",
+  "belt": "#6b4a2a",
+  "schnalle": "#e3b33f",
+  "saum": "#2c4f86",
+  "ding": {
+   "art": "skizze"
+  },
+  "buttons": false,
+  "zeit": "roemer"
+ }
+}

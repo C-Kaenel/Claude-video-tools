@@ -1,0 +1,134 @@
+{
+ "id": "B0182",
+ "art": "rezept",
+ "name": "aqua-wasserschloss",
+ "beschreibung": "Wasserschloss (Castellum): Becken mit Schiebern, Fächer aus Bleirohren an der Rückwand, eine goldene Düse",
+ "herkunft": "eigen",
+ "stil": "T0003",
+ "light": "day",
+ "welt": "aqua",
+ "aqua": {},
+ "ort": "AQUA_PLACES.wasserschloss",
+ "props": [
+  {
+   "kind": "aquateil",
+   "art": "amphoren",
+   "at": [
+    3025,
+    -2
+   ]
+  },
+  {
+   "kind": "aquateil",
+   "art": "kruege",
+   "at": [
+    3035,
+    -2.2
+   ]
+  },
+  {
+   "kind": "aquateil",
+   "art": "hund",
+   "at": [
+    3026,
+    -0.5
+   ],
+   "turn": 60
+  },
+  {
+   "kind": "aquateil",
+   "art": "amphoren",
+   "at": [
+    3024.5,
+    0.5
+   ]
+  },
+  {
+   "kind": "aquateil",
+   "art": "kruege",
+   "at": [
+    3034,
+    0.8
+   ]
+  },
+  {
+   "kind": "aquateil",
+   "art": "werkzeug",
+   "at": [
+    3032.5,
+    -1.0
+   ]
+  },
+  {
+   "kind": "aquateil",
+   "art": "amphoren",
+   "at": [
+    3031.6,
+    -0.2
+   ]
+  }
+ ],
+ "punkte": {
+  "mitte": [
+   3030,
+   -3.4
+  ],
+  "links": [
+   3027,
+   -3.6
+  ],
+  "rechts": [
+   3033,
+   -3.2
+  ]
+ },
+ "weg": [
+  [
+   3027.5,
+   -1.4
+  ],
+  [
+   3032.5,
+   -1.4
+  ]
+ ],
+ "kameras": {
+  "totale": {
+   "pos": [
+    3030,
+    6.5,
+    8
+   ],
+   "look": [
+    3030,
+    1,
+    -12
+   ],
+   "fov": 44
+  },
+  "halbnah": {
+   "pos": [
+    3030,
+    2.0,
+    4.5
+   ],
+   "look": [
+    3030,
+    1.6,
+    -8
+   ],
+   "fov": 38
+  }
+ },
+ "heimat": "styles/T0003_cartoon-3d2d/szene.ts (rezept, rezeptPunkt, rezeptKamera)",
+ "geprueft": {
+  "datum": "2026-11-18",
+  "ok": true,
+  "details": {
+   "totale": 7,
+   "halbnah": 7
+  },
+  "funde": [],
+  "welt_funde": []
+ }
+}

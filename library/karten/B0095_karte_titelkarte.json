@@ -1,0 +1,14 @@
+{
+ "id": "B0095",
+ "art": "karte",
+ "name": "titelkarte",
+ "beschreibung": "Titelkarte eines Kapitels (Langformat): Papier mit farbigem Band, CHAPTER-Nummer, Titel, kleine Frage",
+ "herkunft": "eigen gezeichnet (Kapitel-Module, Langformat)",
+ "stil": "T0003",
+ "kind": "titelkarte",
+ "params": {
+  "nummer": "CHAPTER 2",
+  "titel": "500 YEARS",
+  "frage": "How did we get here?"
+ }
+}

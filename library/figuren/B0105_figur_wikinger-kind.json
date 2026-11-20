@@ -1,0 +1,28 @@
+{
+ "id": "B0105",
+ "art": "figur",
+ "name": "wikinger-kind",
+ "beschreibung": "Kind um 900: rote Haare, gelber Rock mit blauer Borte, Holzschwert",
+ "herkunft": "eigen",
+ "stil": "T0003",
+ "spec": {
+  "name": "wikinger-kind",
+  "build": "child",
+  "skin": "#f0c4a0",
+  "coat": "#e2b52f",
+  "pants": "#6b5440",
+  "shoes": "#5a3a24",
+  "hair": {
+   "style": "side",
+   "color": "#c9682c"
+  },
+  "belt": "#5a3a24",
+  "borte": "#2f6fd0",
+  "ding": {
+   "art": "schwert",
+   "color": "#c99a5e"
+  },
+  "buttons": false,
+  "zeit": "nord"
+ }
+}

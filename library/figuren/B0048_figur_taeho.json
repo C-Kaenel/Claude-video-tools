@@ -1,0 +1,24 @@
+{
+ "id": "B0048",
+ "art": "figur",
+ "name": "taeho",
+ "beschreibung": "Hwaseong-Bauarbeiter (1794): Stirnband, beiger Hanbok, rote Schärpe",
+ "herkunft": "V0004, eigen",
+ "stil": "T0003",
+ "spec": {
+  "name": "taeho",
+  "skin": "#ecd0b6",
+  "coat": "#c9b48a",
+  "hair": {
+   "style": "topknot",
+   "color": "#241c1c"
+  },
+  "hat": {
+   "kind": "headband",
+   "color": "#f7f3e8"
+  },
+  "sash": "#c0392b",
+  "buttons": false,
+  "zeit": "korea"
+ }
+}

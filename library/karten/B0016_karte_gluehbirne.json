@@ -1,0 +1,12 @@
+{
+  "id": "B0016",
+  "art": "karte",
+  "name": "gluehbirne",
+  "beschreibung": "Glühbirne, an oder aus",
+  "herkunft": "V0002/V0003 (Spezifikation 7.4), eigen gezeichnet",
+  "stil": "T0003",
+  "kind": "gluehbirne",
+  "params": {
+    "an": 1
+  }
+}

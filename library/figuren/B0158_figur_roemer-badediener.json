@@ -1,0 +1,25 @@
+{
+ "id": "B0158",
+ "art": "figur",
+ "name": "roemer-badediener",
+ "beschreibung": "Badediener (Rom): kurze hellgrüne Tunika, kurzes Haar, Schwamm-Stab (tersorium)",
+ "herkunft": "eigen",
+ "stil": "T0003",
+ "spec": {
+  "name": "roemer-badediener",
+  "build": "adult",
+  "skin": "#b07a55",
+  "coat": "#9fd08a",
+  "shoes": "#c08c5a",
+  "hair": {
+   "style": "cap",
+   "color": "#1e1612"
+  },
+  "belt": "#5a3e26",
+  "ding": {
+   "art": "schwammstab"
+  },
+  "buttons": false,
+  "zeit": "roemer"
+ }
+}

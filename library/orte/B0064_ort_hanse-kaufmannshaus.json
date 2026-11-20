@@ -1,0 +1,10 @@
+{
+  "id": "B0064",
+  "art": "ort",
+  "name": "hanse-kaufmannshaus",
+  "beschreibung": "Hanse-Welt: Backstein-Giebelhaus des Kaufmanns mit Treppengiebel, Dielentor, Ladeluken (zu/offen) und Windenbalken mit Aufzug",
+  "herkunft": "V0005, eigen",
+  "stil": "T0003",
+  "place": "kaufmannshaus",
+  "heimat": "engine/v01/world/hanse.ts (HANSE_PLACES.kaufmannshaus)"
+}

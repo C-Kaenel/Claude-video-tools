@@ -1,0 +1,13 @@
+{
+ "id": "B0173",
+ "art": "karte",
+ "name": "bohrkern",
+ "beschreibung": "Bohrkern aus dem Seegrund im Schnitt (Schichten), daneben die Kurve Blei im Wasser über die Jahre; fortschritt zeichnet sie von alt nach neu, spitze markiert die Römerzeit",
+ "herkunft": "eigen gezeichnet (Römer-Wasser-Welt, Auftrag V0013)",
+ "stil": "T0003",
+ "kind": "bohrkern",
+ "params": {
+  "fortschritt": 1,
+  "spitze": "ROMAN EMPIRE"
+ }
+}

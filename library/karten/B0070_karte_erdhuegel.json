@@ -1,0 +1,13 @@
+{
+  "id": "B0070",
+  "art": "karte",
+  "name": "erdhuegel",
+  "beschreibung": "Erdhügel (Belagerungsrampe aus Erde, Pfählen und Körben): wächst mit hoehe 0…1, sackt mit einsturz 0…1 zusammen",
+  "herkunft": "V0004, eigen gezeichnet",
+  "stil": "T0003",
+  "kind": "erdhuegel",
+  "params": {
+    "hoehe": 1,
+    "einsturz": 0
+  }
+}

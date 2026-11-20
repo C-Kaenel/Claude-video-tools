@@ -1,0 +1,103 @@
+{
+ "id": "B0179",
+ "art": "rezept",
+ "name": "aqua-vermessung",
+ "beschreibung": "Vermessung im Feld: Chorobates (Wasserwaage), Messlatte, Groma, Pflöcke in einer Reihe",
+ "herkunft": "eigen",
+ "stil": "T0003",
+ "light": "day",
+ "welt": "aqua",
+ "aqua": {},
+ "ort": "AQUA_PLACES.vermessung",
+ "props": [
+  {
+   "kind": "aquateil",
+   "art": "schaf",
+   "at": [
+    1135,
+    22
+   ],
+   "turn": 40
+  },
+  {
+   "kind": "aquateil",
+   "art": "kruege",
+   "at": [
+    1146.5,
+    23.5
+   ]
+  },
+  {
+   "kind": "aquateil",
+   "art": "werkzeug",
+   "at": [
+    1144.5,
+    24.0
+   ],
+   "turn": 20
+  }
+ ],
+ "punkte": {
+  "mitte": [
+   1141.4,
+   26.2
+  ],
+  "links": [
+   1138,
+   26.6
+  ],
+  "rechts": [
+   1146,
+   27
+  ]
+ },
+ "weg": [
+  [
+   1137,
+   29
+  ],
+  [
+   1145,
+   29
+  ]
+ ],
+ "kameras": {
+  "totale": {
+   "pos": [
+    1140,
+    4,
+    44
+   ],
+   "look": [
+    1140,
+    1,
+    25
+   ],
+   "fov": 44
+  },
+  "halbnah": {
+   "pos": [
+    1144,
+    1.6,
+    31
+   ],
+   "look": [
+    1140,
+    1.1,
+    25
+   ],
+   "fov": 38
+  }
+ },
+ "heimat": "styles/T0003_cartoon-3d2d/szene.ts (rezept, rezeptPunkt, rezeptKamera)",
+ "geprueft": {
+  "datum": "2026-11-18",
+  "ok": true,
+  "details": {
+   "totale": 11,
+   "halbnah": 7
+  },
+  "funde": [],
+  "welt_funde": []
+ }
+}

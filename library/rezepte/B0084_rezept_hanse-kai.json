@@ -1,0 +1,155 @@
+{
+ "id": "B0084",
+ "art": "rezept",
+ "name": "hanse-kai",
+ "beschreibung": "Kai der Hanse-Welt mit Kogge und Laufplanke: Fässer, Säcke, Tuchballen, Fahne, Blumentopf – Blick aufs Wasser (Bild gespiegelt: links = +x)",
+ "herkunft": "eigen",
+ "stil": "T0003",
+ "light": "day",
+ "welt": "hanse",
+ "ort": "HANSE_PLACES.kai",
+ "props": [
+  {
+   "kind": "fass",
+   "at": [
+    -33.2,
+    8.6
+   ],
+   "n": 2
+  },
+  {
+   "kind": "saecke",
+   "at": [
+    -26.8,
+    8.6
+   ],
+   "n": 2
+  },
+  {
+   "kind": "fahne",
+   "at": [
+    -35.4,
+    8.9
+   ],
+   "farbe": "#d8342c"
+  },
+  {
+   "kind": "tuch",
+   "at": [
+    -34.6,
+    6
+   ],
+   "n": 2
+  },
+  {
+   "kind": "blumentopf",
+   "at": [
+    -32.6,
+    5.4
+   ]
+  },
+  {
+   "kind": "fahne",
+   "at": [
+    -24.6,
+    8.9
+   ],
+   "farbe": "#e2b52f"
+  },
+  {
+   "kind": "fass",
+   "at": [
+    -29,
+    9.1
+   ],
+   "n": 1
+  },
+  {
+   "kind": "saecke",
+   "at": [
+    -30,
+    9.1
+   ],
+   "n": 1
+  },
+  {
+   "kind": "blumentopf",
+   "at": [
+    -31.7,
+    9
+   ],
+   "h": 0.9
+  },
+  {
+   "kind": "blumentopf",
+   "at": [
+    -28.6,
+    8.9
+   ],
+   "h": 1.1
+  }
+ ],
+ "punkte": {
+  "mitte": [
+   -30,
+   6.8
+  ],
+  "links": [
+   -28.9,
+   6.5
+  ],
+  "rechts": [
+   -31.1,
+   6.5
+  ]
+ },
+ "kameras": {
+  "halbnah": {
+   "pos": [
+    -29.8,
+    1.8,
+    -0.4
+   ],
+   "look": [
+    -30.2,
+    2.2,
+    10
+   ],
+   "fov": 42
+  },
+  "totale": {
+   "pos": [
+    -23.5,
+    3.4,
+    -2.6
+   ],
+   "look": [
+    -35,
+    3.6,
+    16
+   ],
+   "fov": 50
+  }
+ },
+ "heimat": "styles/T0003_cartoon-3d2d/szene.ts (rezept, rezeptPunkt, rezeptKamera)",
+ "weg": [
+  [
+   -28.4,
+   7.9
+  ],
+  [
+   -31.6,
+   7.9
+  ]
+ ],
+ "geprueft": {
+  "datum": "2026-11-18",
+  "ok": true,
+  "details": {
+   "halbnah": 6,
+   "totale": 12
+  },
+  "funde": [],
+  "welt_funde": []
+ }
+}

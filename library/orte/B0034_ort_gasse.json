@@ -1,0 +1,10 @@
+{
+  "id": "B0034",
+  "art": "ort",
+  "name": "gasse",
+  "beschreibung": "Blick die Strasse entlang in die Tiefe",
+  "herkunft": "eigen",
+  "stil": "T0003",
+  "place": "gasse",
+  "heimat": "engine/v01/world/town.ts (PLACES.gasse)"
+}

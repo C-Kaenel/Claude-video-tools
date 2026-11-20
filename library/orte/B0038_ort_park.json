@@ -1,0 +1,10 @@
+{
+  "id": "B0038",
+  "art": "ort",
+  "name": "park",
+  "beschreibung": "Rasen mit Bäumen, Büschen, Blumen und Bank",
+  "herkunft": "eigen",
+  "stil": "T0003",
+  "place": "park",
+  "heimat": "engine/v01/world/town.ts (PLACES.park)"
+}

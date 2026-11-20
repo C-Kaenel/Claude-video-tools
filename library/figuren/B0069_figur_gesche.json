@@ -1,0 +1,21 @@
+{
+ "id": "B0069",
+ "art": "figur",
+ "name": "gesche",
+ "beschreibung": "Kaufmannsfrau um 1400: weisser Schleier mit Kinntuch, grünes Kleid",
+ "herkunft": "V0005, eigen",
+ "stil": "T0003",
+ "spec": {
+  "name": "gesche",
+  "skin": "#ffe2c2",
+  "coat": "#5d7a3a",
+  "garment": "dress",
+  "hat": {
+   "kind": "schleier",
+   "color": "#f7f3e8",
+   "band": "#ece6d8"
+  },
+  "buttons": false,
+  "zeit": "hanse"
+ }
+}

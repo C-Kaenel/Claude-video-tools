@@ -1,0 +1,10 @@
+{
+ "id": "B0135",
+ "art": "karte",
+ "name": "groma",
+ "beschreibung": "Groma (römisches Vermessungsgerät): Stange, Kreuz, vier pendelnde Lote; gestrichelte Sichtlinie (sicht 0…1) zu einer rot-weissen Messlatte, Haken wenn fertig; frei, Anker unten",
+ "herkunft": "eigen gezeichnet (Römer-Welt, Auftrag V0012)",
+ "stil": "T0003",
+ "kind": "groma",
+ "params": { "sicht": 1, "zeit": 0 }
+}

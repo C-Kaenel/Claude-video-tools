@@ -1,0 +1,19 @@
+{
+ "id": "B0051",
+ "art": "figur",
+ "name": "dorf-mann",
+ "beschreibung": "Dorfbewohner (Korea, früh): Haarknoten oben, heller Hanbok",
+ "herkunft": "V0004, eigen",
+ "stil": "T0003",
+ "spec": {
+  "name": "dorf-1",
+  "skin": "#f5c9a0",
+  "coat": "#e9e2cf",
+  "hair": {
+   "style": "topknot",
+   "color": "#2a2020"
+  },
+  "buttons": false,
+  "zeit": "korea"
+ }
+}

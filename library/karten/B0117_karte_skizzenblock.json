@@ -1,0 +1,13 @@
+{
+ "id": "B0117",
+ "art": "karte",
+ "name": "skizzenblock",
+ "beschreibung": "Skizzenblock: Kostüm-Skizze mit Hörnerhelm, Mantel und Speer entsteht Strich für Strich (fortschritt 0…1), Bleistift, Notiz COSTUME 1876",
+ "herkunft": "eigen gezeichnet (Wikinger-Short)",
+ "stil": "T0003",
+ "kind": "skizzenblock",
+ "params": {
+  "fortschritt": 1,
+  "notiz": "COSTUME 1876"
+ }
+}

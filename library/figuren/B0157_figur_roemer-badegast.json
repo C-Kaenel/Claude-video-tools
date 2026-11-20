@@ -1,0 +1,25 @@
+{
+ "id": "B0157",
+ "art": "figur",
+ "name": "roemer-badegast",
+ "beschreibung": "Badegast in den Thermen (Rom): kräftig, weisse Tunika, Glatze, zufrieden, Ölfläschchen-Krug",
+ "herkunft": "eigen",
+ "stil": "T0003",
+ "spec": {
+  "name": "roemer-badegast",
+  "build": "stout",
+  "skin": "#eab894",
+  "coat": "#f8f4ea",
+  "shoes": "#c08c5a",
+  "hair": {
+   "style": "bald",
+   "color": "#7a6a5a"
+  },
+  "saum": "#3a7fc4",
+  "ding": {
+   "art": "krug"
+  },
+  "buttons": false,
+  "zeit": "roemer"
+ }
+}

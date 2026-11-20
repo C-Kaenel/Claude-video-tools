@@ -1,0 +1,10 @@
+{
+  "id": "B0036",
+  "art": "ort",
+  "name": "kai",
+  "beschreibung": "Promenade am Fluss mit Bank und Laternen",
+  "herkunft": "eigen",
+  "stil": "T0003",
+  "place": "kai",
+  "heimat": "engine/v01/world/town.ts (PLACES.kai)"
+}

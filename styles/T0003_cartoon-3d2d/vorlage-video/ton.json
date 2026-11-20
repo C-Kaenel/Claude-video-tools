@@ -1,0 +1,14 @@
+{
+ "video": "Vorlage-Video (10 s)",
+ "dauer": {"frames": 300, "fps": 30},
+ "musik": {"bpm": 120, "abschnitte": [{"ab": 0, "akkorde": ["C", "Am", "F"], "stimmung": "bouncy"}, {"ab": 5, "akkorde": ["F", "G", "C"], "stimmung": "light"}]},
+ "betten": [{"klang": "air", "ab": 0, "bis": 10, "db": -11}],
+ "ereignisse": [
+  {"t": 1.0, "klang": "pop", "db": -5, "pan": 0.2},
+  {"t": 1.0, "klang": "impact", "db": -3},
+  {"t": 4.95, "klang": "whoosh", "db": -7, "dauer": 0.5},
+  {"t": 6.0, "klang": "gasp", "db": -6},
+  {"t": 7.5, "klang": "sparkle", "db": -6, "pan": -0.2}
+ ],
+ "ziel": {"lufs": -22.6, "spitze_dbtp": -2, "musik_zu_sfx_db": 2}
+}

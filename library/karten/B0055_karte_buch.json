@@ -1,0 +1,10 @@
+{
+  "id": "B0055",
+  "art": "karte",
+  "name": "buch",
+  "beschreibung": "Aufgeschlagenes Baubuch: Zeichnung eines Krans und senkrechte Schriftzeilen",
+  "herkunft": "V0004, eigen gezeichnet",
+  "stil": "T0003",
+  "kind": "buch",
+  "params": {}
+}

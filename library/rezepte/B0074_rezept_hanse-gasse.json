@@ -1,0 +1,154 @@
+{
+ "id": "B0074",
+ "art": "rezept",
+ "name": "hanse-gasse",
+ "beschreibung": "Strasse mit Backstein-Giebelhäusern: Blumentöpfe vor den Häusern, Baum, Fahne, Fässer und Säcke am Gehsteig",
+ "herkunft": "eigen",
+ "stil": "T0003",
+ "light": "day",
+ "welt": "hanse",
+ "ort": "HANSE_PLACES.strasse",
+ "props": [
+  {
+   "kind": "blumentopf",
+   "at": [
+    -23.6,
+    -5.2
+   ]
+  },
+  {
+   "kind": "blumentopf",
+   "at": [
+    -16.4,
+    -5.2
+   ],
+   "h": 1.1
+  },
+  {
+   "kind": "fass",
+   "at": [
+    -25.5,
+    -4.4
+   ],
+   "n": 2
+  },
+  {
+   "kind": "saecke",
+   "at": [
+    -14.8,
+    -4.4
+   ],
+   "n": 2
+  },
+  {
+   "kind": "baum",
+   "at": [
+    -28.5,
+    -4.6
+   ],
+   "h": 5
+  },
+  {
+   "kind": "fahne",
+   "at": [
+    -12.5,
+    -4.2
+   ],
+   "farbe": "#e0a020"
+  },
+  {
+   "kind": "busch",
+   "at": [
+    -20.8,
+    -5.6
+   ],
+   "h": 0.8
+  },
+  {
+   "kind": "blumentopf",
+   "at": [
+    -21.9,
+    -4.8
+   ]
+  },
+  {
+   "kind": "fass",
+   "at": [
+    -18,
+    -4.7
+   ],
+   "n": 2
+  },
+  {
+   "kind": "blumentopf",
+   "at": [
+    -19.2,
+    -5.3
+   ],
+   "h": 0.9
+  }
+ ],
+ "punkte": {
+  "mitte": [
+   -20,
+   -1.2
+  ],
+  "links": [
+   -21.1,
+   -1.5
+  ],
+  "rechts": [
+   -18.9,
+   -1.5
+  ]
+ },
+ "kameras": {
+  "halbnah": {
+   "pos": [
+    -18.5,
+    1.8,
+    6.5
+   ],
+   "look": [
+    -20,
+    1.6,
+    -3
+   ],
+   "fov": 42
+  },
+  "totale": {
+   "pos": [
+    -17.5,
+    3.2,
+    9
+   ],
+   "look": [
+    -21.5,
+    4.5,
+    -4.4
+   ],
+   "fov": 46
+  }
+ },
+ "geprueft": {
+  "datum": "2026-11-18",
+  "ok": true,
+  "details": {
+   "halbnah": 6,
+   "totale": 10
+  },
+  "funde": [],
+  "welt_funde": []
+ },
+ "heimat": "styles/T0003_cartoon-3d2d/szene.ts (rezept, rezeptPunkt, rezeptKamera)",
+ "weg": [
+  [
+   -22.2,
+   -2.5
+  ],
+  [
+   -17.8,
+   -2.5
+  ]
+ ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "B0018",
+  "art": "karte",
+  "name": "boot",
+  "beschreibung": "Ruderboot als flache Karte",
+  "herkunft": "V0002/V0003 (Spezifikation 7.4), eigen gezeichnet",
+  "stil": "T0003",
+  "kind": "boot",
+  "params": {}
+}

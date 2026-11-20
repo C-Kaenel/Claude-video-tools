@@ -1,0 +1,10 @@
+{
+ "id": "B0136",
+ "art": "karte",
+ "name": "strassenschichten",
+ "beschreibung": "Schnitt durch eine Römerstrasse: fortschritt 0…4 lässt die Schichten nacheinander in den Graben fallen (grosse Steine, Kies mit Kalk, feiner Mörtel, gewölbtes Pflaster mit Randsteinen), Beschriftungen rechts (namen, mit | getrennt)",
+ "herkunft": "eigen gezeichnet (Römer-Welt, Auftrag V0012)",
+ "stil": "T0003",
+ "kind": "strassenschichten",
+ "params": { "fortschritt": 4, "namen": "BIG STONES|GRAVEL & LIME|FINE CONCRETE|PAVING STONES" }
+}

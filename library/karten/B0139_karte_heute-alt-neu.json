@@ -1,0 +1,10 @@
+{
+ "id": "B0139",
+ "art": "karte",
+ "name": "heute-alt-neu",
+ "beschreibung": "Damals und heute: links Römerstrasse (Pflaster, Meilenstein, Pinie), rechts dieselbe Strasse heute (Asphalt, Mittelstreifen, Leitpfosten); wisch 0…1 schiebt die Trennlinie, Beschriftungen links/rechts",
+ "herkunft": "eigen gezeichnet (Römer-Welt, Auftrag V0012)",
+ "stil": "T0003",
+ "kind": "heute-alt-neu",
+ "params": { "wisch": 0.5, "links": "THEN", "rechts": "TODAY" }
+}

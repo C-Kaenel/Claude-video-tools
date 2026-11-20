@@ -1,0 +1,12 @@
+{
+  "id": "B0030",
+  "art": "karte",
+  "name": "thermometer",
+  "beschreibung": "Thermometer, Stand 0–1",
+  "herkunft": "V0002/V0003 (Spezifikation 7.4), eigen gezeichnet",
+  "stil": "T0003",
+  "kind": "thermometer",
+  "params": {
+    "stand": 0.6
+  }
+}

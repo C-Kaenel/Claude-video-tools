@@ -1,0 +1,25 @@
+{
+ "id": "B0046",
+ "art": "figur",
+ "name": "minho",
+ "beschreibung": "Goryeo-Wächter (1033): dunkler Helm mit Goldreif, blaugrauer Rock, rote Schärpe",
+ "herkunft": "V0004, eigen",
+ "stil": "T0003",
+ "spec": {
+  "name": "minho",
+  "skin": "#ecd0b6",
+  "coat": "#4a5f7a",
+  "hair": {
+   "style": "topknot",
+   "color": "#241c1c"
+  },
+  "hat": {
+   "kind": "helmet",
+   "color": "#3c3c46",
+   "band": "#c9a24a"
+  },
+  "sash": "#c0392b",
+  "buttons": false,
+  "zeit": "korea"
+ }
+}

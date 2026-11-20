@@ -1,0 +1,117 @@
+{
+ "id": "B0187",
+ "art": "rezept",
+ "name": "aqua-cloaca",
+ "beschreibung": "Mund der Cloaca Maxima: Abwasser fällt in den Tiber, Boote, Steinbrücke, Stadt am Ufer",
+ "herkunft": "eigen",
+ "stil": "T0003",
+ "light": "day",
+ "welt": "aqua",
+ "aqua": {},
+ "ort": "AQUA_PLACES.cloaca",
+ "props": [
+  {
+   "kind": "aquateil",
+   "art": "schilf",
+   "at": [
+    4794,
+    -36
+   ]
+  },
+  {
+   "kind": "aquateil",
+   "art": "schilf",
+   "at": [
+    4806.5,
+    -36.2
+   ]
+  },
+  {
+   "kind": "aquateil",
+   "art": "schilf",
+   "at": [
+    4789,
+    -36.5
+   ]
+  },
+  {
+   "kind": "aquateil",
+   "art": "schilf",
+   "at": [
+    4797.9,
+    -36.9
+   ]
+  },
+  {
+   "kind": "aquateil",
+   "art": "schilf",
+   "at": [
+    4802.3,
+    -36.9
+   ]
+  }
+ ],
+ "punkte": {
+  "mitte": [
+   4806,
+   -22
+  ],
+  "links": [
+   4802.5,
+   -21.5
+  ],
+  "rechts": [
+   4809,
+   -22.5
+  ]
+ },
+ "weg": [
+  [
+   4803,
+   -19.5
+  ],
+  [
+   4809,
+   -19.5
+  ]
+ ],
+ "kameras": {
+  "totale": {
+   "pos": [
+    4814,
+    3,
+    16
+   ],
+   "look": [
+    4800,
+    -2.5,
+    -38
+   ],
+   "fov": 44
+  },
+  "halbnah": {
+   "pos": [
+    4804,
+    -2.3,
+    -26
+   ],
+   "look": [
+    4800,
+    -3.2,
+    -38
+   ],
+   "fov": 38
+  }
+ },
+ "heimat": "styles/T0003_cartoon-3d2d/szene.ts (rezept, rezeptPunkt, rezeptKamera)",
+ "geprueft": {
+  "datum": "2026-11-18",
+  "ok": true,
+  "details": {
+   "totale": 84,
+   "halbnah": 23
+  },
+  "funde": [],
+  "welt_funde": []
+ }
+}

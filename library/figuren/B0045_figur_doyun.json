@@ -1,0 +1,25 @@
+{
+ "id": "B0045",
+ "art": "figur",
+ "name": "doyun",
+ "beschreibung": "Goguryeo-Wächter (um 500): Eisenhelm mit rotem Stirnreif, Lederrock, rote Familien-Schärpe",
+ "herkunft": "V0004, eigen",
+ "stil": "T0003",
+ "spec": {
+  "name": "doyun",
+  "skin": "#f5c9a0",
+  "coat": "#8a5a3a",
+  "hair": {
+   "style": "topknot",
+   "color": "#241c1c"
+  },
+  "hat": {
+   "kind": "helmet",
+   "color": "#55555f",
+   "band": "#c0392b"
+  },
+  "sash": "#c0392b",
+  "buttons": false,
+  "zeit": "korea"
+ }
+}

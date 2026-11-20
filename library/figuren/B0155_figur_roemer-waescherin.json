@@ -1,0 +1,28 @@
+{
+ "id": "B0155",
+ "art": "figur",
+ "name": "roemer-waescherin",
+ "beschreibung": "Wäscherin (Rom): rotes langes Kleid, helle Arbeitsschürze, dunkles Haar im Knoten, Holzeimer",
+ "herkunft": "eigen",
+ "stil": "T0003",
+ "spec": {
+  "name": "roemer-waescherin",
+  "build": "adult",
+  "skin": "#e2b08a",
+  "coat": "#d0473a",
+  "garment": "dress",
+  "shoes": "#6b4a2a",
+  "hair": {
+   "style": "bun",
+   "color": "#2a1e18"
+  },
+  "schuerze": {
+   "color": "#f2ead8"
+  },
+  "ding": {
+   "art": "eimer"
+  },
+  "buttons": false,
+  "zeit": "roemer"
+ }
+}

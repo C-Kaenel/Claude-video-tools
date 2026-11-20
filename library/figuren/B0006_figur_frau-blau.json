@@ -1,0 +1,20 @@
+{
+ "id": "B0006",
+ "art": "figur",
+ "name": "frau-blau",
+ "beschreibung": "Frau mit blondem Bob, blauem Kleid und violettem Schal",
+ "herkunft": "V0002 (nachgebaut nach Bildern, eigen)",
+ "stil": "T0003",
+ "spec": {
+  "name": "frau-blau",
+  "skin": "#ffe2c2",
+  "coat": "#3f8fd8",
+  "garment": "dress",
+  "hair": {
+   "style": "bob",
+   "color": "#e8c66a"
+  },
+  "scarf": "#7b5ac9",
+  "zeit": "stadt"
+ }
+}

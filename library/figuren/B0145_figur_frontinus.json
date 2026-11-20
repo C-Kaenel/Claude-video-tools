@@ -1,0 +1,28 @@
+{
+ "id": "B0145",
+ "art": "figur",
+ "name": "frontinus",
+ "beschreibung": "Sextus Julius Frontinus, Wasserkommissar (Rom, um 97): weisse Toga mit Purpursaum über heller Tunika, kurzes graues Haar, Schriftrolle in der Hand",
+ "herkunft": "eigen",
+ "stil": "T0003",
+ "spec": {
+  "name": "frontinus",
+  "build": "adult",
+  "skin": "#e2b08a",
+  "coat": "#efe6d2",
+  "shoes": "#6b4a2a",
+  "hair": {
+   "style": "side",
+   "color": "#9a9590"
+  },
+  "toga": {
+   "color": "#f8f4ea",
+   "streifen": "#7a2a6a"
+  },
+  "ding": {
+   "art": "rolle"
+  },
+  "buttons": false,
+  "zeit": "roemer"
+ }
+}

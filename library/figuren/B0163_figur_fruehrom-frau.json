@@ -1,0 +1,26 @@
+{
+ "id": "B0163",
+ "art": "figur",
+ "name": "fruehrom-frau",
+ "beschreibung": "Frau im frühen Rom (um 700 v. Chr.): langes ungefärbtes Wollkleid, Gürtel, Zöpfe, Tonkrug",
+ "herkunft": "eigen",
+ "stil": "T0003",
+ "spec": {
+  "name": "fruehrom-frau",
+  "build": "adult",
+  "skin": "#d9a07a",
+  "coat": "#c9b48a",
+  "garment": "dress",
+  "shoes": "#4a3220",
+  "hair": {
+   "style": "zoepfe",
+   "color": "#4a3424"
+  },
+  "belt": "#7a5232",
+  "ding": {
+   "art": "krug"
+  },
+  "buttons": false,
+  "zeit": "roemer"
+ }
+}

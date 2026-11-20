@@ -1,0 +1,26 @@
+{
+ "id": "B0151",
+ "art": "figur",
+ "name": "roemer-wasserdieb",
+ "beschreibung": "Wasserdieb (Rom): dunkelgrüne Tunika, brauner Kapuzenumhang, schmaler Schnurrbart, Krug",
+ "herkunft": "eigen",
+ "stil": "T0003",
+ "spec": {
+  "name": "roemer-wasserdieb",
+  "build": "adult",
+  "skin": "#d6a07c",
+  "coat": "#2f6a4a",
+  "shoes": "#4a3220",
+  "hat": {
+   "kind": "gugel",
+   "color": "#6b4a2a"
+  },
+  "moustache": "#2a1e18",
+  "belt": "#4a3220",
+  "ding": {
+   "art": "krug"
+  },
+  "buttons": false,
+  "zeit": "roemer"
+ }
+}

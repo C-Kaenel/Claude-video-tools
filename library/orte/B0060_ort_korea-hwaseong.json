@@ -1,0 +1,10 @@
+{
+  "id": "B0060",
+  "art": "ort",
+  "name": "korea-hwaseong",
+  "beschreibung": "Hwaseong-Art: Quader + Ziegel-Brustwehr, Torhalle, Kanonenturm, Kran; Variante bau/ganz/ruine",
+  "herkunft": "V0004, eigen",
+  "stil": "T0003",
+  "place": "hwaseong",
+  "heimat": "engine/v01/world/festung.ts (KOREA_PLACES.hwaseong)"
+}

@@ -1,0 +1,27 @@
+{
+ "id": "B0152",
+ "art": "figur",
+ "name": "roemer-baecker",
+ "beschreibung": "Bäcker (pistor, Rom): weisse Tunika mit Mehl-Schürze, rundes Gesicht, braunes Haar, Brotlaib",
+ "herkunft": "eigen",
+ "stil": "T0003",
+ "spec": {
+  "name": "roemer-baecker",
+  "build": "stout",
+  "skin": "#e0a982",
+  "coat": "#f3efe4",
+  "shoes": "#6b4a2a",
+  "hair": {
+   "style": "side",
+   "color": "#6a4a2a"
+  },
+  "schuerze": {
+   "color": "#e9dcc0"
+  },
+  "ding": {
+   "art": "brot"
+  },
+  "buttons": false,
+  "zeit": "roemer"
+ }
+}

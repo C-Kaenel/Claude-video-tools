@@ -1,0 +1,15 @@
+{
+ "id": "B0167",
+ "art": "karte",
+ "name": "bleirohr",
+ "beschreibung": "Bleirohr im Schnitt mit wachsender Kalkkruste (kalk 0…1), Stempel auf dem Rohr, Zeichen Pb; warnung 0…1 = Totenkopf mit Funkeln, schnitt false = nur Titel und Warnung",
+ "herkunft": "eigen gezeichnet (Römer-Wasser-Welt, Auftrag V0013)",
+ "stil": "T0003",
+ "kind": "bleirohr",
+ "params": {
+  "kalk": 1,
+  "zeit": 0,
+  "warnung": 0,
+  "schnitt": true
+ }
+}

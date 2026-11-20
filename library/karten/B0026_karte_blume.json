@@ -1,0 +1,12 @@
+{
+  "id": "B0026",
+  "art": "karte",
+  "name": "blume",
+  "beschreibung": "Blume, Blütenfarbe wählbar",
+  "herkunft": "V0002/V0003 (Spezifikation 7.4), eigen gezeichnet",
+  "stil": "T0003",
+  "kind": "blume",
+  "params": {
+    "farbe": ""
+  }
+}

@@ -1,0 +1,12 @@
+{
+ "id": "B0081",
+ "art": "karte",
+ "name": "miasma",
+ "beschreibung": "Miasma („schlechte Luft“): grün-gelbe, wabernde Gestankwolke mit Wirbeln, Gestanklinien und bösen Äuglein; staerke 0…1",
+ "herkunft": "V0006, eigen gezeichnet",
+ "stil": "T0003",
+ "kind": "miasma",
+ "params": {
+  "staerke": 1
+ }
+}

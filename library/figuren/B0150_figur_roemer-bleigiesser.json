@@ -1,0 +1,30 @@
+{
+ "id": "B0150",
+ "art": "figur",
+ "name": "roemer-bleigiesser",
+ "beschreibung": "Bleigiesser (plumbarius, Rom): kräftig, rote Tunika, Leder-Schürze, Glatze mit Bart, Hammer",
+ "herkunft": "eigen",
+ "stil": "T0003",
+ "spec": {
+  "name": "roemer-bleigiesser",
+  "build": "stout",
+  "skin": "#d39470",
+  "coat": "#b8442e",
+  "shoes": "#4a3220",
+  "hair": {
+   "style": "bald",
+   "color": "#3a2a1e"
+  },
+  "bart": {
+   "color": "#3a2a1e"
+  },
+  "schuerze": {
+   "color": "#7a5232"
+  },
+  "ding": {
+   "art": "hammer"
+  },
+  "buttons": false,
+  "zeit": "roemer"
+ }
+}

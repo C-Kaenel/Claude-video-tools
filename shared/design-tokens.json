@@ -1,0 +1,1102 @@
+{
+  "$schema-note": "Design-Tokens V-Video. Alle Stil-Werte an einem Ort; 'source' nennt, wo sie umgesetzt sind. Pixelwerte gelten für 1080x1920 und skalieren mit der Ausgabehöhe / 1920.",
+  "version": "2.7.0",
+  "formats": {
+    "short-form": {
+      "width": 1080,
+      "height": 1920,
+      "aspect": "9:16",
+      "fps": 30,
+      "codec": "h264",
+      "container": "mp4",
+      "durationSec": {
+        "min": 61,
+        "max": 80
+      },
+      "wordsPerSecond": 2.36,
+      "words": {
+        "min": 144,
+        "max": 189
+      },
+      "sceneChangeSec": {
+        "min": 2,
+        "max": 3
+      },
+      "source": "prompts/production-guide.md",
+      "retentionHookSec": {
+        "min": 7,
+        "max": 9
+      },
+      "attention": "jede Einstellung hat einen bewegten, hellen oder blinkenden Blickfang"
+    },
+    "long-form": {
+      "width": 1920,
+      "height": 1080,
+      "aspect": "16:9",
+      "fps": 30,
+      "codec": "h264",
+      "container": "mp4",
+      "wordsPerMinute": 120,
+      "sceneChangeSec": {
+        "min": 4,
+        "max": 8
+      },
+      "source": "prompts/production-guide.md",
+      "note": "Vorlage Cartoon-3D2D: styles/T0003_cartoon-3d2d/vorlage-video/story-lang.ts (Composition Vorlage-Video-Lang)",
+      "lengthMin": {
+          "min": 8,
+          "max": 12,
+          "standard": 10
+        },
+        "speakWordsPerSec": 2.36,
+        "netWordsPerSec": 2,
+        "pauseSec": {
+          "satz": [
+            0.3,
+            0.5
+          ],
+          "gedanke": [
+            1,
+            1.5
+          ],
+          "kapitelVorher": [
+            2,
+            4
+          ],
+          "bildpause": [
+            3,
+            6
+          ],
+          "bildpauseAlleMin": [
+            1,
+            2
+          ]
+        },
+        "chapterEveryMin": [
+          1.5,
+          3
+        ],
+        "chapterTitleSec": [
+          2,
+          3
+        ],
+        "hookQuestionSec": [
+          20,
+          30
+        ],
+        "shotSec": {
+          "meist": [
+            4,
+            8
+          ],
+          "ruhigBis": 12,
+          "pointe": [
+            2,
+            3
+          ],
+          "mittel": 6
+        },
+        "creepPctPerFrame": [
+          0.08,
+          0.2
+        ],
+        "crossfadeFrames": [
+          12,
+          24
+        ],
+        "cardPopFrames": [
+          8,
+          12
+        ],
+        "cardOnScreenSec": [
+          4,
+          10
+        ],
+        "render": {
+          "crf3d": 16,
+          "crf2d": 18,
+          "jeKapitel": "jedes Kapitel einzeln rendern (eigene Datei, eigene Prüfung); zusammengefügt wird erst nach dem grünen Licht des Nutzers – ein Fehler kostet nur sein Kapitel"
+        },
+        "audio": {
+          "targetLUFS": -22.6,
+          "bildpauseMusikDb": [
+            2,
+            3
+          ]
+        },
+        "reintextPause": "[pause 1s]",
+        "kapitelRegeln": "Beginn immer hook, direkt danach aufruf (ohne Titelkarte), Ende immer aufloesung + abspann; nie zweimal dieselbe Art hintereinander (ausser beispiel); etwa alle 2 Kapitel ein panorama; jedes Kapitel mit Titelkarte 2–3 s und kleiner neuer Frage",
+        "kapitelArten": {
+          "hook": {
+            "wofuer": "Einstieg: die grosse Frage, sofort ins Geschehen",
+            "laengeSec": [
+              20,
+              40
+            ],
+            "shotSec": [
+              2,
+              4
+            ],
+            "netWordsPerSec": 2.3,
+            "pausen": "kaum",
+            "kamera": "schnelle Schnitte, Stösse",
+            "karten": "1–2 auffällige Karten",
+            "musik": [
+              "pulse",
+              "bouncy"
+            ]
+          },
+          "aufruf": {
+            "wofuer": "Bitte um Like, Abo und Kommentar – immer direkt nach dem hook, genau einmal",
+            "laengeSec": [
+              5,
+              8
+            ],
+            "shotSec": [
+              5,
+              8
+            ],
+            "netWordsPerSec": 2.36,
+            "pausen": "keine",
+            "kamera": "letztes Bild des hook friert ein und wird unscharf (8–12 Frames), danach keine Bewegung",
+            "karten": "Like-Knopf ploppt auf, wird gedrückt, verschwindet; dann Abo-Knopf ploppt auf, wird gedrückt, verschwindet – alles schnell (je Knopf ca. 1 s)",
+            "musik": [
+              "pulse"
+            ],
+            "text": "Please consider liking and subscribing, and sharing your thoughts in the comments. Now, let's begin."
+          },
+          "montage": {
+            "wofuer": "rapide Animation: Aufzählung, Zeitraffer",
+            "laengeSec": [
+              20,
+              60
+            ],
+            "shotSec": [
+              1.5,
+              3
+            ],
+            "netWordsPerSec": 2.3,
+            "pausen": "keine",
+            "kamera": "harte Schnitte, Schwenks",
+            "karten": "viele kleine, ploppen im Takt",
+            "musik": [
+              "full",
+              "bouncy"
+            ]
+          },
+          "erklaerung": {
+            "wofuer": "wie etwas funktioniert, Schritt für Schritt",
+            "laengeSec": [
+              90,
+              180
+            ],
+            "shotSec": [
+              6,
+              10
+            ],
+            "netWordsPerSec": 1.9,
+            "pausen": "0,5–1 s nach jedem Schritt",
+            "kamera": "ruhig, langsames Kriechen",
+            "karten": "eine grosse Karte baut sich auf (4–10 s)",
+            "musik": [
+              "light",
+              "calm"
+            ]
+          },
+          "beispiel": {
+            "wofuer": "Fallgeschichte: eine Figur erlebt es an einem Ort",
+            "laengeSec": [
+              60,
+              150
+            ],
+            "shotSec": [
+              4,
+              7
+            ],
+            "netWordsPerSec": 2.1,
+            "pausen": "normal",
+            "kamera": "halbnah ↔ nah, folgt der Figur",
+            "karten": "Sprechblasen, Requisiten-Karten",
+            "musik": [
+              "warm",
+              "old"
+            ]
+          },
+          "zeitreise": {
+            "wofuer": "Chronik über Jahre/Epochen",
+            "laengeSec": [
+              60,
+              120
+            ],
+            "shotSec": [
+              4,
+              6
+            ],
+            "netWordsPerSec": 2.1,
+            "pausen": "1 s bei jedem Sprung",
+            "kamera": "Totale je Epoche, Überblendung 16–24 Frames",
+            "karten": "Jahr-Stempel, Kalender",
+            "musik": [
+              "old",
+              "vibes"
+            ]
+          },
+          "vergleich": {
+            "wofuer": "vorher/nachher, zwei Seiten",
+            "laengeSec": [
+              60,
+              120
+            ],
+            "shotSec": [
+              5,
+              8
+            ],
+            "netWordsPerSec": 2,
+            "pausen": "1 s zwischen den Seiten",
+            "kamera": "gleiche Einstellung in beiden Welten, Schnitt hin und her",
+            "karten": "geteilte Karte links/rechts",
+            "musik": [
+              "light"
+            ]
+          },
+          "mythos": {
+            "wofuer": "Mythos vs. Fakt",
+            "laengeSec": [
+              60,
+              90
+            ],
+            "shotSec": [
+              3,
+              6
+            ],
+            "netWordsPerSec": 2.2,
+            "pausen": "1,5 s vor der Auflösung",
+            "kamera": "Stoss + Blitz bei der Auflösung",
+            "karten": "Stempel MYTH / FACT",
+            "musik": [
+              "tense",
+              "bouncy"
+            ]
+          },
+          "zahlen": {
+            "wofuer": "Zahlen und Daten anschaulich",
+            "laengeSec": [
+              45,
+              90
+            ],
+            "shotSec": [
+              5,
+              8
+            ],
+            "netWordsPerSec": 1.8,
+            "pausen": "1 s nach jeder Zahl",
+            "kamera": "ruhig, frontal",
+            "karten": "Zahl wächst, Balken, Mengen-Figuren",
+            "musik": [
+              "sparse",
+              "light"
+            ]
+          },
+          "spannung": {
+            "wofuer": "Wendepunkt, Drama, Gefahr",
+            "laengeSec": [
+              45,
+              90
+            ],
+            "shotSec": [
+              2,
+              8
+            ],
+            "netWordsPerSec": 2.2,
+            "pausen": "2 s vor dem Höhepunkt",
+            "kamera": "langsames Ranfahren, dann Stoss",
+            "karten": "wenige: Warnlicht, Herz",
+            "musik": [
+              "tense",
+              "dark",
+              "pulse"
+            ],
+            "shotSecPhasen": {
+              "aufbau": [
+                2,
+                4
+              ],
+              "hoehepunkt": [
+                6,
+                8
+              ]
+            }
+          },
+          "panorama": {
+            "wofuer": "Atempause, Welt zeigen (Bildpause)",
+            "laengeSec": [
+              6,
+              15
+            ],
+            "shotSec": [
+              6,
+              12
+            ],
+            "netWordsPerSec": null,
+            "pausen": "keine Stimme oder höchstens 1 Satz",
+            "kamera": "weite Fahrt, Totale",
+            "karten": "höchstens Ortsschild",
+            "musik": [
+              "calm"
+            ]
+          },
+          "aufloesung": {
+            "wofuer": "Antwort auf die Hook-Frage, Kernpunkte",
+            "laengeSec": [
+              45,
+              90
+            ],
+            "shotSec": [
+              4,
+              6
+            ],
+            "netWordsPerSec": 2,
+            "pausen": "1 s nach jedem Punkt",
+            "kamera": "Rückblick auf frühere Orte",
+            "karten": "kurze Wiederholung der Hauptkarten",
+            "musik": [
+              "warm",
+              "full"
+            ]
+          },
+          "abspann": {
+            "wofuer": "letzter Gedanke, Frage fürs nächste Video, Loop",
+            "laengeSec": [
+              15,
+              30
+            ],
+            "shotSec": [
+              4,
+              8
+            ],
+            "netWordsPerSec": 2,
+            "pausen": "Schluss-Pause 2 s",
+            "kamera": "Rückfahrt in die Totale",
+            "karten": "Frage-Karte",
+            "musik": [
+              "end"
+            ]
+          }
+        }
+    },
+    "render": {
+      "crf3d": 16,
+      "crf2d": 18,
+      "audioCodec": "aac",
+      "audioBitrate": "256k",
+      "audioSampleRate": 48000
+    }
+  },
+  "safeArea": {
+    "short-form": {
+      "guideRule": "oben/unten je ca. 15 % frei, rechts 180 px frei (Plattform-Buttons)",
+      "topPx": 320,
+      "bottomPx": 320,
+      "leftPx": 80,
+      "rightPx": 180,
+      "qaLines": {
+        "topPct": 15,
+        "bottomPct": 15,
+        "rightX": 900
+      },
+      "source": "templates/T0002_text-animation-2d/HelloVideo.tsx (SAFE), _archive/kontext.txt (QA-Linien)"
+    },
+    "long-form": {
+      "guideRule": "Titel-sicher ca. 5 % rundum, unten mehr (Fortschrittsbalken, Untertitel, Bedienleiste)",
+      "topPx": 54,
+      "bottomPx": 108,
+      "leftPx": 96,
+      "rightPx": 96,
+      "source": "eigene Regel (Tools-Sitzung 2026-11-14), Werte bei 1920x1080; andere Grössen im Verhältnis der kürzeren Seite zu 1080"
+    }
+  },
+  "typography": {
+    "display": {
+      "family": "'Archivo Black', sans-serif",
+      "license": "SIL OFL 1.1",
+      "file": "fonts/ArchivoBlack-Regular.ttf",
+      "source": "templates/short-form/*/font.ts"
+    },
+    "sizesPx": {
+      "slam": 190,
+      "headline": 110,
+      "body": 84,
+      "tag": 58
+    },
+    "lineHeight": 1.05,
+    "letterSpacingPx": {
+      "default": -1,
+      "slam": -4
+    },
+    "textShadow": "0 round(size/14)px 0 rgba(0,0,0,0.35)",
+    "maxWordsPerCard": 6,
+    "serif": {
+      "family": "Lora, serif",
+      "license": "SIL OFL 1.1",
+      "file": "fonts/Lora-Variable.ttf",
+      "weights": "400-700"
+    },
+    "script": {
+      "family": "Caveat, cursive",
+      "license": "SIL OFL 1.1",
+      "file": "fonts/Caveat-Variable.ttf",
+      "weights": "400-700",
+      "note": "~25 % kleiner als Segoe Script bei gleicher px-Grösse: 2D 156 px, 3D-Brief 250 px"
+    }
+  },
+  "color": {
+    "text-animation-2d": {
+      "navy": "#14213D",
+      "navy2": "#1C2D52",
+      "yellow": "#FFC300",
+      "yellow2": "#FFD23F",
+      "red": "#E63946",
+      "red2": "#EF5360",
+      "teal": "#2A9D8F",
+      "teal2": "#34B3A3",
+      "cream": "#F6F1E3",
+      "cream2": "#EDE5CF",
+      "purple": "#5A189A",
+      "purple2": "#6C23B5",
+      "orange": "#F77F00",
+      "orange2": "#FF9020",
+      "white": "#FFFFFF",
+      "ink": "#111111",
+      "usage": "Hintergrund = Farbe 1 + Strahlen in Farbe 2 (rotierend), Text weiss/gelb/rot, Kontur ink",
+      "source": "templates/T0002_text-animation-2d/HelloVideo.tsx (C)"
+    },
+    "cartoon-3d2d": {
+      "worldInk": "#030303",
+      "characterInk": "#241726",
+      "skin": [
+        "#ffe2c2",
+        "#f5c9a0",
+        "#ecd0b6",
+        "#c99067"
+      ],
+      "mouth": "#5a1e28",
+      "tongue": "#e86e78",
+      "coats": [
+        "#3f6fb5",
+        "#8c3b4a",
+        "#5d7a3a",
+        "#b5653f",
+        "#2f5f6a",
+        "#7b5ac9"
+      ],
+      "light": {
+        "day": {
+          "skyTop": "#3e7fd2",
+          "horizon": "#b8d0ec",
+          "skyStops": [
+            "#b8d0ec",
+            "#9cbfea",
+            "#6a9fe0",
+            "#4f8cdb",
+            "#3373cc"
+          ],
+          "fog": "#b8d0ec",
+          "fogNearM": 25,
+          "fogFarM": 200,
+          "sun": "#fff3e0",
+          "water": {
+            "near": "#22a7b6",
+            "mid": "#167fb2",
+            "far": "#1a5596"
+          },
+          "cloud": {
+            "lit": "#fbf8f1",
+            "mid": "#e1e5f3",
+            "shade": "#c3cbe9"
+          },
+          "sat": 1.08
+        },
+        "golden": {
+          "skyTop": "#6a4f8c",
+          "horizon": "#ffd08a",
+          "skyStops": [
+            "#ffc47c",
+            "#f7ae78",
+            "#e8967c",
+            "#c4848e",
+            "#8a6f8a"
+          ],
+          "fog": "#efb489",
+          "fogNearM": 50,
+          "fogFarM": 260,
+          "sun": "#ffab5e",
+          "sunDisc": "#ffcf9e",
+          "water": {
+            "near": "#1e3a6e",
+            "mid": "#355f96",
+            "far": "#d4a48e"
+          },
+          "cloud": {
+            "lit": "#ffd2a8",
+            "mid": "#f2a08f",
+            "shade": "#a98fc4"
+          },
+          "sat": 1.1
+        }
+      },
+      "source": "eigene Messwerte aus unseren Videos V0002–V0006; Welten Stadt (world), Korea (korea), Hanse (hanse); Umsetzung styles/T0003_cartoon-3d2d/style.ts",
+      "world": {
+        "walls": {
+          "plaster": [
+            "#f2c443",
+            "#e2cfa8",
+            "#c49a7c",
+            "#b87f78",
+            "#a7879a",
+            "#cfa977"
+          ],
+          "brick": [
+            "#a0604f",
+            "#8f6a62",
+            "#a86a52"
+          ]
+        },
+        "mortar": "#d2c9bb",
+        "trim": "#f6f3ea",
+        "stone": "#e6e0d4",
+        "plinth": "#bcb6ab",
+        "glass": "#4d80d8",
+        "shutters": [
+          "#1f8a3c",
+          "#2f6d78",
+          "#2f5fb0",
+          "#c4323c"
+        ],
+        "doors": [
+          "#8a4a24",
+          "#6b4a86",
+          "#3b5f9a"
+        ],
+        "roofs": [
+          "#8c4a3a",
+          "#6f6f7c",
+          "#9a5a40"
+        ],
+        "cobble": "#d3c6ae",
+        "cobbleJoint": "#7b7066",
+        "slab": "#e8dec8",
+        "slabJoint": "#b5a890",
+        "curb": "#d4cfc5",
+        "quay": "#b6b0a8",
+        "wood": "#bb782f",
+        "grass": "#5cc632",
+        "leaves": [
+          "#4f9a3a",
+          "#3f8a3e",
+          "#5aa845"
+        ],
+        "bark": "#6b4a32",
+        "flowers": [
+          "#e84a5f",
+          "#f2c94c",
+          "#ffffff",
+          "#b065d6"
+        ],
+        "metal": "#2a2a33",
+        "lamp": "#ffd27a",
+        "awning": [
+          "#c4323c",
+          "#f6f3ea"
+        ],
+        "source": "eigen (V-Video) – aus Bildern von V0002/V0003 abgelesen, nicht aus Code",
+        "requisiten": {
+          "note": "Requisiten je Epoche (engine/v01/world/props.ts: karren, brunnen, koerbe, onggi, huehner, holzstapel)",
+          "korb": "#c79a52",
+          "obst": [
+            [
+              "#e34b3a",
+              "#c9302a"
+            ],
+            [
+              "#f2c230",
+              "#e0a82a"
+            ],
+            [
+              "#7cc24a",
+              "#5fa33a"
+            ],
+            [
+              "#e8862a",
+              "#d46a1f"
+            ],
+            [
+              "#8e4fb8",
+              "#7a3fa2"
+            ]
+          ],
+          "saecke": [
+            "#e8d9b0",
+            "#d9c08a",
+            "#efe3c4"
+          ],
+          "gemuese": [
+            "#7cc24a",
+            "#e34b3a",
+            "#f2c230",
+            "#e8862a"
+          ],
+          "federn": [
+            "#f6f2ea",
+            "#b5653f",
+            "#e0b070"
+          ],
+          "kamm": "#e0302a",
+          "schnabel": "#f2b230",
+          "onggi": [
+            "#7d4626",
+            "#8a5230",
+            "#6e3b1f"
+          ],
+          "sockel": [
+            "#c9c2b4",
+            "#8d877c"
+          ],
+          "brunnenDach": "#c0392b",
+          "schacht": "#1d5f8a",
+          "seil": "#c9b48a",
+          "schnittholz": "#e9c88f"
+        }
+      },
+      "cards": {
+        "paper": "#fffaf0",
+        "teeth": "#ffffff",
+        "sweat": "#9fd8ff",
+        "zorn": "#e0302a",
+        "hair": [
+          "#6b4226",
+          "#3a2a22",
+          "#e8c66a",
+          "#b5652e",
+          "#2b2b33",
+          "#9a9a9a"
+        ],
+        "hats": [
+          "#1e1b2a",
+          "#2f3a5a",
+          "#c4323c",
+          "#3f5f3a",
+          "#6a4a3a"
+        ],
+        "sick": [
+          "#d8e4b4",
+          "#a9cf86",
+          "#8fc46a"
+        ],
+        "tint": {
+          "day": "#ffffff",
+          "golden": "#ccc6ee"
+        },
+        "source": "eigen (V-Video) – aus Bildern von V0002/V0003 abgelesen"
+      },
+      "effects": {
+        "red": "#d8323c",
+        "green": "#5cc632",
+        "virus": "#4fb52c",
+        "blood": "#e2363c",
+        "cell": "#fde6e4",
+        "gold": "#f2c443",
+        "wood": "#bb782f",
+        "metal": "#2f2f3a",
+        "glow": "#ffe9a0",
+        "heart": "#e0364a",
+        "bone": "#f4efe4",
+        "leaf": "#4f9a3a",
+        "petal": "#e84a5f",
+        "water": "#4d80d8",
+        "ink2": "#2a4fa8",
+        "source": "eigen (V-Video)"
+      },
+      "korea": {
+        "note": "Korea-Welt (engine/v01/world/festung.ts, seit V0004): Gelände, Festungsmauern je Epoche, Dächer, Hanok, Holzbau",
+        "grass": "#8cb85a",
+        "dirt": "#c9ab7d",
+        "rock": "#a29d93",
+        "rubble": "#b0a490",
+        "rubbleJoint": "#6e6457",
+        "earth": "#b99a6b",
+        "blocks": "#ddd5c4",
+        "blocksJoint": "#8d8577",
+        "oldBlocks": "#b9b3a6",
+        "brick": "#8e8f93",
+        "mortar": "#d6d2c8",
+        "giwa": "#5a6070",
+        "ridge": "#3c4049",
+        "thatch": "#d0a85c",
+        "hanokWall": "#f3ecdb",
+        "timber": "#7a4a2a",
+        "paper": "#f6efdc",
+        "red": "#b8382f",
+        "green": "#2f8a6a",
+        "blue": "#2f5f8a",
+        "pine": "#3e7a46",
+        "pineBark": "#9a5a3c",
+        "wood": "#a7784a"
+      },
+      "bayreuth": {"note": "Bayreuth 1876 (engine/v01/world/bayreuth.ts): Festspielhaus aussen, Saal mit Bühne, Garderobe", "ziegel": "#c9553a", "ziegelFuge": "#ead9c0", "sandstein": "#efdcaa", "sandsteinDunkel": "#cdb47c", "dach": "#56627a", "fachwerk": "#6b3f22", "tuer": "#7a2a24", "glas": "#8fd0f0", "kies": "#ddd1b6", "kiesFuge": "#a99b80", "rasen": "#7fc04a", "putz": "#f3e3bd", "saeule": "#f6ecd4", "gold": "#e6b43a", "rot": "#d8262e", "rotDunkel": "#9c1c26", "sitz": "#9a6234", "polster": "#d23a3a", "velum": ["#fdf3dc", "#a9daf6"], "buehne": "#a8743f", "lampe": "#fff0a8", "tapete": ["#2f9a86", "#3fb39b", "#f2c94c"], "boden": "#b5793f", "spiegel": "#d6eef8", "helm": "#d4dbe4", "horn": "#f3e4c0", "fluegel": "#ffffff", "kostuem": ["#d8262e", "#2f6fd0", "#3f9a48", "#8a5bc4"], "fell": "#8a6440", "prospekt": ["#5aa8ff", "#ffd59a", "#8a72d0", "#4a5aa0", "#2f7a4c"], "felsen": "#9a92a8", "tanne": "#2f7a4c", "fahne": ["#ffffff", "#2f6fd0"], "wasser": "#4cc3ee"},
+      "roemer": {"note": "Römer-Welt (engine/v01/world/roemer.ts): Römerstrasse, Baustelle, Landstrasse mit Pinien, Brücke, Forum Romanum", "gras": "#8fcf4a", "grasFern": "#7dbb52", "erde": "#c98a52", "erdeDunkel": "#9a6638", "acker": ["#f2c94c", "#e9b43c", "#f6d867"], "kies": "#e2d4b2", "kiesFuge": "#a99a7a", "pflaster": "#8e93a6", "pflasterFuge": "#4a4e5e", "randstein": "#ddd3bc", "statumen": "#b3a690", "statumenFuge": "#6e6252", "rudus": "#cdbd9c", "kalk": "#f3ecda", "kiesel": "#a89a84", "fels": "#c2b49c", "pinieStamm": "#9a5f3a", "pinie": ["#3f8f3e", "#4c9e3a", "#5aae45"], "zypresse": ["#2f6e3c", "#367a42", "#2a6236"], "olive": ["#93b47e", "#a3c48a", "#86a873"], "oliveStamm": "#7d6a56", "rebe": ["#5aae45", "#4c9e3a", "#6cbc4c"], "trauben": "#7a3fa2", "blumen": ["#e84a5f", "#f2c94c", "#ffffff", "#b065d6", "#ff8a3a"], "marmor": "#f7f2e8", "marmorAder": "#c9c2d6", "travertin": "#eadcb6", "putz": ["#f2c443", "#eba062", "#f3e3bd", "#dc8a6e", "#f6efe0", "#9fd0c8"], "ziegel": "#d0683c", "holz": "#b0743a", "holzDunkel": "#6b4a2e", "gold": "#f2c230", "bronze": "#c98a3a", "rot": "#d0242e", "rotDunkel": "#9a1c24", "tuch": ["#d0242e", "#2f6fd0", "#f2c94c", "#3f9a48", "#8a5bc4", "#ff8a3a"], "leder": "#a0703e", "zelt": "#e3cfa0", "zeltDunkel": "#b89c6c", "amphore": "#d9824a", "korb": "#c79a52", "ochse": "#c9a07a", "ochseDunkel": "#7a5a40", "horn": "#f1e6c8", "heu": "#e9c860", "inschrift": "#b8322a", "eisen": "#5a5f6e", "wasser": "#4cc3ee", "fluss": {"near": "#3cc6c8", "mid": "#2a9ccc", "far": "#2470b4"}},
+      "aqua": {"note": "Römer-Wasser-Welt (engine/v01/world/aqua*.ts): Quelle, Aquädukte, Tunnel, Siphon, Klärbecken, Wasserschloss, Strasse, Thermen, Cloaca, Frührom, Innenräume, Ruinen", "wasser": {"hell": "#7fe3f2", "tief": "#2a9fd0", "glanz": "#ffffff"}, "truebe": {"hell": "#c9a46a", "tief": "#8a6538", "glanz": "#f1dcb0"}, "klar": {"hell": "#a8f0ff", "tief": "#3cc0e8", "glanz": "#ffffff"}, "kloake": {"hell": "#a08350", "tief": "#5e4a2c", "glanz": "#d9c08a"}, "tiber": {"near": "#b39a5c", "mid": "#9a8450", "far": "#7f7448"}, "see": {"near": "#3cc6c8", "mid": "#2a9ccc", "far": "#2470b4"}, "tuff": "#d8c38f", "tuffFuge": "#9a855a", "beton": "#d9d0bb", "ziegelwand": "#cf6a3e", "ziegelFuge": "#f0dcc0", "blei": "#97a1b0", "bleiDunkel": "#5f6878", "bleiHell": "#c4ccd8", "sinter": "#f3ead2", "schlamm": "#7a5a34", "bronze": "#e8a83a", "bronzeDunkel": "#a8701e", "kupferGruen": "#5fb3a0", "putzInnen": ["#f4e2bc", "#f2c9a0", "#e9f0f2", "#f6efe0"], "fresko": "#c0392b", "freskoGelb": "#efb93f", "freskoGruen": "#3f9a72", "freskoBlau": "#3a7fc4", "mosaik": ["#f6efe0", "#2b2a33", "#d0683c", "#3a86c8", "#f2c230", "#3f9a72"], "kacheln": "#7fd0e0", "kachelFuge": "#f4f2ec", "sand": "#ecd29a", "schilf": ["#9bbf5a", "#7fa648", "#b3c96a"], "stroh": "#e6c36e", "lehm": "#c08c5a", "flechtwerk": "#a9773f", "erdeSchnitt": ["#b07a48", "#946238", "#7e5634"], "felsSchnitt": "#a3967f", "muenze": "#f6c636", "rolle": "#f1e3c0", "rolleRand": "#b8935a", "regal": "#8a5a32", "sirup": "#7a2a4a", "waesche": ["#ffffff", "#f2c94c", "#e84a5f", "#3f7fd6", "#9fd0c8", "#ff8a3a"], "markise": ["#d0242e", "#f3ecda", "#2f6fd0", "#f2c230"], "brot": "#d99a4e", "glut": "#ff7a1f", "ofen": "#b9a58a", "esel": "#9a9088", "eselHell": "#d9d2c8", "hund": "#c98a52", "taube": "#a3abc0", "taubeHals": "#58a88e", "boot": "#f6f4ee", "bootRot": "#e0362e", "bootBlau": "#2f6fd0", "kernrohr": "#d6dbe2", "bohrkern": ["#b9a07a", "#8f7a5c", "#d8c8a0", "#6e6a62"], "ruine": "#cdbb94", "efeu": ["#3f8f3e", "#5aae45"]},
+      "nord": {"note": "Nord-Welt (engine/v01/world/nord.ts, Wikinger um 900): Fjord, Felsen, Schnee, Kiesstrand, Wiese mit Heidekraut, Birken, Kiefern, Wacholder, Ebereschen, Findlinge, Wolken", "grass": "#82bd4c", "grassFar": "#6fa24a", "heather": ["#c25ab0", "#a94aa6", "#e07cc6"], "flowers": ["#ffffff", "#ffd23a", "#4f9dff", "#ff6f9a", "#ff8a1e", "#b46bff"], "rock": "#8d97a8", "rockDark": "#6a6f86", "snow": "#f6faff", "snowShade": "#c9d8f2", "kies": "#c3b8a6", "kiesJoint": "#857c6e", "sand": "#e2cf9c", "tang": ["#5d7a26", "#7a6a22", "#3f6b3a"], "drift": "#d3cab9", "driftDark": "#9c917f", "birkeRinde": "#f4f1e8", "birkeMal": "#2a2a30", "birkeLaub": ["#a8d64a", "#c2e05a", "#8cc63e"], "kiefer": ["#2f7a4c", "#3a8a52"], "kieferRinde": "#c0673a", "wacholder": ["#2f6f66", "#3b7d6e"], "eberesche": ["#6cbf45", "#86cc52"], "beeren": "#ff3b24", "findling": "#a3a7ad", "water": {"near": "#2fb7c4", "mid": "#1f8fbf", "far": "#1d5fa6"}, "cloud": {"lit": "#ffffff", "mid": "#e6eef8", "shade": "#a7bbd8"}, "winterGras": "#c9b06a", "winterWolke": {"lit": "#f4f6fa", "mid": "#d3dae6", "shade": "#8d9ab0"}, "holz": "#b07a43", "holzDunkel": "#6e4524", "holzHell": "#d6a96a", "bemalung": ["#e8402e", "#2f74d0", "#f2b928", "#3fa04e"], "lehm": "#dcb680", "flecht": "#a8834e", "erde": "#8f6a44", "stein": "#a3a39b", "tuer": "#7a3f22", "metall": "#4a4d55", "fell": ["#e0cfa6", "#8a6440", "#efe9dc"], "decken": ["#d8402e", "#2f74d0", "#f2b928", "#3fa04e"], "rauch": "#ddd8ce", "schafWolle": "#f6f1e4", "schafKopf": "#2e2a2c", "ziege": ["#a8683a", "#f3ece0", "#5a4030"], "rabe": "#1e1f2a", "fisch": "#dccaa0", "ton": "#c97a3e", "glut": "#ff7a1a", "netz": "#8a6a44", "korb": "#c99a52", "fahne": ["#d8402e", "#2f74d0", "#f2b928"]},
+      "hanse": {
+        "note": "Hanse-Welt (engine/v01/world/hanse.ts, seit V0005): Backstein-Giebelhäuser, Kirche, Koggen, Kran, Ware",
+        "brick": [
+          "#c8644a",
+          "#d97a52",
+          "#b9573f",
+          "#e0905e",
+          "#c46a5a"
+        ],
+        "glazed": "#3f6f5a",
+        "mortar": "#ecdcc6",
+        "plaster": "#f6efe0",
+        "trim": "#efe4cc",
+        "glass": "#6a9ad8",
+        "door": "#2f6d3a",
+        "hatch": "#7a5232",
+        "roof": "#c0553a",
+        "copper": "#5f9b8a",
+        "bronze": "#c9a24a",
+        "hull": "#8a5a32",
+        "tar": "#2e2622",
+        "sail": "#f2ead2",
+        "stripe": "#c0392b",
+        "pirateSail": "#26252c",
+        "rope": "#d8cfb4",
+        "quayWood": "#8a6440",
+        "barrel": "#a66b34",
+        "sack": "#d9c79a",
+        "cloth": [
+          "#2f5fb3",
+          "#c0392b",
+          "#3f8a4a",
+          "#e2b52f",
+          "#7b5ac9"
+        ],
+        "flags": [
+          "#c0392b",
+          "#f4f0e6",
+          "#2f5fb3",
+          "#e2b52f"
+        ],
+        "windowGlow": "#ffc766",
+        "plasters": [
+          "#f2d38a",
+          "#f4b6a6",
+          "#a9d3e8",
+          "#bfe3b4",
+          "#f6efe0",
+          "#f3c56b",
+          "#e8a87c",
+          "#d8c4f0"
+        ],
+        "shutters": [
+          "#2f8a4a",
+          "#2f5fb3",
+          "#c0392b",
+          "#e2b52f",
+          "#1f8a8a",
+          "#7b5ac9"
+        ],
+        "doors": [
+          "#2f6d3a",
+          "#2f4f9a",
+          "#a83228",
+          "#8a5a2a",
+          "#1f7a7a"
+        ],
+        "roofs": [
+          "#c0553a",
+          "#a84a32",
+          "#d8743e",
+          "#6f7f9f",
+          "#3f8f6a"
+        ],
+        "niche": "#f4ecda",
+        "stone": "#ece1c9",
+        "timber": "#7a4e30",
+        "glazedBand": "#3f8f6a",
+        "flowers": [
+          "#e8463a",
+          "#f2c230",
+          "#e86aa8",
+          "#ffffff",
+          "#7b5ac9"
+        ],
+        "leaves": "#4f9a3a"
+      }
+    },
+    "quadratic-3d": {
+      "note": "T0004 Quadratic-3D: kalter Look – Karte als Raute im grauen Void, alles aus Quadern. Bild 1 (Look-Referenz) = Bild-Schleife Runde 4 Bild 5, vom Nutzer abgenommen 2026-11-14; alle Werte von Bild 1 hier und in line/motion/lens/grade unter quadratic-3d.",
+      "void": { "dunkel": "#2a2d31", "hell": "#8e9399", "partikel": "#c4c8cd", "modus": "vertikal", "modusNote": "vertikal = oben hell, unten dunkel (Bildschirm-Verlauf)" },
+      "karte": {
+        "boden": ["#aeb8bf", "#a3aeb6", "#b8c1c7"],
+        "gras": ["#7d948f", "#738a86", "#86a09a"],
+        "weg": "#c9cfd3",
+        "wasser": "#557c97",
+        "seite": ["#6a6662", "#58544f", "#46423f"],
+        "fels": "#8a9097",
+        "stamm": "#55504b",
+        "laub": ["#5c7a76", "#668581", "#4f6c69"],
+        "wand": "#d3d9de",
+        "dach": "#4c5a68",
+        "blumen": ["#e3eaf0", "#a7bdd4", "#b7b1cf"],
+        "lampe": "#eef6ff",
+        "erde": "#4d4843",
+        "holz": "#7a6f66"
+      },
+      "figur": { "koerper": ["#3d6c99", "#7a8794", "#9c5a5a"], "kopf": "#d6c5b8", "beine": "#2e333b", "haar": "#3a3633" },
+      "licht": { "lit": "#eef4ff", "litGain": 1.35, "shade": "#5b6576", "lift": "#0b0f16", "sonne": "#e8f0ff", "sonneAz": 165, "sonneEl": 50, "stufe": 0.4, "note": "Sonne immer von vorne rechts oben (Wunsch des Nutzers 2026-11-14): az 165° (180 = hinter der Kamera, 90 = rechts), 50° hoch; stufe = Abstufung im Licht nach Einfallswinkel (Deckel hell, rechts mittel, links dunkler)" },
+      "funken": { "hell": "#f2f8ff", "kalt": "#9fd4ff", "note": "Funken vor einer neuen Platte (platten.ts)" },
+      "aufruf": { "like": "#3d6c99", "likeGedrueckt": "#4f8fd1", "abo": "#b8443f", "aboGedrueckt": "#5b6576", "schrift": "#f4f7fa", "kante": "#1b1e23", "schatten": "rgba(0,0,0,0.35)", "funke": "#cfe6ff", "note": "Like-/Abo-Knöpfe der Kapitel-Art aufruf (aufruf.tsx)" },
+      "worte": { "weiss": "#f4f7fa", "rot": "#e5484d", "leise": "#b9c3cc", "schatten": "rgba(10,14,20,0.55)", "note": "Wortfolge (Apple-Stil): weisse Wörter, dramatische rot – styles/T0004_quadratic-3d/worte.tsx" },
+      "orte": {
+        "note": "Zusatzfarben je Ort (Stufe 2), kalt und leicht entsättigt wie Bild 1; Umsetzung styles/T0004_quadratic-3d/orte/",
+        "hotel": { "parkett": ["#9c948c", "#938b83", "#a39b93"], "teppich": ["#7f8a98", "#78838f"], "fliesen": ["#d9dee2", "#c9d0d5"], "wandInnen": "#cfd5da", "wandKante": "#8d969f", "bett": "#e6ebef", "decke": "#5a6d82", "holzDunkel": "#5a524c", "metall": "#9aa3ab", "koffer": "#7a4f4f", "fenster": "#8fb3cc", "bildschirm": "#22272e", "pflanze": "#5c7a76" },
+        "amsterdam": { "backstein": ["#8a6c63", "#957365", "#7a625b", "#a07c6b"], "putz": ["#d9dcd9", "#b9c2c6", "#a9b3ba"], "rahmen": "#eef1f3", "glas": "#3c4a57", "kanal": "#4d6f86", "kai": "#4a4440", "pflaster": ["#9aa0a5", "#8f959b", "#a4aaae"], "fahrrad": ["#2c3036", "#5a6470", "#7a4f4f"], "boot": ["#3f5566", "#6b4e4a", "#4e5f4f"], "laden": "#2f4a5c" },
+        "kolosseum": { "travertin": ["#b0aba1", "#a49f95", "#98938a"], "ziegel": "#8f7a6c", "sand": "#cfc6b4", "tiefe": "#5b5650", "pflaster": ["#a9aaa6", "#9fa09c", "#b3b4b0"], "pinie": ["#4f6c69", "#5c7a76"], "holzBoden": "#8a7a6a" },
+        "berg": { "fels": ["#8a9097", "#7b8188", "#6d737a"], "schnee": ["#e9eef2", "#dde4ea"], "wiese": ["#7d948f", "#738a86", "#86a09a"], "balken": ["#6e5848", "#5f4b3e"], "laden": "#3f5a6e", "fahne": "#b8443f" },
+        "schneewald": { "schnee": ["#e6ecf0", "#dbe3e9", "#eef2f5"], "eis": "#9fc0d4", "riss": "#7fa0b4", "nadel": ["#3f5a57", "#4a6663", "#36504d"], "rinde": "#4d4640", "spur": "#c3ccd4", "fell": "#6e5a4c" }
+      },
+      "source": "styles/T0004_quadratic-3d/look.ts"
+    }
+  },
+  "line": {
+    "cartoon-3d2d": {
+      "worldInkNearPx": 5.1,
+      "worldInkFarPx": 3.3,
+      "nearM": 6,
+      "farM": 90,
+      "creaseFactor": 0.8,
+      "source": "hello/ink.ts"
+    },
+    "text-animation-2d": {
+      "strokePx": 14,
+      "source": "HelloVideo.tsx (SVG-Requisiten)"
+    },
+    "quadratic-3d": {
+      "ink": true,
+      "color": "#1b1e23",
+      "widthNearPx": 2.2,
+      "widthFarPx": 1.6,
+      "nearM": 60,
+      "farM": 160,
+      "jump": 0.02,
+      "crease": 0.004,
+      "fogTint": 0.2,
+      "source": "styles/T0004_quadratic-3d/look.ts (Bild 1)"
+    }
+  },
+  "motion": {
+    "text-animation-2d": {
+      "pop": {
+        "type": "spring",
+        "damping": 11,
+        "stiffness": 170,
+        "fromScale": 0.4,
+        "fadeInFrames": 4
+      },
+      "slam": {
+        "type": "spring",
+        "damping": 9,
+        "stiffness": 200,
+        "startScale": 1.15,
+        "rotateDeg": -4
+      },
+      "shake": {
+        "amountPx": 18,
+        "frames": 12,
+        "slamAmountPx": 26,
+        "slamFrames": 14
+      },
+      "backgroundRotationDegPerFrame": 0.35,
+      "sceneSec": 3,
+      "transition": "harter Schnitt zwischen Sequenzen"
+    },
+    "cartoon-3d2d": {
+      "glideFrames": {
+        "min": 18,
+        "max": 40,
+        "easing": "smootherstep"
+      },
+      "holdPushInPctPerFrame": {
+        "min": 0.15,
+        "max": 0.35,
+        "punch": 0.6
+      },
+      "noStaticHoldFrames": 4,
+      "kick": {
+        "frames": 7,
+        "pattern": "Vorzeichen wechselt jedes Frame, abklingend"
+      },
+      "rollDeg": {
+        "min": 4,
+        "max": 4.6
+      },
+      "crossfadeFrames": {
+        "min": 8,
+        "max": 16
+      },
+      "flashFrames": 4,
+      "shotFrames": 90,
+      "blinkSec": {
+        "min": 0.5,
+        "max": 2.3,
+        "durationFrames": 4
+      },
+      "reactionLeadFrames": {
+        "min": 0,
+        "max": 3
+      },
+      "source": "eigene Regeln aus V0002/V0003; Umsetzung Skill K0002 .claude/skills/cartoon-3d2d/SKILL.md"
+    },
+    "quadratic-3d": {
+      "partikel": { "anzahl": 260, "groesseM": [0.25, 0.55], "raum": { "xzM": [-75, 75], "yM": [-45, 22] }, "pendelM": [0.8, 1.1], "steigenMproS": 0.12, "tempo": [0.15, 0.4], "drehung": [-0.3, 0.3], "seed": 41 },
+      "figur": { "gehenMproS": 1.3, "schrittFaktor": 4.2, "beinSchwungRad": 0.6, "armAnteil": 0.8 },
+      "kameraPushPctProFrame": 0.05,
+      "kamera": { "schiebenMaxPct": 8, "zielNah": 0.7, "zielNote": "Ziel-Fahrt: am Ende liegt das Ziel in der Bildmitte, Abstand × zielNah (0,6–0,75 = 25–40 % näher; 1 = nur schwenken); Schieben je Halt höchstens schiebenMaxPct % (Erfahrung V0009)", "nahBreiteM": 7, "folgenBreiteM": 15, "weitFaktor": 1.8, "folgenSchrittS": 1, "kurzShotSec": 2.5 },
+      "platten": { "funkenSec": 1.5, "pulse": 3, "funkenAnzahl": 26, "erscheinenFrames": 14, "auftauchenM": 4, "kameraSec": 1.4, "note": "neue Platte: Funken pulsieren 3× (funkenSec), dann taucht sie auf; Kamera gleitet mit den Funken zur neuen Ansicht (ungerade Zahl Raute 45°, gerade 0°)" },
+      "buerger": { "hinterM": 9, "hoeheM": 14, "vorM": 3, "blickHoeheM": 0, "fov": 40, "hineinSec": 1.5, "drehGradProSek": 45, "glatt": 0.12, "note": "Bürger-Sicht: hinter der Figur, schräg von oben, Blick in Laufrichtung" },
+      "aufruf": { "sek": 7.5, "knopfGroesse": 1.7, "unschaerfePx": 14, "unschaerfeFrames": 10, "ploppFrames": 7, "druckFrames": 6, "wegFrames": 6, "like": { "ab": 12, "druck": 26, "weg": 36 }, "abo": { "ab": 42, "druck": 56, "weg": 66 }, "note": "Frames ab Kapitelbeginn (30 fps); je Knopf ~1 s" },
+      "worte": { "wortFrames": 9, "abstandFrames": 6, "wegFrames": 10, "zaehlenSec": 1.5, "titelSec": 2.5, "groesseLangPx": 76, "groesseKurzPx": 92, "hoechstensJeSec": 45, "note": "Wortfolge nur an extremen Stellen (Nutzer 2026-11-15): höchstens ~1 Zeile je 45 s ohne Kapiteltitel – pruefeFolge meldet mehr" },
+      "ton": {
+        "note": "kalter Ton (Wunsch des Nutzers): lange gestrichene Streicher (eigene Stimmungen eis/frost/nebel/glanz/ende), Wind-Bett, eigene kalte Klänge t4:glas/eisschlag/frostwind – styles/T0004_quadratic-3d/ton/ton.py",
+        "bpm": 84, "akkorde": ["Am", "Em", "F", "Dm"], "bett": { "klang": "air", "db": -10 },
+        "stimmung": { "hook": "frost", "montage": "frost", "erklaerung": "eis", "beispiel": "eis", "zeitreise": "nebel", "vergleich": "eis", "mythos": "frost", "zahlen": "eis", "spannung": "frost", "panorama": "nebel", "aufloesung": "glanz", "abspann": "ende", "kurz": "frost", "aufruf": "frost" },
+        "klaenge": { "zeile": ["t4:glas", -13], "rot": ["t4:eisschlag", -7], "stoss": ["t4:eisschlag", -5], "blitz": ["t4:frostwind", -8], "zahl": ["t4:glas", -13], "knopf": ["t4:glas", -11], "druck": ["t4:klick", -8], "funken": ["t4:funkeln", -12], "erscheinen": ["t4:eisschlag", -11] }
+      },
+      "source": "styles/T0004_quadratic-3d/welt.ts, kamera.ts, tafel.ts, kapitel.ts"
+    }
+  },
+  "lens": {
+    "cartoon-3d2d": {
+      "cInfPx": {
+        "hookCloseUp": 13,
+        "closeUp": [
+          12,
+          14
+        ],
+        "medium": [
+          10,
+          12
+        ],
+        "park": 7,
+        "wide": 0
+      },
+      "bloom": {
+        "threshold": 1.0,
+        "intensity": 0.5,
+        "levels": 6,
+        "radius": 0.6
+      },
+      "toneMapping": "NEUTRAL",
+      "msaa": 4,
+      "grain": false,
+      "postOrder": [
+        "ink",
+        "lensPre",
+        "lensMain",
+        "bloom",
+        "toneMap",
+        "grade"
+      ],
+      "source": "hello/story.ts (DOF), hello/Bridge.tsx"
+    },
+    "quadratic-3d": {
+      "kamera": { "elevationDeg": 31, "azimutDeg": 45, "fovDeg": 18, "rand": -0.6208, "randNote": "sichtbare Bildbreite = Kartendiagonale × (1,75 + 0,6 × rand) = × 1,3775", "mittig": true, "kartenKoerperM": { "unten": -6.4, "oben": 2.6 }, "look": [0, 0, 0] },
+      "karte": { "kanteM": 24, "kachelM": 1, "raster": 0, "detail": 2, "figuren": 1, "inseln": false },
+      "nebel": { "nearM": 125, "farM": 260, "mischVoid": 0.55 },
+      "bloom": { "threshold": 0.92, "intensity": 0.25, "radius": 0.8 },
+      "dofMaxPx": 10,
+      "msaa": 4,
+      "source": "styles/T0004_quadratic-3d/look.ts (Bild 1)"
+    }
+  },
+  "audio": {
+    "targetLUFS": -22.6,
+    "truePeakDbtp": -2,
+    "musicOverSfxDb": 2,
+    "note": "Musik + Geräusche ohne Stimme (Platz fürs Voice-over); Umsetzung audio/v01/render.py",
+    "sampleRate": 48000,
+    "source": "eigene Regeln; Umsetzung Skill K0002"
+  },
+  "naming": {
+    "pattern": "id_datum_was_name_version.endung",
+    "was": {
+      "skript": ".docx",
+      "review": ".md",
+      "video": ".mp4",
+      "voiceover": ".mp3/.wav"
+    },
+    "source": "prompts/production-guide.md"
+  },
+  "titelbild": {
+    "note": "Titelbild (YouTube-Thumbnail) nur Langform (16:9), für alle Stile: Shot aus dem Video, oben Hook-Frage (2–4 Wörter weiss + 1 Wort rot). Pixelwerte gelten für die Arbeitsgrösse 1920x1080.",
+    "ausgabe": [1280, 720],
+    "arbeit": [1920, 1080],
+    "zoom": 1.12,
+    "senkenPx": 230,
+    "verlauf": { "deckendPx": 200, "weichPx": 320, "exponent": 1.6 },
+    "schrift": "assets/fonts/archivo-black/ArchivoBlack-Regular.ttf",
+    "zeile1": { "farbe": "#f4f7fa", "groessePx": 150, "yPx": 40 },
+    "zeile2": { "farbe": "#FF0000", "groessePx": 250, "yPx": 205 },
+    "schatten": { "farbe": "#05080c", "deckkraft": 200, "versatzPx": 10, "weichPx": 14 },
+    "source": "tools/titelbild/titelbild.py"
+  },
+  "grade": {
+    "cartoon-3d2d": {
+      "punch": {
+        "contrast": 1.06,
+        "sat": 1.08
+      },
+      "note": "Tonkurve um den Mittelpunkt x1.06 steiler (Endpunkte fix), Sättigung x1.08 auf die Presets day/golden. {1,1} = ohne PUNCH. Pro Video per inputProps {\"punch\": {...}}.",
+      "measured": "Stills 20/300/420/660/1200: Kontrast (Luma-Std) +4 %, Sättigung +8 bis +12 %, Median -0.01, kein Schwarz-Clip; Weiss-Clip nur auf Sprechblasen/Papier (bis 3.8 % des Bildes)",
+      "source": "eigene Messwerte; Umsetzung engine/v01/post (Farbkorrektur punch)"
+    },
+    "quadratic-3d": {
+      "punch": { "contrast": 1.1, "sat": 0.9 },
+      "kalt": 0.012,
+      "curve": [0, 0.08, 0.24, 0.5, 0.77, 0.92, 1],
+      "vignette": [0.18, 0.5],
+      "lichtKante": { "edge": 0.3, "soft": 0.06 },
+      "note": "Tönung: Schatten (−kalt×0,6, 0, kalt), Mitten (−kalt×0,3, 0, kalt×0,5), Lichter (−kalt×0,2, 0, kalt×0,3) – kalt = mehr Blau, weniger Rot",
+      "source": "styles/T0004_quadratic-3d/look.ts (Bild 1)"
+    }
+  },
+  "measured": {
+    "note": "Eigene Messwerte unserer fertigen Videos (tools/measure/measure_video.py). Referenz für Stil-Änderungen: ±3 % Helligkeit/Kontrast/Sättigung.",
+    "V0002_v03": "shared/measurements/V0002_2026-11-09_messung_v03.json",
+    "V0003_v01": "shared/measurements/V0003_2026-11-08_messung_v01.json",
+    "V0004_v02": "shared/measurements/V0004_2026-11-11_messung_v02.json",
+    "V0005_v02": "shared/measurements/V0005_2026-11-10_messung_v02.json",
+    "V0006_v02": "shared/measurements/V0006_2026-11-12_messung_v02.json"
+  },
+  "look": {
+    "pruefung": {
+      "note": "Mindestwerte je 3-s-Abschnitt (engine/v01/qa/pruefung.py). Monoton = 2 von 3 (Sättigung, Farbigkeit, Farbtöne) zu tief. Referenz: V0005 v02 (bunt, vom Nutzer gelobt).",
+      "saettigungMin": 0.45,
+      "farbigkeitMin": 20,
+      "farbtoeneMin": 3,
+      "helligkeitMin": 0.3,
+      "abschnittSec": 3,
+      "stile": {
+        "quadratic-3d": { "saettigungMin": 0.12, "farbigkeitMin": 3.5, "farbtoeneMin": 1.0, "note": "T0004 gewollt grau/kalt (gemessen Sättigung 0,15–0,25, Farbigkeit 4,4–8,4); ein Bild nur aus grauem Void wird weiter gemeldet. Werte: Vorschlag der Tools-Sitzung 2026-11-14" }
+      }
+    },
+    "ziel": {
+      "note": "Hell, knallig, abwechslungsreich: viele verschiedene kräftige Farben, viele 3D-Details (Bäume, Blumentöpfe, Fässer, Karren, Laternen, Fahnen, Schilder), keine einfarbigen Flächen über grosse Bildteile.",
+      "saettigungMittel": 0.55,
+      "farbigkeitMittel": 30,
+      "helligkeitMittel": 0.42,
+      "detailsMin": 6
+    }
+  }
+}

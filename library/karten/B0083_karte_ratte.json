@@ -1,0 +1,13 @@
+{
+ "id": "B0083",
+ "art": "karte",
+ "name": "ratte",
+ "beschreibung": "Graue Ratte im Profil mit hüpfenden Flöhen; floehe 0…1, richtung",
+ "herkunft": "V0006, eigen gezeichnet",
+ "stil": "T0003",
+ "kind": "ratte",
+ "params": {
+  "floehe": 1,
+  "richtung": "rechts"
+ }
+}

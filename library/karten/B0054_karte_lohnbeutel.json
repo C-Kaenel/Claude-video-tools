@@ -1,0 +1,10 @@
+{
+  "id": "B0054",
+  "art": "karte",
+  "name": "lohnbeutel",
+  "beschreibung": "Lohnbeutel mit Münzen (Münzen mit eckigem Loch)",
+  "herkunft": "V0004, eigen gezeichnet",
+  "stil": "T0003",
+  "kind": "lohnbeutel",
+  "params": {}
+}

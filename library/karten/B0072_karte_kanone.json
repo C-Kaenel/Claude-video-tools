@@ -1,0 +1,13 @@
+{
+  "id": "B0072",
+  "art": "karte",
+  "name": "kanone",
+  "beschreibung": "Kanone auf Holzlafette: schuss 0…1 = Mündungsblitz, Rückstoss, dann wachsende Rauchwolke; richtung",
+  "herkunft": "V0004, eigen gezeichnet",
+  "stil": "T0003",
+  "kind": "kanone",
+  "params": {
+    "schuss": 0.3,
+    "richtung": "rechts"
+  }
+}

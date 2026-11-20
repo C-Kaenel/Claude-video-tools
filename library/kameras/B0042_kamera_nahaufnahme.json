@@ -1,0 +1,17 @@
+{
+  "id": "B0042",
+  "art": "kamera",
+  "name": "nahaufnahme",
+  "beschreibung": "Nahaufnahme: Kopf und Schultern",
+  "herkunft": "eigen (Kamera-Grammatik der Spezifikation 5)",
+  "stil": "T0003",
+  "pattern": {
+    "name": "nahaufnahme",
+    "distance": 2.1,
+    "height": 1.6,
+    "side": 0.25,
+    "lookHeight": 1.5,
+    "fov": 34,
+    "focus": 13
+  }
+}

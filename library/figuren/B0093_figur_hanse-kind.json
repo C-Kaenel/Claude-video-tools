@@ -1,0 +1,21 @@
+{
+ "id": "B0093",
+ "art": "figur",
+ "name": "hanse-kind",
+ "beschreibung": "Kind um 1400: grüner Kittel, blonde Haare, Gürtel",
+ "herkunft": "eigen",
+ "stil": "T0003",
+ "spec": {
+  "name": "hanse-kind",
+  "build": "child",
+  "skin": "#ffe2c2",
+  "coat": "#4fa04a",
+  "hair": {
+   "style": "cap",
+   "color": "#e0b44a"
+  },
+  "belt": "#5a3a24",
+  "buttons": false,
+  "zeit": "hanse"
+ }
+}
